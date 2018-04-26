@@ -1,0 +1,921 @@
+*mot	ahhah look we can read books david						
+%soc:	im:rattle	ih:rattle	ie:rattle	ch:book	ct:bird	ce:book	
+%ref:	book bird rattle face						
+*mot	its a look and see book						
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ce:book	
+%ref:	book bird rattle face						
+*mot	ahhah we open it up and there are a set of eyes and there is a						
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ce:book	ch:book
+%ref:	book bird rattle face bear						
+*mot	the bear has a baby bottle 						
+%soc:	im:rattle	ih:rattle	ie:rattle	ch:book	ct:bird	ce:book	
+%ref:	book bird rattle face bear						
+*mot	yes david has baby bottles 						
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ce:book	
+%ref:	book bird rattle face bear						
+*mot	oh 						
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ce:book
+%ref:	book bird rattle mirror bunny					
+*mot	theres a mirror 					
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ce:david
+%ref:	book bird rattle mirror bunny					
+*mot	can david see david 					
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ce:david
+%ref:	book bird rattle mirror bunny					
+*mot	see david there we go 					
+%soc:	im:rattle	ih:rattle	ie:rattle	ch:book	ct:bird	ce:david
+%ref:	book bird rattle mirror bunny					
+*mot	ah a bunny 					
+%soc:	im:rattle	ih:rattle	ie:rattle	ch:book	ct:bird	ce:david
+%ref:	book bird rattle mirror bunny					
+*mot	what do bunnies do 					
+%soc:	im:rattle	ih:rattle	ch:book	ct:bird	ce:david	
+%ref:	book bird rattle mirror bunny						
+*mot	bunnies go hiphop hiphop 						
+%soc:	im:rattle	ih:rattle	ie:mom	ch:book	ch:david	ct:bird	ce:david
+%ref:	book bird rattle mirror bunny						
+*mot	do bunnies go jumping through the forest 						
+%soc:	im:rattle	ih:rattle	ie:mom	ch:book	ch:david	ct:bird	ce:david
+%ref:	book bird rattle mirror bunny						
+*mot	can we sing the song 						
+%soc:	im:rattle	ih:rattle	ie:mom	ch:book	ct:bird	ce:david	
+%ref:	book bird rattle mirror bunny						
+*mot	yeah 						
+%soc:	im:rattle	ih:rattle	ie:mom	ch:book	ct:bird	ce:david	
+%ref:	book bird rattle kitty baby						
+*mot	oh 						
+%soc:	im:rattle	ih:rattle	ie:mom	ch:book	ct:bird	ce:david	
+%ref:	book bird rattle kitty baby						
+*mot	theres a kittycat 							
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ce:book	ch:book	
+%ref:	book bird rattle kitty baby							
+*mot	kittycats go meow meow 							
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ce:book	ch:book	
+%ref:	book bird rattle kitty baby							
+*mot	the kittycats go meow meow 							
+%soc:	im:rattle	ih:rattle	ie:rattle	ch:book	ct:bird	ce:book	ch:book	
+%ref:	book bird rattle kitty baby							
+*mot	ah and a baby 							
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ce:book	ch:book	ce:david
+%ref:	book bird rattle kitty baby							
+*mot	theres a baby just like my david 							
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ce:david	ct:david	
+%ref:	book bird rattle kitty baby							
+*mot	a baby 							
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ce:book	ch:book
+%ref:	book bird rattle kitty baby						
+*mot	thats a nice book 						
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ce:book	ch:book
+%ref:	book bird rattle kitty baby						
+*mot	and look 						
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ce:book	ch:book
+%ref:	book bird rattle man woman girl boy						
+*mot	theres a family just like ours 						
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ce:book	ch:book
+%ref:	book bird rattle man woman girl boy						
+*mot	theres a mommy 						
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ce:book	ch:book
+%ref:	book bird rattle man woman girl boy						
+*mot	and a daddy 						
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ce:book	ch:book
+%ref:	book bird rattle man woman girl boy						
+*mot	and that could be your big sister alison 						
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ch:book	ce:david
+%ref:	book bird rattle man woman girl boy						
+*mot	and theres baby david 						
+%soc:	im:rattle	ih:rattle	ie:book	ch:book	ct:bird	ch:book	
+%ref:	book bird rattle man woman girl boy						
+*mot	ah is that fun 						
+%soc:	im:rattle	ih:rattle ie:rattle	ch:book	ct:bird			
+%ref:	bird rattle						
+*mot	yeah 						
+%soc:	im:rattle	ih:rattle ie:rattle	ct:bird				
+%ref:	bird rattle						
+*mot	lookee ahhah 						
+%soc:	im:rattle	ih:rattle ie:rattle	ch:bird	ce:bird			
+%ref:	bird rattle						
+*mot	heres bigbird 			
+%soc:	im:rattle	ih:rattle ie:bird	ch:bird	ce:david
+%ref:	bird rattle			
+*mot	we watch big bird dont we 			
+%soc:	im:rattle	ih:rattle ie:bird	ch:bird	ce:david
+%ref:	bird rattle			
+*mot	because alison likes bigbird 			
+%soc:	im:rattle	ih:rattle ie:bird	ch:bird	ce:david
+%ref:	bird rattle			
+*mot	she learns about her alphabet with bigbird 			
+%soc:	im:rattle	ih:rattle ie:bird	ch:bird	ce:david
+%ref:	bird rattle			
+*mot	ah want to play with bigbird 			
+%soc:	im:rattle	ih:rattle ie:bird	ch:bird	ce:david it:bird
+%ref:	bird rattle			
+*mot	yeah i see those hands i see those hands 			
+%soc:	im:rattle	ih:rattle ie:bird	ch:bird	ce:david it:bird ih:bird ch:david
+%ref:	bird rattle			
+*mot	theres bigbird 			
+%soc:	im:rattle	ih:rattle ie:bird	ch:bird	ce:david it:bird ih:bird
+%ref:	bird rattle			
+*mot	should bigbird sing his abc 			
+%soc:	im:rattle	ih:rattle ie:bird	ch:bird	ce:david it:bird ih:bird
+%ref:	bird rattle			
+*mot	yeah 			
+%soc:	im:rattle	ih:rattle ie:bird	ch:bird	ce:david it:bird
+%ref:	bird rattle			
+*mot	a b c d e f g  			
+%soc:	im:rattle	ih:rattle ie:bird	ch:bird	ce:david it:bird
+%ref:	bird rattle			
+*mot	h i j k l m n o p  			
+%soc:	ih:rattle ie:bird	ch:bird	ce:david it:bird	
+%ref:	bird rattle		
+*mot	q r s t y v  		
+%soc:	ih:bird ie:bird	ch:bird	ce:david it:bird
+%ref:	bird rattle		
+*mot	w x y and z  		
+%soc:	ih:bird ie:bird	ch:bird	ce:david it:bird
+%ref:	bird rattle		
+*mot	now i know my abc  		
+%soc:	ih:bird ie:bird	ch:bird	ce:david it:bird
+%ref:	bird rattle		
+*mot	next time wont you sing with me  		
+%soc:	ih:bird ie:bird	ch:bird	ce:david it:bird
+%ref:	bird rattle		
+*mot	youre a drooly boy 		
+%soc:	ih:bird ie:bird	ch:bird	ce:david it:bird 
+%ref:	bird rattle 		
+*mot	yes you are 		
+%soc:	ih:bird ie:bird	ch:bird	ce:david it:bird 
+%ref:	bird rattle		
+*mot	youre a drooly boy today 		
+%soc:	ih:bird ie:bird	ch:bird	ce:david it:bird 
+%ref:	bird rattle		
+*mot	bigbird 		
+%soc:	ih:bird ie:bird	ch:bird	ce:david it:bird 
+%ref:	bird rattle		
+*mot	okay you want to hold bigbird 		
+%soc:	ih:bird ie:bird	ch:bird	ce:david it:bird 
+%ref:	bird rattle		
+*mot	yeah bigbirds eyes 		
+%soc:	ih:bird ie:bird	ch:bird	ce:david it:bird 
+%ref:	bird rattle		
+*mot	bigbirds soft 		
+%soc:	ih:bird ie:bird	ch:bird ce:david it:bird 	
+%ref:	bird rattle		
+*mot	yeah 		
+%soc:	ih:bird ie:bird	ch:bird ce:david it:bird 	
+%ref:	bird		
+*mot	he sure is hes soft 		
+%soc:	ih:bird ie:bird ch:rattle ce:david it:bird 		
+%ref:	bird		
+*mot	aw big hugs 		
+%soc:	ih:bird ie:bird	ch:bird	ce:david it:bird
+%ref:	bird		
+*mot	mmm can momma hug bigbird too 		
+%soc:	ih:bird ie:bird	ch:bird	ce:david it:bird
+%ref:	bird		
+*mot	so we can see you 		
+%soc:	ih:bird ie:bird	ch:bird	ce:david it:bird
+%ref:	bird		
+*mot	yeah huh 		
+%soc:	ie:bird	ch:bird	ce:david it:bird ih:bird
+%ref:	bird		
+*mot	momma hug bigbird aw 		
+%soc:	ie:bird	ch:bird	ct:bird ce:david
+%ref:	bird		
+*mot	can david hug bigbird 		
+%soc:	im:bird ih:bird it:bird ie:bird	ch:bird	ce:david 
+%ref:	bird		
+*mot	aw 		
+%soc:	im:bird ih:bird it:bird ie:bird	ch:bird	ce:david 
+%ref:	bird		
+*mot	is that sweet 		
+%soc:	im:bird ih:bird it:bird ie:bird	ce:david 	
+%ref:	bird		
+*mot	look we could colors 	
+%soc:	im:bird ih:bird it:bird ie:bird	ce:rings 
+%ref:	bird ring	
+*mot	usually we dont get these because usually alison has them 	
+%soc:	ih:bird it:bird ie:bird	ce:rings ct:rings ch:rings
+%ref:	bird ring	
+*mot	uhuh 	
+%soc:	ih:bird it:bird ie:bird	ce:rings ct:rings ch:rings
+%ref:	bird ring	
+*mot	all our colors 	
+%soc:	ih:bird it:bird ie:rings	ce:david ct:rings ch:rings
+%ref:	bird ring	
+*mot	ah blue rings 	
+%soc:	ih:bird it:bird ie:rings	ce:david ct:rings ch:rings
+%ref:	bird ring	
+*mot	and green rings 	
+%soc:	ih:bird it:bird ie:rings	ce:david ct:rings ch:rings
+%ref:	bird ring	
+*mot	and yellow rings 	
+%soc:	ih:bird it:bird ie:rings	ce:david ct:rings ch:rings
+%ref:	bird ring	
+*mot	ah orange rings 	
+%soc:	ih:bird it:bird ie:rings	ce:david ct:rings ch:rings
+%ref:	bird ring	
+*mot	and red ones 	
+%soc:	ih:bird it:bird ie:rings	ce:david ct:rings ch:rings
+%ref:	bird ring	
+*mot	ah bigbird 	
+%soc:	ih:bird it:bird ie:mom	ce:bird ch:bird
+%ref:	bird ring	
+*mot	do you want to hold the rings 	
+%soc:	ih:bird it:bird	ce:rings ch:rings it:rings
+%ref:	bird ring	
+*mot	you want ta play with the rings 	
+%soc:	ih:bird it:bird	ce:david ch:rings it:rings
+%ref:	bird ring	
+*mot	hi 	
+%soc:	ih:bird it:bird	ce:david ch:rings it:rings ih:rings
+%ref:	bird ring	
+*mot	theres a red one 	
+%soc:	im:rings ih:bird it:bird	ce:david ch:bird it:rings ih:rings
+%ref:	bird ring	
+*mot	yeah everything in the mouth 	
+%soc:	im:rings it:bird	ce:david ih:rings
+%ref:	bird ring	
+*mot	just where it belongs 	
+%soc:	im:rings it:bird	ce:david ih:rings
+%ref:	bird ring	
+*mot	huh 	
+%soc:	im:rings it:bird	ce:david ih:rings
+%ref:	bird ring	
+*mot	just where it belongs 	
+%soc:	im:rings it:bird	ce:david ih:rings
+%ref:	bird ring	
+*mot	hi 	
+%soc:	im:rings it:bird	ce:david ih:rings ch:bird
+%ref:	ring	
+*mot	hi 	
+%soc:	im:rings it:bird	ih:rings
+%ref:	ring	
+*mot	huh yeah 	
+%soc:	im:rings it:bird	ih:rings
+%ref:	ring	
+*mot	there lots of toys i think some of these might squeak 	
+%soc:	im:rings it:bird	ih:rings ce:pig ch:pig
+%ref:	ring pig	
+*mot	uh 	
+%soc:	im:rings it:bird	ih:rings ce:david ch:pig
+%ref:	ring pig	
+*mot	no mot thought the piggie might squeak 	
+%soc:	im:rings it:bird	ih:rings ie:pig ce:david ch:pig
+%ref:	ring pig	
+*mot	piggie goes oink oink 	
+%soc:	im:rings it:bird	ih:rings ie:rings ce:david ch:pig
+%ref:	ring pig	
+*mot	oink oink 	
+%soc:	im:rings it:bird	ih:rings ie:rings ce:david ch:pig
+%ref:	ring pig	
+*mot	piggies are kind of noisy 	
+%soc:	im:rings it:bird	ih:rings ie:rings ce:david ch:pig it:pig
+%ref:	ring pig	
+*mot	they like to eat a lot 	
+%soc:	im:rings it:bird	ih:rings ie:rings ce:david ch:pig it:pig
+%ref:	ring pig	
+*mot	make lots of messes 	
+%soc:	im:rings it:bird	ih:rings ie:pig ce:david ch:pig
+%ref:	ring pig	
+*mot	make lots of messes 	
+%soc:	im:rings it:bird	ih:rings ie:rings ce:david ch:pig
+%ref:	ring pig	
+*mot	yeah they sure do 	
+%soc:	im:rings it:bird	ih:rings ie:rings ch:pig
+%ref:	ring hand	
+*mot	oh that ones kind of fun 	
+%soc:	im:rings it:bird	ih:rings ie:hand ce:hand ch:hand
+%ref:	ring hand	
+*mot	thats a hand 	
+%soc:	im:rings it:bird	ih:rings ie:hand ce:hand ch:hand
+%ref:	ring hand	
+*mot	thats a hand 	
+%soc:	im:rings it:bird	ih:rings ie:hand ce:hand ch:hand
+%ref:	ring hand	
+*mot	want the hand 	
+%soc:	im:rings it:bird	ih:rings ie:hand ce:david ch:hand ih:hand
+%ref:	ring hand	
+*mot	okay 	
+%soc:	im:rings it:bird	ih:rings ie:hand ce:david ch:hand ih:hand
+%ref:	ring hand	
+*mot	yeah lots of things 	
+%soc:	im:rings it:bird	ih:rings ie:hand ce:david ih:hand
+%ref:	ring hand	
+*mot	lots of toys 	
+%soc:	ih:hand ie:hand ce:david ch:rings
+%ref:	ring hand
+*mot	lot of toys to play with 
+%soc:	im:hand ih:hand ie:hand ce:david ch:rings
+%ref:	ring hand
+*mot	we like to play we love to chew dont we yeah 
+%soc:	im:hand ih:hand ie:mom ce:david ch:rings
+%ref:	ring hand 
+*mot	you got those teeth that are going to come in any day now 
+%soc:	im:hand ih:hand ie:hand ce:hat ch:hat
+%ref:	hand hat
+*mot	yeah any day now look david its a mickeymouse hat 
+%soc:	im:hand ih:hand ie:hand ce:hat ch:hat ct:hat
+%ref:	hand hat
+*mot	look you wanna where the hat 
+%soc:	im:hand ih:hand ie:hand ce:david ct:hat
+%ref:	hand hat
+*mot	oh i here a fun noisy toy in there 
+%soc:	im:hand ih:hand ie:hand ce:david ce:duck ct:hat
+%ref:	hand hat
+*mot	yeah 
+%soc:	im:hand ih:hand ie:hand ce:david ct:hat
+%ref:	hand hat
+*mot	moms got a hat on look 
+%soc:	im:hand ih:hand ie:hand ce:david ct:hat
+%ref:	hand hat
+*mot	thats like alisons hat 
+%soc:	im:hand ih:hand ie:hand ce:david ct:hat ch:hat
+%ref:	hand hat
+*mot	uhhuh 
+%soc:	im:hand ih:hand ie:hand ce:hat ct:hat ch:hat
+%ref:	hand hat
+*mot	is that a fun hat 
+%soc:	im:hand ih:hand ie:hand ce:hat ct:hat ch:hat
+%ref:	hand hat
+*mot	davids got a baseball hat 
+%soc:	im:hand ih:hand ie:hand ce:hat ct:hat ch:hat
+%ref:	hand hat
+*mot	do you hear the noisy toy 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	look 
+%soc:	im:hand ih:hand ie:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	is that one fun 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	yeah 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	that looks like a duck 
+%soc:	im:hand ih:hand ie:duck ce:duck ch:duck
+%ref:	hand duck
+*mot	quackquack quackquack
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	yeah and look the duckie has a bowtie 
+%soc:	ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	yeah how about that 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	a bowtie 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	yeah you like that one that one makes funny noise 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	uhuh 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	oh does that taste good 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	does that taste good 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	mhmm 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	are you eating that up 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	are you eating that up 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	huh 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	can you make it wiggle 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	make it wiggle 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	yeah 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	yeah 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	how about that 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	you playing 
+%soc:	im:hand ih:hand ie:duck ce:david ch:duck
+%ref:	hand duck
+*mot	uh 
+%soc:	im:hand ih:hand ie:mom ce:david ch:duck
+%ref:	hand duck
+*mot	yeah mom doesnt need noise from the toys mom makes plenty of
+%soc:	im:hand ih:hand ie:mom ce:david ch:duck
+%ref:	hand duck
+*mot	you going to see how many of those you can get in that mouth 
+%soc:	im:hand ih:hand ie:mom ce:david ch:duck
+%ref:	hand duck
+*mot	mhmm is that good 
+%soc:	im:hand ih:hand ie:mom ce:david ch:duck
+%ref:	hand duck
+*mot	mhmm 
+%soc:	im:hand ih:hand ie:mom ch:duck
+%ref:	hand duck
+*mot	want to play peekaboo 
+%soc:	im:hand ih:hand ie:mom
+%ref:	hand
+*mot	ahhah 
+%soc:	im:hand ih:hand ie:mom
+%ref:	hand
+*mot	peekaboo 
+%soc:	im:hand ih:hand ie:mom ch:glasses
+%ref:	hand
+*mot	whered mom go 
+%soc:	im:hand ih:hand ie:mom ch:glasses
+%ref:	hand
+*mot	ahhah peekaboo 
+%soc:	im:hand ih:hand ie:mom ch:glasses
+%ref:	hand
+*mot	theres mom 
+%soc:	im:hand ih:hand ie:mom ch:david
+%ref:	hand
+*mot	theres mom 
+%soc:	im:hand ih:hand ie:mom
+%ref:	hand
+*mot	are you trying to see what you can get all wet by drooling 
+%soc:	im:hand ih:hand ie:mom
+%ref:	hand
+*mot	yeah 
+%soc:	im:hand ih:hand ie:mom
+%ref:	hand
+*mot	are you drooling 
+%soc:	im:hand ih:hand ie:mom
+%ref:	hand
+*mot	yes 
+%soc:	im:hand ih:hand ie:mom
+%ref:	hand
+*mot	hi 
+%soc:	im:hand ih:hand ie:mom
+%ref:	hand
+*mot	goodness 
+%soc:	im:hand ih:hand ie:mom:
+%ref:	hand
+*mot	yeah 
+%soc:	im:hand ih:hand ie:mom
+%ref:	hand
+*mot	if we had more books wed read more books 
+%soc:	im:hand ih:hand ie:mom
+%ref:	hand
+*mot	because we like books dont we 
+%soc:	im:hand ih:hand ie:mom
+%ref:	hand
+*mot	yeah 
+%soc:	im:hand ih:hand ie:mom
+%ref:	hand
+*mot	what other animals are there 
+%soc:	im:hand ih:hand ie:mom ch:pig ch:lamb ce:pig ce:lamb
+%ref:	hand
+*mot	ahhah theres a littler pig 
+%soc:	im:hand ih:hand ie:mom ch:pig ch:lamb ce:david
+%ref:	hand pig lamb
+*mot	and look heres a lamb 
+%soc:	im:hand ih:hand ie:lamb ch:pig ch:lamb ce:david
+%ref:	hand pig lamb
+*mot	baa 
+%soc:	im:hand ih:hand ie:lamb ch:pig ch:lamb ce:david
+%ref:	hand pig lamb
+*mot	baa says the lamb 
+%soc:	im:hand ih:hand ie:lamb ch:pig ch:lamb ce:david
+%ref:	hand pig lamb
+*mot	uhhuh 
+%soc:	im:hand ih:hand ie:lamb ch:pig ch:lamb ce:david
+%ref:	hand pig lamb
+*mot	davids got a hand 
+%soc:	im:hand ih:hand ie:mom ch:pig ch:lamb ce:david
+%ref:	hand pig lamb
+*mot	davids got a hand 
+%soc:	im:hand ih:hand ie:mom ch:pig ch:lamb ce:david it:pig it:lamb
+%ref:	hand pig lamb
+*mot	bumpba 
+%soc:	im:hand ih:hand ie:pig ch:pig ch:lamb ce:david it:pig it:lamb
+%ref:	hand pig lamb
+*mot	hi sweetie 
+%soc:	im:hand ih:hand ie:mom ch:pig ch:lamb ce:david
+%ref:	hand pig lamb
+*mot	yeah theres a lambie 
+%soc:	im:hand ih:hand ie:lamb ie:pig ch:pig ch:lamb ce:david
+%ref:	hand pig lamb
+*mot	and a little piggie 
+%soc:	im:hand ih:hand ie:lamb ie:pig ch:pig
+%ref:	hand pig lamb
+*mot	look lets put the two piggies together 
+%soc:	im:hand ih:hand ie:pig ch:pig ce:pig
+%ref:	hand pig pig
+*mot	this could be the mother piggie and the baby piggie 
+%soc:	im:hand ih:hand ie:pig ch:pig ce:david
+%ref:	hand pig pig
+*mot	two piggies 
+%soc:	ih:hand ie:pig ch:pig ce:david
+%ref:	hand pig pig
+*mot	one two 
+%soc:	ih:hand ie:pig ch:pig ce:david
+%ref:	hand pig pig
+*mot	yeah 
+%soc:	ih:hand ch:pig ce:david
+%ref:	hand pig pig
+*mot	does that taste good 
+%soc:	im:hand ih:hand ch:pig ce:david
+%ref:	hand pig pig
+*mot	is that a good hand 
+%soc:	im:hand ih:hand ch:pig ce:david
+%ref:	hand pig pig
+*mot	mhmm 
+%soc:	im:hand ih:hand ch:pig ce:david
+%ref:	hand pig pig
+*mot	uh mhmm yeah thats a good hand 
+%soc:	im:hand ih:hand ch:pig ce:david
+%ref:	hand pig pig
+*mot	mhmm 
+%soc:	im:hand ih:hand ch:pig ce:david
+%ref:	hand pig pig
+*mot	eat it up 
+%soc:	im:hand ih:hand ch:pig ce:david	
+%ref:	hand pig pig	
+*mot	uh it squeaked 	
+%soc:	im:hand ih:hand ch:pig ce:david	
+%ref:	hand pig pig	
+*mot	did you hear it 	
+%soc:	im:hand ih:hand ch:pig ce:david	
+%ref:	hand pig pig	
+*mot	it squeaked ahhah 	
+%soc:	im:hand ih:hand ch:pig ce:david	
+%ref:	hand pig pig	
+*mot	it squeaked where you going 	
+%soc:	im:hand ih:hand ch:pig ce:david ch:david	
+%ref:	hand pig pig	
+*mot	you going to squirm right out i know yeah 	
+%soc:	im:hand ih:hand ch:pig ce:david	ch:david
+%ref:	hand pig pig	
+*mot	can we sit up pretty 	
+%soc:	im:hand ih:hand ch:pig ce:david	ch:david
+%ref:	hand pig pig	
+*mot	uhhuh 	
+%soc:	im:hand ih:hand ch:pig ce:david	ch:david
+%ref:	hand pig pig	
+*mot	yeah 	
+%soc:	im:hand ih:hand ch:pig ce:david	ch:david
+%ref:	hand pig pig	
+*mot	i know you you like to roll all over the floor so thats what we	
+%soc:	im:hand ih:hand ch:pig ce:david	ch:david
+%ref:	hand pig pig	
+*mot	yes youre okay in the chair 	
+%soc:	im:hand ih:hand ch:pig	ch:david
+%ref:	hand pig pig	
+*mot	uh i got a noisy one 
+%soc:	im:hand ih:hand ch:duck ce:duck
+%ref:	hand duck
+*mot	you want to hold that one 
+%soc:	im:hand ih:hand ch:duck ce:david
+%ref:	hand duck
+*mot	in the chair 
+%soc:	ih:hand ch:duck ce:david ih:duck
+%ref:	hand duck
+*mot	yeah 
+%soc:	ih:hand ch:duck ce:david ih:duck
+%ref:	hand duck
+*mot	i know youre going to inch your way right out 
+%soc:	ch:david ce:david
+%ref:	
+*mot	silly 
+%soc:	ch:david ce:david ie:duck
+%ref:	
+*mot	oh lets sit back down 
+%soc:	ch:david ce:david ie:duck
+%ref:	
+*mot	there we go 
+%soc:	ch:david ce:david ie:duck
+%ref:	
+*mot	oh boy 
+%soc:	ch:david ce:david ie:duck
+%ref:	bird
+*mot	how about back to bigbird 
+%soc:	ch:bird ce:bird ce:david ie:duck
+%ref:	bird 
+*mot	oh mom got you sitting up almost too straight 
+%soc:	ch:david ce:david ct:bird
+%ref:	bird 
+*mot	yes uhhuh 
+%soc:	ch:david ce:david ct:bird
+%ref:	bird 
+*mot	here we go uh i know 
+%soc:	ch:david ce:david ct:bird ch:bird
+%ref:	bird 
+*mot	youre not much into sitting up in that chair anymore 
+%soc:	ch:david ce:david ie:duck ct:bird ch:bird it:bird ie:bird
+%ref:	bird 
+*mot	no 
+%soc:	ch:david ce:david ie:duck ct:bird ch:bird
+%ref:	bird 
+*mot	theres bigbird
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	you like bigbird
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	theres bigbirds beak 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	yeah wheres bigbirds eyes 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	theres his eyes 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	theres his eyes 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	bigbird talks to you doesnt he 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	yeah 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	youre a drool boy today 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	those teeth must be wanting to come in 
+%soc:	ce:david ie:bird ch:bird
+%ref:	bird 
+*mot	yeah 
+%soc:	ce:david ie:bird ch:bird ch:david
+%ref:	bird 
+*mot	what sweetie 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	what you telling us 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	ahhah you going to talk to bigbird 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	tell bigbird a story 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	uhuh 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	okay 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	yeah 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	tell him some more 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	tell bigbird more 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	yeah youre telling mom 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	get me out of that chair i dont like to sit up i like to lay down
+%soc:	ce:david ie:bird ch:bird
+%ref:	bird 
+*mot	uhhuh 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	yeah 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	is that bigbird 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	do you like bigbird 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	huh 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	yes 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	oh 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	you want to tell bigbird all sorts of things arent you 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	can momma see bigbird 
+%soc:	ce:david ie:bird ch:bird ih:bird
+%ref:	bird 
+*mot	yeah theres bigbird 
+%soc:	ce:david ie:bird ch:bird
+%ref:	bird 
+*mot	yeah 
+%soc:	ce:david ie:bird ch:bird
+%ref:	bird 
+*mot	theres bigbird 
+%soc:	ce:david ie:bird ch:bird
+%ref:	bird 
+*mot	ahhah 
+%soc:	ce:david ie:bird ch:bird
+%ref:	bird 
+*mot	ahhah 
+%soc:	ce:david ie:bird ch:bird it:bird
+%ref:	bird 
+*mot	is bigbird getting david 
+%soc:	ce:david ie:bird ch:bird it:bird
+%ref:	bird 
+*mot	that fun 
+%soc:	ce:david ie:rattle ch:bird ch:rattle
+%ref:	bird 
+*mot	we have this at home you like that one 
+%soc:	ce:david ie:rattle ch:bird ch:rattle
+%ref:	bird rattle
+*mot	the bubbles or the beads go spinning around 
+%soc:	ce:david ie:rattle ch:bird ch:rattle ih:rattle
+%ref:	bird rattle
+*mot	can you make them spin 
+%soc:	ce:david ie:rattle ch:bird ch:rattle
+%ref:	bird rattle
+*mot	wow 
+%soc:	ce:david ie:rattle ch:bird ch:rattle
+%ref:	bird rattle
+*mot	you like bigbird better huh 
+%soc:	ce:david ie:rattle ch:bird
+%ref:	bird rattle
+*mot	yeah 
+%soc:	ce:david ie:rattle ch:bird
+%ref:	bird rattle
+*mot	what 
+%soc:	ce:david ie:rattle ch:bird
+%ref:	bird rattle
+*mot	hi there 
+%soc:	ce:david ie:rattle ch:bird
+%ref:	rattle
+*mot	hi there 
+%soc:	ce:david ie:rattle ch:bird
+%ref:	rattle
+*mot	oh yeah right in the mouth 
+%soc:	ce:david ie:rattle ch:bird
+%ref:	rattle
+*mot	it too big for the mouth though is it 
+%soc:	ce:david ie:rattle ch:bird im:rattle
+%ref:	rattle
+*mot	yeah too big for the mouth 
+%soc:	ce:david ie:rattle ch:bird im:rattle
+%ref:	rattle
+*mot	yeah 
+%soc:	ce:david ie:rattle ch:bird im:rattle
+%ref:	rattle
+*mot	uhhuh 
+%soc:	ce:david ie:rattle ch:bird im:rattle
+%ref:	rattle
+*mot	oh okay which one do you want different 
+%soc:	ce:david ch:bird it:rattle ch:rattle
+%ref:	rattle
+*mot	want the book again 
+%soc:	ie:bird ct:bird
+%ref:	book
+*mot	does david want to read the book 
+%soc:	ce:david ie:book	ch:book ct:bird
+%ref:	book eyes	
+*mot	its a look and see book 	
+%soc:	ce:david ie:book	ch:book ih:book ct:bird
+%ref:	book eyes	
+*mot	look at the eyes looking back at you 	
+%soc:	ce:david ie:book ih:book ct:bird	
+%ref:	book eyes	
+*mot	ahhah 	
+%soc:	ce:david ie:book ih:book ct:bird	
+%ref:	book	
+*mot	you going to open it 	
+%soc:	ce:david ie:book ih:book ct:bird	
+%ref:	book	
+*mot	yeah you going to eat it 	
+%soc:	ce:david ie:book ih:book im:book ch:book ct:bird	
+%ref:	book
+*mot	lets read the book you ready 
+%soc:	ce:david ie:book ch:book ct:bird
+%ref:	book eyes
+*mot	look and see 
+%soc:	ce:david ie:book ch:book ih:book ct:bird
+%ref:	book eyes
+*mot	ahhah look 
+%soc:	ce:david ie:book ch:book ih:book ct:bird
+%ref:	book eyes bear
+*mot	look at the big red nose 
+%soc:	ce:david ie:book ch:book ih:book ct:bird
+%ref:	book eyes bear
+*mot	and the smilie 
+%soc:	ce:david ie:book ch:book ih:book ct:bird
+%ref:	book eyes bear
+*mot	and a bear with a bottle 
+%soc:	ce:david ie:book ch:book ih:book ct:bird
+%ref:	book eyes bear
+*mot	you want to hold it 
+%soc:	ce:david ie:book ch:book ih:book ct:bird
+%ref:	book eyes bear
+*mot	theres david 
+%soc:	ce:david ie:book ch:book ih:book ct:bird
+%ref:	book mirror kitty
+*mot	can you see david 
+%soc:	ce:david ie:book ch:book ih:book ct:bird
+%ref:	book mirror kitty
+*mot	look 
+%soc:	ce:david ie:book ch:book ih:book ct:bird
+%ref:	book mirror kitty
+*mot	see david in the mirror 
+%soc:	ce:david ie:book ch:book ih:book ct:bird
+%ref:	book mirror kitty
+*mot	yeah 
+%soc:	ce:david ie:book ch:book ih:book ct:bird
+%ref:	book mirror kitty
+*mot	oh yeah it tastes good doesnt 
+%soc:	ce:david ie:book ch:book ih:book im:book ct:bird
+%ref:	book mirror kitty
+*mot	that book tastes much better than it is to read 
+%soc:	ce:david ie:book ch:book ih:book im:book ct:bird
+%ref:	book mirror kitty
+*mot	theres a kittycat 
+%soc:	ce:david ie:book ch:book ih:book ct:bird
+%ref:	book kitty baby
+*mot	the kittycat says meow meow 
+%soc:	ce:david ie:book ch:book ih:book ct:bird
+%ref:	book kitty baby
+*mot	yeah 
+%soc:	ce:david ie:book ch:book ih:book ct:bird
+%ref:	book kitty baby
+*mot	does the book taste good mmm 
+%soc:	ce:david ie:book ch:book ih:book im:book ct:bird
+%ref:	book kitty baby
+*mot	book tastes good 
+%soc:	ce:david ie:book ch:book ih:book im:book ct:bird
+%ref:	book
+*mot	yeah 
+%soc:	ce:david ie:book ih:book ct:bird
+%ref:	book
+*mot	does the book taste good 
+%soc:	ce:david ie:book ih:book ch:hand ct:bird
+%ref:	book
+*mot	lots of toys 
+%soc:	ce:david ie:book ih:book ch:ring ct:bird
+%ref:	book
+*mot	lots of colors and toys 
+%soc:	ce:david ie:book ih:book ct:bird
+%ref:	book
+*mot	you want to sing some more 
+%soc:	ce:david ie:book ih:book ct:bird
+%ref:	book
+*mot	huh there are all these animals around we could probably we could sing old macdonald with the piggie
+%soc:	ce:david ie:book ih:book ce:pig ch:pig
+%ref:	book
+*mot	momma never even showed you 
+%soc:	ce:david ie:book ih:book ch:pig ch:cow
+%ref:	book pig cow
+*mot	thats a cow 
+%soc:	ce:david ie:cow ih:book ch:pig ch:cow im:book
+%ref:	book pig cow
+*mot	whats a cow say 
+%soc:	ce:david ie:cow ih:book ch:pig ch:cow im:book
+%ref:	book pig cow
+*mot	moo 
+%soc:	ce:david ie:book ih:book ch:pig ch:cow im:book
+%ref:	book pig cow
+*mot	do we look at the moocows when we drive sometimes 
+%soc:	ce:david ie:book ih:book ch:pig ch:cow
+%ref:	book pig cow
+*mot	alison tells us when the horses are there and when the cows are
+%soc:	ce:david ie:book ih:book ch:pig ch:cow im:book
+%ref:	book pig cow
+*mot	huh 
+%soc:	ce:david ch:pig ch:cow 
+%ref:	book pig cow
+*mot	did you drop the book 
+%soc:	ce:david ie:book ch:pig ch:cow ch:book
+%ref:	book pig cow
+*mot	you want the book back 
+%soc:	ce:david ie:book ih:book ch:pig ch:cow 
+%ref:	book pig cow
+*mot	theres the book 
+%soc:	ce:david ie:book ih:book ch:pig ch:cow 
+%ref:	book pig cow
+*mot	theres a moocow 
+%soc:	ce:david ie:book ih:book ch:pig ch:cow 
+%ref:	book pig cow
+*mot	and theres a piggie 
+%soc:	ce:david ie:book ih:book ch:pig ch:cow 
+%ref:	book pig cow
+*mot	oink oink 
+%soc:	ce:david ie:book ih:book ch:pig ch:cow 
+%ref:	book pig cow
+*mot	oink oink 
+%soc:	ce:david ie:book ih:book ch:pig ch:cow 
+%ref:	book pig cow
+*mot	yeah 
+%soc:	ce:david ie:book ih:book ch:pig ch:cow 
+%ref:	book pig cow
