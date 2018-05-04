@@ -1,0 +1,951 @@
+*mot	you want to hold it 
+%ref:	rattle 
+%soc:	ch:rattle ie:rattle
+*mot	you want to do the rattle ahhah 
+%ref:	rattle 
+%soc:	ch:rattle ie:rattle ih:rattle
+*mot	oh thats good grip 
+%ref:	rattle 
+%soc:	ch:rattle ie:rattle ih:rattle
+*mot	good grip 
+%ref:	rattle 
+%soc:	ch:rattle ie:rattle ih:rattle
+*mot	let me see you do it 
+%ref:	rattle 
+%soc:	ie:rattle ih:rattle
+*mot	let me see you 
+%ref:	rattle 
+%soc:	ie:rattle ih:rattle
+*mot	that makes lots of noise dont it oh dont hit yourself in the nose 
+%ref:	rattle 
+%soc:	ie:bird ih:rattle ch:bird ce:bird
+*mot	dont hit yourself in the nose 
+%ref:	rattle 
+%soc:	ie:rattle ih:rattle ch:rattle
+*mot	yeah 
+%ref:	rattle
+%soc:	ih:rattle
+*mot	yeah 
+%ref:	rattle 
+%soc:	ih:rattle
+*mot	are you making music 
+%ref:	rattle 
+%soc:	ih:rattle
+*mot	are you making music 
+%ref:	rattle 
+%soc:	ih:rattle
+*mot	yeah 
+%ref:	rattle 
+%soc:	ih:rattle
+*mot	are you making music 
+%ref:	rattle 
+%soc:	ih:rattle ch:book ce:book ie:book
+*mot	look at the book 
+%ref:	rattle book 
+%soc:	ih:rattle ch:book ce:book ie:book
+*mot	look 
+%ref:	rattle book eyes
+%soc:	ih:rattle ch:book ce:book ie:book
+*mot	look see 
+%ref:	rattle book eyes 
+%soc:	ih:rattle ch:book ce:book ie:book
+*mot	look see lets see 
+%ref:	rattle book eyes
+%soc:	ih:rattle ch:book ce:book ie:book
+*mot	ahhah 
+%ref:	rattle book eyes bear
+%soc:	ih:rattle ch:book ce:book ie:book
+*mot	what is that 
+%ref:	rattle book eyes bear 
+%soc:	ih:rattle ch:book ch:bear ce:book ie:book
+*mot	is that another whats that baby have 
+%ref:	rattle book eyes bear
+%soc:	ih:rattle ch:book ch:bear ce:book ie:book
+*mot	whats that bear have 
+%ref:	rattle book eyes bear
+%soc:	ih:rattle ch:book ch:bear ce:book ie:book
+*mot	he got a bottle 
+%ref:	rattle book eyes bear
+%soc:	ih:rattle ch:book ch:bear ce:book ie:book
+*mot	yeah hes got a bottle 
+%ref:	rattle book eyes bear
+%soc:	ih:rattle ch:book ch:bear ce:book ie:book
+*mot	ahhah oh 
+%ref:	rattle book mirror bunny
+%soc:	ih:rattle ch:book ch:mirror ie:mirror
+*mot	whos that pretty baby 
+%ref:	rattle book mirror bunny 
+%soc:	ih:rattle ch:book ch:mirror ie:mirror
+*mot	whos that pretty baby 
+%ref:	rattle book mirror bunny
+%soc:	ih:rattle ch:book ch:mirror ie:mirror
+*mot	can you see 
+%ref:	rattle book mirror bunny
+%soc:	ih:rattle ch:book ch:mirror ie:mirror
+*mot	oh 
+%ref:	rattle book mirror bunny
+%soc:	ih:rattle ch:book ch:mirror ie:mirror
+*mot	thats mots pretty baby isnt it 
+%ref:	rattle book mirror bunny
+%soc:	ih:rattle ch:book ie:mirror
+*mot	thats mots pretty baby 
+%ref:	rattle book mirror bunny
+%soc:	ih:rattle ch:book ie:mirror
+*mot	yes ahhah 
+%ref:	rattle book mirror bunny
+%soc:	ih:rattle ch:book ie:book ch:mirror
+*mot	whats this 
+%ref:	rattle book mirror bunny
+%soc:	ih:rattle ch:book ie:book ch:mirror
+*mot	is that a bunnyrabbit 
+%ref:	rattle book mirror bunny
+%soc:	ih:rattle ch:book ie:book ch:mirror
+*mot	is that a bunnyrabbit 
+%ref:	rattle book mirror bunny
+%soc:	ih:rattle ch:book ch:mirror ie:bunny
+*mot	huh is that a big bunnyrabbit 
+%ref:	rattle book mirror bunny
+%soc:	ih:rattle ch:book ch:mirror ie:bunny
+*mot	ahhah 
+%ref:	rattle book baby kitty
+%soc:	ih:rattle ch:book ie:book ce:kitty
+*mot	whats the kitty 
+%ref:	rattle book baby kitty 
+%soc:	ih:rattle ch:book ie:book
+*mot	i think thats ambrose 
+%ref:	rattle book baby kitty
+%soc:	ih:rattle ch:book ie:book ce:kitty
+*mot	is that ambrose 
+%ref:	rattle book baby kitty
+%soc:	ih:rattle ch:book ie:book
+*mot	meow 
+%ref:	rattle book baby kitty
+%soc:	ih:rattle ch:book ie:book
+*mot	is that old ambrose 
+%ref:	rattle book man woman girl boy
+%soc:	ih:rattle ch:book ie:book ce:kitty
+*mot	oh who is that 
+%ref:	rattle book man woman girl boy 
+%soc:	ih:rattle ch:book ie:book
+*mot	is that another baby 
+%ref:	rattle book man woman girl boy
+%soc:	ih:rattle ch:book ie:book
+*mot	is that another baby 
+%ref:	rattle book man woman girl boy
+%soc:	ih:rattle ch:book ie:book
+*mot	yes it is 
+%ref:	rattle book man woman girl boy
+%soc:	ih:rattle ch:book ie:book
+*mot	and 
+%ref:	rattle book man woman girl boy
+%soc:	ih:rattle ch:book ie:book
+*mot	thats dada and mot 
+%ref:	rattle book man woman girl boy
+%soc:	ih:rattle ch:book ie:book ch:man ch:woman
+*mot	ahhah that can be courtney your big sister 
+%ref:	rattle book man woman girl boy
+%soc:	ih:rattle ch:book ie:book ch:girl
+*mot	and you 
+%ref:	rattle book man woman girl boy
+%soc:	ih:rattle ch:book ie:book ch:boy
+*mot	hey 
+%ref:	rattle book 
+%soc:	ih:rattle ch:book ie:book ch:boy
+*mot	let me see 
+%ref:	rattle
+%soc:	ih:rattle ch:rattle
+*mot	let me see 
+%ref:	sheep
+%soc:	ih:rattle ch:rattle
+*mot	what else is in here 
+%ref:	sheep
+%soc:	
+*mot	ahhah oh thats a little sheep 
+%ref:	sheep
+%soc:	ie:sheep ch:sheep
+*mot	you want the little sheep 
+%ref:	sheep
+%soc:	ie:sheep ch:sheep
+*mot	you want the sheep 
+%ref:	sheep
+%soc:	ie:sheep ch:sheep
+*mot	baa 
+%ref:	sheep
+%soc:	ie:sheep ch:sheep
+*mot	you want to get the little sheep 
+%ref:	sheep
+%soc:	ie:sheep ch:sheep
+*mot	can you get him 
+%ref:	sheep
+%soc:	ie:sheep ch:sheep ih:sheep
+*mot	can you get the sheep 
+%ref:	sheep
+%soc:	ie:sheep ch:sheep ih:sheep
+*mot	huh 
+%ref:	sheep
+*mot	yeah 
+%ref:	sheep
+%soc:	ie:sheep ch:sheep ih:sheep
+*mot	is he cute 
+%ref:	sheep
+%soc:	ie:sheep ch:sheep ih:sheep
+*mot	what else is in here 
+%ref:	cow
+%soc:	ie:cow ch:cow ce:cow
+*mot	oh thats a moocow 
+%ref:	cow
+%soc:	ie:cow ch:cow
+*mot	moo 
+%ref:	cow
+%soc:	ie:cow ch:cow it:cow
+*mot	thats the moocow 
+%ref:	cow
+%soc:	ie:cow ch:cow it:cow
+*mot	the moocow will get you 
+%ref:	cow
+%soc:	ie:cow ch:cow it:cow
+*mot	the moocow will get you 
+%ref:	cow
+%soc:	ie:cow ch:cow it:cow
+*mot	yes yes 
+%ref:	cow
+%soc:	ie:cow ch:cow it:cow
+*mot	yes you going to laugh for mot 
+%ref:	cow
+%soc:	ie:cow ch:cow it:cow
+*mot	are you going to laugh 
+%ref:	cow
+%soc:	ie:cow ch:cow it:cow
+*mot	yeah you like to laugh 
+%ref:	cow
+%soc:	ie:cow ch:cow it:cow
+*mot	yeah 
+%ref:	cow
+%soc:	ie:cow ch:cow it:cow
+*mot	you laugh when you bit your big sister your big sister can always
+%ref:	cow
+%soc:	ie:cow ch:cow it:cow
+*mot	she can always make you laugh 
+%ref:	cow
+%soc:	ie:cow ch:cow it:cow
+*mot	boo 
+%ref:	cow
+%soc:	ie:cow ch:cow it:cow
+*mot	ahhah is that funny 
+%ref:	cow
+%soc:	ie:cow ch:cow it:cow
+*mot	is that funny 
+%ref:	cow
+%soc:	ie:cow ch:cow it:cow
+*mot	yeah you think thats funny dont you 
+%ref:	cow
+%soc:	ie:cow ch:cow it:cow
+*mot	hey what else we got in here 
+%ref:	
+%soc:	
+*mot	its a pig 
+%ref:	pig
+%soc:	ch:pig ie:pig
+*mot	its a pig 
+%ref:	pig
+%soc:	ch:pig ie:pig
+*mot	oink 
+%ref:	pig
+%soc:	ch:pig ie:pig
+*mot	oink 
+%ref:	pig
+%soc:	ch:pig ie:pig
+*mot	is that funny 
+%ref:	pig
+%soc:	ch:pig ie:pig
+*mot	is that funny 
+%ref:	pig
+%soc:	ch:pig ie:pig
+*mot	as grandma does 
+%ref:	pig
+%soc:	ch:pig ie:pig
+*mot	what does grandma do 
+%ref:	pig
+%soc:	ch:pig ie:pig
+*mot	what does grandma do she says 
+%ref:	pig
+%soc:	ch:pig ie:pig
+*mot	here comes the bumblebee the bumblebee the bumble bzz 
+%ref:	pig
+%soc:	ch:pig
+*mot	yeah 
+%ref:	pig
+%soc:	ch:pig
+*mot	bzz it gets you 
+%ref:	pig
+%soc:	ch:pig
+*mot	yeah 
+%ref:	pig
+%soc:	ch:pig
+*mot	it does 
+%ref:	pig
+%soc:	ch:pig
+*mot	it gets you 
+%ref:	pig
+%soc:	ch:pig it:pig ie:pig
+*mot	ahhah it gets you 
+%ref:	pig
+%soc:	ch:pig it:pig ie:pig
+*mot	yes 
+%ref:	pig
+%soc:	ch:pig it:pig ie:pig
+*mot	hey 
+%ref:	rattle
+%soc:	ch:rattle ie:rattle
+*mot	want to make some more noise 
+%ref:	rattle
+%soc:	ch:rattle ie:rattle
+*mot	huh 
+%ref:	rattle
+%soc:	ch:rattle ie:rattle
+*mot	want to make some more noise 
+%ref:	rattle
+%soc:	ch:rattle ie:rattle
+*mot	look at the ball 
+%ref:	rattle
+%soc:	ch:rattle ie:rattle
+*mot	you see the balls going round 
+%ref:	rattle
+%soc:	ch:rattle ie:rattle
+*mot	the balls going round 
+%ref:	rattle
+%soc:	ch:rattle ie:rattle
+*mot	yeah 
+%ref:	rattle
+%soc:	ch:rattle ie:rattle
+*mot	here 
+%ref:	rattle
+%soc:	ch:rattle ie:rattle
+*mot	grab 
+%ref:	rattle
+%soc:	ch:rattle ie:rattle it:rattle
+*mot	what are you going to be 
+%ref:	rattle
+%soc:	ch:rattle ie:rattle
+*mot	you going to be right handed or left handed 
+%ref:	rattle
+%soc:	ch:rattle ie:rattle ih:rattle
+*mot	you dont know 
+%ref:	rattle
+%soc:	ih:rattle
+*mot	say i dont know
+%ref:	rattle
+%soc:	ih:rattle
+*mot	i dont know 
+%ref:	rattle
+%soc:	ih:rattle
+*mot	oh 
+%ref:	rattle
+%soc:	ih:rattle
+*mot	are you going to be my drummer 
+%ref:	rattle
+%soc:	ih:rattle
+*mot	are you going to be my little drummer 
+%ref:	rattle
+%soc:	ih:rattle
+*mot	yes 
+%ref:	rattle
+%soc:	ih:rattle
+*mot	yes 
+%ref:	rattle
+%soc:	ih:rattle
+*mot	what else we got in here oh rolypoly 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck ce:duck
+*mot	oh this makes noise too 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	what is that 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	is that a big bird 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	is that a big one 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	yeah 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	oh 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	dododo 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	dododo 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	dododo
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	let me see you get those feet going 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	let me see 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	like when you go in the pool 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	we going to go in the pool today 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	look up here 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	look 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	are we going to go in the pool today 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	go in the pool make big splashes 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	like last night 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	you made big splashes didnt you 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	you got the carpet in the bathroom all wet 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	yes you did 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	hey 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	look over here see the birdie 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	see the birdie 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	oh yes yes 
+%ref:	rattle duck
+%soc:	ih:rattle
+*mot	i know 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	lets see 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	you want to hold the bird you want mot to hold this 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck ch:rattle
+*mot	huh 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck ih:duck
+*mot	you want to hold the bird oh hes a funny bird isnt
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck ih:duck
+*mot	he makes noise 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	i think he goes rollie lets see 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	lets see how he goes on the floor 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	lets see is he a birdie that tips 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck ce:duck
+*mot	oh look hes a rolypoly bird 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck ce:duck
+*mot	look he cant fall over 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	hes not falling over 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	no 
+%ref:	rattle duck
+%soc:	ih:rattle ie:duck ch:duck
+*mot	heres the moocow 
+%ref:	rattle cow
+%soc:	ih:rattle ie:cow ch:cow
+*mot	heres the moocow 
+%ref:	rattle pig cow
+%soc:	ih:rattle ie:cow ch:cow
+*mot	heres moocow 
+%ref:	rattle pig cow
+%soc:	ih:rattle ie:cow
+*mot	oh we can put the pig over here 
+%ref:	rattle duck pig cow
+%soc:	ih:rattle ie:pig ch:pig
+*mot	are you going to hit the pig 
+%ref:	rattle pig cow	
+%soc:	ih:rattle ie:pig
+*mot	oh are you going to knock the pig over 
+%ref:	rattle pig cow
+%soc:	ih:rattle ie:pig
+%soc:	ih:rattle ie:pig
+*mot	dont knock the pig over 
+%ref:	rattle pig cow
+%soc:	ih:rattle ie:pig
+*mot	oh there went the cow 
+%ref:	rattle pig
+%soc:	ih:rattle ie:pig ce:cow
+*mot	there went the cow 
+%ref:	rattle pig
+%soc:	ih:rattle ie:pig ch:cow
+*mot	oh there went the pig
+%ref:	rattle pig
+%soc:	ih:rattle ce:pig
+*mot	there went the cow 
+%ref:	rattle cow
+%soc:	ih:rattle ch:cow
+*mot	there we go 
+%ref:	rattle pig cow
+%soc:	ih:rattle ch:pig ie:cow
+*mot	choo choo 
+%ref:	rattle pig cow
+%soc:	ih:rattle ch:pig ie:pig it:pig
+*mot	you want to hold the pig 
+%ref:	rattle pig cow
+%soc:	ih:rattle ch:pig ie:pig it:pig
+*mot	whats the pig say
+%ref:	rattle pig cow
+%soc:	ih:rattle ch:pig ie:pig it:pig
+*mot	oink oink 
+%ref:	rattle pig cow
+%soc:	ih:rattle ch:pig ie:pig it:pig
+*mot	oink oink 
+%ref:	rattle pig cow
+%soc:	ih:rattle ch:pig ie:pig it:pig
+*mot	you got the pig
+%ref:	rattle pig cow
+%soc:	ih:rattle ch:pig ie:pig it:pig
+*mot	can you get
+%ref:	rattle pig cow
+%soc:	ch:rattle ie:pig it:pig ih:pig
+*mot	too much in your hands 
+%ref:	pig cow
+%soc:	ie:pig ih:pig
+*mot	get the piggie 
+%ref:	pig cow
+%soc:	ie:pig ih:pig
+*mot	get the piggie 
+%ref:	pig cow
+%soc:	ie:pig ih:pig
+*mot	yes 
+%ref:	pig cow
+%soc:	ie:cow ih:pig
+*mot	yes 
+%ref:	pig cow
+%soc:	t:pig ih:pig
+*mot	oh 
+%ref:	pig cow ring
+%soc:	ie:cow it:pig ih:pig
+*mot	yes 
+%ref:	pig cow ring
+%soc:	ie:cow it:pig ih:pig
+*mot	what else we got 
+%ref:	pig cow ring
+%soc:	ce:ring ch:ring ih:pig ie:ring
+*mot	oh you have 
+%ref:	pig cow ring
+%soc:	ch:ring ih:pig ie:ring
+*mot	we have these at grandmas 
+%ref:	pig cow ring
+%soc:	ch:ring ih:pig ie:ring
+*mot	grandma has these doesnt she 
+%ref:	pig cow ring
+%soc:	ch:ring ih:pig ie:ring
+*mot	she has the big rings 
+%ref:	pig cow ring
+%soc:	ch:ring ih:pig ie:ring
+*mot	doesnt she 
+%ref:	pig cow ring
+%soc:	ch:ring ih:pig ie:ring
+*mot	yes 
+%ref:	pig cow ring
+%soc:	ch:ring ih:pig ie:ring
+*mot	you want to make a bracelet 
+%ref:	pig cow ring
+%soc:	ch:ring ih:pig ie:ring ih:ring
+*mot	you want to make a bracelet 
+%ref:	pig cow ring
+%soc:	ch:ring ih:pig ie:ring ih:ring
+*mot	hmm 
+%ref:	pig cow ring
+%soc:	ch:ring ih:pig ie:ring ih:ring
+*mot	can you get that 
+%ref:	pig cow ring
+%soc:	it:pig ie:ring ih:ring ch:ring
+*mot	what you going to do with that 
+%ref:	pig cow ring
+%soc:	it:pig ie:ring ih:ring ch:ring
+*mot	maybe the pig
+%ref:	pig ring
+%soc:	it:pig ie:ring ih:ring ch:pig ch:ring
+*mot	the pig
+%ref:	pig ring
+%soc:	it:pig ie:ring ih:ring ch:pig ch:ring
+*mot	put the pig in there 
+%ref:	pig ring
+%soc:	it:pig ie:ring ih:ring ch:pig ch:ring
+*mot	is that blue 
+%ref:	pig ring
+%soc:	it:pig ie:ring ih:ring ch:ring
+*mot	thats blue 
+%ref:	pig ring
+%soc:	it:pig ie:ring ih:ring ch:ring
+*mot	what colors this 
+%ref:	pig ring
+%soc:	it:pig ie:ring ih:ring ch:ring
+*mot	is that green 
+%ref:	pig ring
+%soc:	it:pig ie:ring ih:ring ch:ring
+*mot	green you going to get the green one too 
+%ref:	pig ring
+%soc:	it:pig ie:ring ih:ring ch:ring
+*mot	yes 
+%ref:	pig ring
+%soc:	it:pig ie:ring ih:ring ch:ring
+*mot	i can put the yellow one on your foot 
+%ref:	pig ring
+%soc:	it:pig ie:ring ih:ring ch:ring
+*mot	put the yellow one on your foots 
+%ref:	ring
+%soc:	it:pig ie:ring ih:ring ch:ring
+*mot	ahhah oh boy you knocked it off 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	you knocked it off 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	choo 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	choo 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	knock them together 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	knock them together like this 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	choo 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	let me see you do that 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	huh 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	yeah thats good thats good 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	thats good 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	you want to trade 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	you like knocking them together dont you 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	you like knocking them together dont you 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	you want to trade 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	you take the yellow one 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	you want the yellow one 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	mot has the green one 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	yeah 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	yeah 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	here lets see 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	can you put it on the ring 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	can you put it on the ring 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	let me see you put it try to put it on the ring 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	oh you just going to take it 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	are you going to take it 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	huh 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	lets see 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	hey look look 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	look up here 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	lets go 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	watch 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	boo 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	what color goes next 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	 look 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	oh do you want that ring back 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	you took my ring mot 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	you want it back 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	you want it backs 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	there you go 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	there you go 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	ahhah 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	oh are y ou going are you going to chew on it 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	are you going to chew on its 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	yes yes 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	oh lets sit you up sit you up 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	yeah 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	hey 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	hey 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	let me have that 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	let me have that 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	let me have that 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	ahhah whats this 
+%ref:	ring hat
+%soc:	ie:hat ih:ring ch:hat
+*mot	what does mot look like with the hat on 
+%ref:	ring hat
+%soc:	ie:hat ih:ring ch:hat
+*mot	do i look pretty good with the hat on 
+%ref:	ring hat
+%soc:	ie:hat ih:ring ch:hat
+*mot	hmm 
+%ref:	ring hat
+%soc:	ie:hat ih:ring ch:hat
+*mot	hmm 
+%ref:	ring hat
+%soc:	ie:hat ih:ring ch:hat
+*mot	do i look pretty good
+%ref:	ring hat
+%soc:	ie:hat ih:ring ch:hat
+*mot	peekaboo 
+%ref:	ring hat
+%soc:	ie:hat ih:ring ch:hat
+*mot	peekaboo 
+%ref:	ring hat
+%soc:	ie:hat ih:ring ch:hat
+*mot	peekaboo 
+%ref:	ring hat
+%soc:	ie:hat ih:ring ch:hat
+*mot	ahhah 
+%ref:	ring hat
+%soc:	ie:hat ih:ring ch:hat
+*mot	ahhah 
+%ref:	ring hat
+%soc:	ie:hat ih:ring ch:hat
+*mot	whos this on the hat 
+%ref:	ring hat
+%soc:	ie:hat ih:ring ch:hat
+*mot	i think this is oh thats minniemouse 
+%ref:	ring hat
+%soc:	ie:hat ih:ring ch:hat
+*mot	do you see minniemouse 
+%ref:	ring hat
+%soc:	ie:hat ih:ring ch:hat
+*mot	yes you see minniemouse 
+%ref:	ring hat
+%soc:	ie:hat ih:ring ch:hat
+*mot	hey 
+%ref:	ring hat
+%soc:	ie:hat ih:ring ch:hat
+*mot	oh get that ring 
+%ref:	ring hat
+%soc:	ie:ring ih:ring ch:hat ch:ring
+*mot	get that ring 
+%ref:	ring hat
+%soc:	ie:ring ih:ring ch:hat ch:ring
+*mot	get it 
+%ref:	ring hat
+%soc:	ie:ring ch:hat ch:ring
+*mot	let me see you grab it 
+%ref:	ring hat
+%soc:	ie:ring ch:hat ch:ring
+*mot	let me see you grab 
+%ref:	ring hat
+%soc:	ie:ring ch:hat ch:ring
+*mot	ahhah 
+%ref:	ring hat
+%soc:	ie:ring ch:hat ch:ring
+*mot	hey 
+%ref:	ring hat
+%soc:	ie:ring ch:hat ch:ring
+*mot	let me see you grab it 
+%ref:	ring hat
+%soc:	ie:ring ch:hat ch:ring
+*mot	reach for it 
+%ref:	ring hat
+%soc:	ie:ring ch:ring
+*mot	come on 
+%ref:	ring hat
+%soc:	ie:ring ch:ring
+*mot	reach for it 
+%ref:	ring hat
+%soc:	ie:ring ch:ring
+*mot	reach for it which one do you want you want the green one here 
+%ref:	ring hat
+%soc:	ie:ring ch:ring
+*mot	here 
+%ref:	ring hat
+%soc:	ie:ring ch:ring
+*mot	reach for the ring 
+%ref:	ring hat
+%soc:	ie:ring ch:ring
+*mot	can you get it 
+%ref:	ring hat
+%soc:	ie:ring ih:ring ch:ring
+*mot	there you go 
+%ref:	ring hat
+%soc:	ie:ring ih:ring ch:ring
+*mot	good girl 
+%ref:	ring hat
+%soc:	ie:ring ih:ring ch:ring
+*mot	thats a good girl 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	thats a good girl 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring ch:hat
+*mot	you want the blue one 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	you want the blue one 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	can you reach for it 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	can you reach for the blue one 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	huh 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	ahhah what are you doing 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	ahhah what are you doing 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	what if i put it on your head 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	do you know where it is 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	do you know where it went 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	where did it go 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	you dont know 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	its on your head 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	it was on your head 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	ahhah oh 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	no 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	what if someone else wants to play with those and youll have your
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	youll have your baby drool on them 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	yeah 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	hey 
+%ref:	ring
+%soc:	ie:ring ih:ring ch:ring
+*mot	heres the birdie 
+%ref:	ring duck
+%soc:	ie:duck ih:ring ch:duck
+*mot	here the birdie 
+%ref:	ring duck
+%soc:	ie:duck ih:ring ch:duck
+*mot	does the bird go up 
+%ref:	ring duck
+%soc:	ie:duck ih:ring ch:duck
