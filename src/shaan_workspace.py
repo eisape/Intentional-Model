@@ -1,22 +1,22 @@
 from pprint import pprint
 from world import world, corpus
 
-pprint(world.words_key)
-print world.num_words
-print world.words
-print world.words_freq
+# # Tests construction of the world
+# print world.words_key
+# print world.num_words
+# print world.words
+# print world.words_freq
+# print
+print world.objects_key
+# print world.num_objects
+# print world.objects
+# print world.objects_freq
 
-pprint(world.objects_key)
-print world.num_objects
-print world.objects
-print world.objects_freq
-
-for i in range(len(world.objects_freq)):
-    print i, '\t', world.objects_key[i], '\t', world.objects_freq[i]
-
+#Tests construction of the corpus
+for s in corpus:
+    print s.objects
 
 # Testing data
-#This is still pseudocode!
 #
 # words = range(3)
 # words_key = {'ball': 0, 'bat': 1, 'ballie': 2}

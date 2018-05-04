@@ -3,9 +3,8 @@ from situation import Situation
 class WorldObj:
     def __initKey(self, filename):
         # Input: filename of the word/object file
-        # Output: int index->string word key
+        # Output: words key as list, frequencies as list
         freqs = []
-        key = {}
         f = open(filename, 'r')
         added = []
         i = 0
@@ -13,16 +12,16 @@ class WorldObj:
             for word in line.replace('\t','').replace('\n','').split(' '):
                 if word == '': continue
                 if word not in added:
-                    key[i] = word
                     added.append(word)
                     freqs.append(1)
                     i += 1
                 else:
                     freqs[added.index(word)] += 1
         f.close()
-        return key, freqs
+        return added, freqs
 
     def __init__(self, wordFile, objectFile):
+        # Input: filenames of word and object files
         self.words_key, self.words_freq = self.__initKey(wordFile)
         self.num_words = len(self.words_key)
         self.words = range(self.num_words)
@@ -34,10 +33,11 @@ class WorldObj:
         # self.mis: []
 
 def processLine(s):
+    # Helper function
     return s.replace('\t', '').replace('\n', '')
 
-def makeCorpus(wordFile, objectFile):
-    # Input: filenames of word and object files
+def makeCorpus(world, wordFile, objectFile):
+    # Input: World object, filenames of word and object files
     # Output: Corpus as list of Situations
     corpus = []
     wf = open(wordFile, 'r')
@@ -49,8 +49,8 @@ def makeCorpus(wordFile, objectFile):
         wl = processLine(wl)
         ol = processLine(ol)
 
-        words = [x for x in wl.split(' ') if x!='']
-        objects = [x for x in ol.split(' ') if x!='']
+        words = [world.words_key.index(x) for x in wl.split(' ') if x!='']
+        objects = [world.objects_key.index(x) for x in ol.split(' ') if x!='']
         corpus.append(Situation(words, objects))
 
         wl = wf.readline()
@@ -61,4 +61,4 @@ wordFile = "words.txt"
 objectFile = "objects.txt"
 
 world = WorldObj(wordFile, objectFile)
-corpus = makeCorpus(wordFile, objectFile)
+corpus = makeCorpus(world, wordFile, objectFile)
