@@ -84,6 +84,6 @@ def wordScoresCache(lex):
                 word_scores[word][-1] = nonref_unknown
     return word_scores
 
-fakelex = {0: 0, 1: 3, 2: 0, 8: 1}
+# fakelex = {0: 0, 1: 3, 2: 0, 8: 1}
 # pprint(wordScoresCache(fakelex))
 # print posteriorScore(fakelex, world.corpus)
