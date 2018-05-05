@@ -1,3 +1,3 @@
-alpha = 0.1
-gamma = 0.1
-kappa = 0
+alpha = 7
+gamma = .1
+kappa = .05

@@ -1,6 +1,6 @@
 from situation import Situation
 
-class WorldObj:
+class World:
     def __initKey(self, filename):
         # Input: filename of the word/object file
         # Output: words key as list, frequencies as list
@@ -60,5 +60,5 @@ def makeCorpus(world, wordFile, objectFile):
 wordFile = "words.txt"
 objectFile = "objects.txt"
 
-world = WorldObj(wordFile, objectFile)
+world = World(wordFile, objectFile)
 corpus = makeCorpus(world, wordFile, objectFile)

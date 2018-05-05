@@ -1,6 +1,8 @@
 import numpy as np
-import fakeworld as world
 from pprint import pprint
+from params import alpha, kappa
+# import fakeworld as world
+from world import world
 
 np.set_printoptions(suppress=True)
 
@@ -8,10 +10,13 @@ def posteriorScore(lex, corpus):
     # Input: Lexicon as dictionary, corpus as array of situations
     # returns its posterior score
     scores_cache = wordScoresCache(lex)
-    pprint(scores_cache)
 
-    situation_scores = [] # value of Eq. 2 in technical appendix for each situation
+    log_prior = logPrior(lex, alpha)
+
+    log_likelihoods = [] # value of Eq. 2 in technical appendix for each situation
+    x = 0
     for s in corpus:
+        if len(s.objects)==0: continue # Skip situations with no objects
         word_cost = []
 
         nonref_entry = []
@@ -26,19 +31,36 @@ def posteriorScore(lex, corpus):
             word_cost.append(entry)
 
         word_cost = np.matrix(word_cost) #Change of type!
-    return 0;
+        gamma_intents = s.gamma_intents
+        # Code to compare with example in technical appendix
+        # if x==0:
+        #     w = world
+        #     print scores_cache[w.words_key.index('books')][w.objects_key.index('book')]
+        #     print [world.words_key[m] for m in s.words]
+        #     print [world.objects_key[m] for m in s.objects]
+        #     print word_cost
+        #     print gamma_intents
+        #     x += 1
+        #
+        word_scores = np.matmul(gamma_intents, word_cost)
 
-def lexiconPrior(lex, alpha):
-    # Input:
-    power = -alpha * len(lex)
-    return np.exp(power)
+        scores = []
+        for i in word_scores:
+            scores.append(np.prod(i))
+        y = np.log(sum(scores)) - np.log(len(scores))
+        log_likelihoods.append(y)
+    return sum(log_likelihoods) + log_prior
+
+def logPrior(lex, alpha):
+    # Input: lexicon as dictionary, parameter alpha
+    return -alpha * len(lex)
 
 def wordScoresCache(lex):
     # Input: Lexicon as dictionary
     # Output: Word scores cache as 2D dictionary
 
-    nonref_unknown = 0.0026 # Probability a word not in the lexicon is used nonreferentially
-    nonref_known = 0.0001 # Probability a word in the lexicon is used nonreferentially
+    nonref_unknown = 1.0 / world.num_words # Probability a word not in the lexicon is used nonreferentially
+    nonref_known = nonref_unknown * kappa # Probability a word in the lexicon is used nonreferentially
 
     num_repetitions = {}
     for word in lex:
@@ -64,4 +86,4 @@ def wordScoresCache(lex):
 
 fakelex = {0: 0, 1: 3, 2: 0, 8: 1}
 # pprint(wordScoresCache(fakelex))
-posteriorScore(fakelex, world.corpus)
+# print posteriorScore(fakelex, world.corpus)

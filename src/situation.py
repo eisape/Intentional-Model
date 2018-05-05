@@ -22,6 +22,7 @@ class Situation:
             n = len(intent)
             if n == 0:
                 row[0] = 1
+                gamma_intents.append(row)
                 continue
             for i in intent:
                 row[0] = 1 - gamma
