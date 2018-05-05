@@ -1,4 +1,6 @@
 from situation import Situation
+from pyro.distributions import Categorical
+import torch
 
 class World:
     def __initKey(self, filename):
@@ -30,7 +32,34 @@ class World:
         self.num_objects = len(self.objects_key)
         self.objects = range(self.num_objects)
 
-        # self.mis: []
+        self.mis = []
+        self.word_object_pairs = [] # NB: word-object pairs are stored as a tuple (word, object)
+
+    def makeMIs(self, corpus):
+        # Input: corpus as list of situations
+        # Updates self.mis and self.word_object_pairs to contain probability weights
+        word_counts = {}
+        obj_counts = {}
+        word_obj_counts = {}
+
+        for word in self.words:
+            word_counts[word] = 0
+            for obj in self.objects:
+                obj_counts[obj] = 0
+                word_obj_counts[(word, obj)] = 0
+
+        for situation in corpus:
+            for word in situation.words:
+                word_counts[word] += 1
+                for obj in situation.objects:
+                    obj_counts[obj] += 1
+                    word_obj_counts[(word, obj)] += 1
+
+        for word, obj in word_obj_counts.keys():
+            pair = (word, obj)
+            self.word_object_pairs.append(pair)
+            mi = float(word_obj_counts[pair])/(word_counts[word] * obj_counts[obj])
+            self.mis.append(mi)
 
 def processLine(s):
     # Helper function
@@ -62,3 +91,7 @@ objectFile = "objects.txt"
 
 world = World(wordFile, objectFile)
 corpus = makeCorpus(world, wordFile, objectFile)
+world.makeMIs(corpus)
+
+# print world.mis
+# print world.word_object_pairs
