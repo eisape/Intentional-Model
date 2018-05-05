@@ -4,7 +4,7 @@ from params import alpha, kappa
 # import fakeworld as world
 from world import world
 
-np.set_printoptions(suppress=True)
+np.set_printoptions(suppress=True, precision=5)
 
 def posteriorScore(lex, corpus):
     # Input: Lexicon as dictionary, corpus as array of situations
@@ -41,15 +41,15 @@ def posteriorScore(lex, corpus):
         #     print word_cost
         #     print gamma_intents
         #     x += 1
-        #
+
         word_scores = np.matmul(gamma_intents, word_cost)
 
         scores = []
         for i in word_scores:
             scores.append(np.prod(i))
-        y = np.log(sum(scores)) - np.log(len(scores))
+        y = np.log(sum(scores)) - np.log(word_scores.shape[0])
         log_likelihoods.append(y)
-    return sum(log_likelihoods) + log_prior
+    return np.sum(log_likelihoods) + log_prior
 
 def logPrior(lex, alpha):
     # Input: lexicon as dictionary, parameter alpha

@@ -33,7 +33,7 @@ prand = posteriorScore(randomLexicon, corpus)
 print prand
 print
 mapto2 = {}
-for word in world.words:
+for word in gold.keys():
     mapto2[word] = 2
 print "ALL WORDS MAP TO 2 score:"
 pto2 = posteriorScore(mapto2, corpus)
