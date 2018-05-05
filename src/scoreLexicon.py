@@ -24,14 +24,25 @@ def posteriorScore(lex, corpus):
             nonref_entry.append(scores_cache[word][-1])
         word_cost.append(nonref_entry)
         for o in s.objects:
-            obj = o if o in lex.values() else -1
+            # obj = o if o in lex.values() else -1
+            obj = o
             entry = []
+            #testing - diverges from paper's math
+            if o not in lex.values():
+                for word in s.words:
+                    entry.append(0)
+                word_cost.append(entry)
+                continue
+            #testing
             for word in s.words:
                 entry.append(scores_cache[word][obj])
             word_cost.append(entry)
 
         word_cost = np.matrix(word_cost) #Change of type!
         gamma_intents = s.gamma_intents
+
+        word_scores = np.matmul(gamma_intents, word_cost)
+
         # Code to compare with example in technical appendix
         # if x==0:
         #     w = world
@@ -40,9 +51,8 @@ def posteriorScore(lex, corpus):
         #     print [world.objects_key[m] for m in s.objects]
         #     print word_cost
         #     print gamma_intents
+        #     print word_scores
         #     x += 1
-
-        word_scores = np.matmul(gamma_intents, word_cost)
 
         scores = []
         for i in word_scores:
@@ -61,6 +71,13 @@ def wordScoresCache(lex):
 
     nonref_unknown = 1.0 / world.num_words # Probability a word not in the lexicon is used nonreferentially
     nonref_known = nonref_unknown * kappa # Probability a word in the lexicon is used nonreferentially
+
+    total = 0
+    for word in world.words:
+        if word in lex: total += nonref_known
+        else: total += nonref_unknown
+    nonref_unknown /= total
+    nonref_known /= total
 
     num_repetitions = {}
     for word in lex:

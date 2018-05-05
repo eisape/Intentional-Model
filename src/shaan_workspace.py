@@ -26,7 +26,7 @@ from random import randint
 
 
 randomLexicon = {}
-for i in range(34):
+for i in range(2):
     randomLexicon[randint(0, world.num_words-1)] = randint(0, world.num_objects-1)
 print "Random lexicon score:"
 prand = posteriorScore(randomLexicon, corpus)
