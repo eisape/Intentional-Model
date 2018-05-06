@@ -49,7 +49,7 @@ def mutate(lex):
     # Output: new lexicon after mutation
     if len(lex)==0: return sampleLexicon()
     operations = [addWord, deleteWord, swapWord]
-    operation = operations[randint(0, len(operations)-1)]
+    operation = choice(operations)
     newLex = operation(lex)
     if len(newLex)==0: newLex = sampleLexicon()
     return newLex

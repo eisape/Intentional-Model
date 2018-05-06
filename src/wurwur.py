@@ -6,6 +6,7 @@ from params import num_iterations
 import params
 from pprint import pprint
 from pyro.distributions import Bernoulli
+from breed import breed
 import utils
 from goldstandard import gold
 from sampleLexicon import sampleLexicon
@@ -17,7 +18,7 @@ def runModel():
     lexs = [sampleLexicon() for x in range(numModels)]
     scores = [posteriorScore(lex, corpus) for lex in lexs]
     names = ['temp 1', 'temp 2', 'temp 3', 'temp 4', 'temp 5']
-    temps = [0.0001, 1, 10, 100, 1000]
+    temps = [0.01, 10, 100, 1000, 10000]
     numAccepted = [0] * numModels
 
     print "alpha:", params.alpha
@@ -38,13 +39,21 @@ def runModel():
         sys.stdout.write(icons[iconIdx])
         sys.stdout.flush()
 
-        if i%50==0:
+        if i%5==0:
+            a = choice(range(numModels))
+            b = choice(range(numModels))
+            if a != b:
+                breed(a, b, lexs, scores)
+                sys.stdout.write('\b')
+                print("Bred %s, %s"%(names[a], names[b]))
+
+        if i%10==0:
             sys.stdout.write('\b')
             print "Reached iteration\t", i
             for j in range(numModels):
                 print "\t", names[j], "\tscore:", scores[j], "\tlen: ", len(lexs[j]), "\tnum accepted:", numAccepted[j]
             numAccepted = [0] * numModels
-            if i%250==0 and cmp(lastPrinted, bestLex)!=0:
+            if i%50==0 and cmp(lastPrinted, bestLex)!=0:
                 print "Current best lexicon (score = %d, len = %d):"%(bestScore, len(bestLex))
                 utils.printLex(bestLex)
                 lastPrinted = bestLex
