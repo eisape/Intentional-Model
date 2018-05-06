@@ -6,6 +6,8 @@ import scoreLexicon
 from goldstandard import gold
 import random
 from random import randint
+from utils import printLex
+from mutate import mutate
 
 # # Tests construction of the world
 # print world.words_key

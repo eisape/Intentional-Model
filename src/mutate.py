@@ -26,13 +26,14 @@ def swapWord(lex):
     newLex = deleteWord(newLex)
     return newLex
 
-def mutate(lex):
-    # Input: lexicon as dictionary
+def mutate(lex, n):
+    # Input: lexicon as dictionary, temp as flat such that 0<temp<=1
     # Output: new lexicon after mutation
     if len(lex)==0: return sampleLexicon()
-    operations = [addWord, deleteWord]
+    operations = [addWord, deleteWord, swapWord]
     operation = operations[randint(0, len(operations)-1)]
-    newLex = {}
-    for i in range(randint(1, len(lex)/2)):
-        newLex = operation(lex)
+    newLex = operation(lex)
+    for i in range(randint(0, n)):
+        if len(newLex)==0: newLex = sampleLexicon()
+        newLex = operation(newLex)
     return newLex
