@@ -13,19 +13,17 @@ import sys
 from multiprocessing import Pool
 
 def runModel():
-    lexs = [sampleLexicon(), sampleLexicon()]
-    scores = [posteriorScore(lexs[0], corpus), posteriorScore(lexs[1], corpus)]
-    names = ['low temp', 'high temp']
-    numAccepted = [0, 0]
+    numModels = 5
+    lexs = [sampleLexicon() for x in range(numModels)]
+    scores = [posteriorScore(lex, corpus) for lex in lexs]
+    names = ['temp 1', 'temp 2', 'temp 3', 'temp 4', 'temp 5']
+    temps = [0.0001, 1, 10, 100, 1000]
+    numAccepted = [0] * numModels
 
     print "alpha:", params.alpha
     print "gamma:", params.gamma
     print "kappa:", params.kappa
     print "num_iterations:", num_iterations
-
-    print "Initial score:", scores[0]
-    print "Initial lexicon:"
-    utils.printLex(lexs[0])
 
     bestLex = lexs[0]
     bestScore = scores[0]
@@ -40,31 +38,28 @@ def runModel():
         sys.stdout.write(icons[iconIdx])
         sys.stdout.flush()
 
-        if i%300==0:
-            lexs[0] = bestLex
-            scores[0] = bestScore
-
         if i%50==0:
             sys.stdout.write('\b')
             print "Reached iteration\t", i
-            print "\tlow temp \tscore:", scores[0], "\tlen:", len(lexs[0]), "\tnum accepted:", numAccepted[0]
-            print "\thigh temp \tscore:", scores[1], "\tlen:", len(lexs[1]), "\tnum accepted:", numAccepted[1]
-            numAccepted = [0, 0]
+            for j in range(numModels):
+                print "\t", names[j], "\tscore:", scores[j], "\tlen: ", len(lexs[j]), "\tnum accepted:", numAccepted[j]
+            numAccepted = [0] * numModels
             if i%250==0 and cmp(lastPrinted, bestLex)!=0:
                 print "Current best lexicon (score = %d, len = %d):"%(bestScore, len(bestLex))
                 utils.printLex(bestLex)
                 lastPrinted = bestLex
 
-        for j in range(len(lexs)):
+        for j in range(numModels):
             lex = lexs[j]
             score = scores[j]
+            temp = temps[j]
 
             newLex = mutate(lex)
             newScore = posteriorScore(newLex, corpus)
 
             prob = min(score/newScore, 1) # We use the reciprocal of the formula b/c we are maximizing negative numbers
             sys.stdout.write('\b')
-            prob = prob**7000 # Hard-coded temperature
+            prob = prob**temp
             if bool(Bernoulli(probs=prob).sample()):
                 numAccepted[j] += 1
                 lexs[j] = newLex
