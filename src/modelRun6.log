@@ -1,0 +1,47 @@
+Parameters:
+alpha = 12
+gamma = .1
+kappa = .05
+Using modified posterior score
+
+Current best lexicon (score = -14504, len = 40):
+{'ah': 'bird',
+ 'and': 'book',
+ 'baby': 'rattle',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'blue': 'ring',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'david': 'book',
+ 'dododo': 'duck',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'bunny',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'rings': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'them': 'ring',
+ 'theres': 'bird',
+ 'when': 'cow',
+ 'yellow': 'ring'}

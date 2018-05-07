@@ -12,13 +12,14 @@ from goldstandard import gold
 from sampleLexicon import sampleLexicon
 import sys
 from multiprocessing import Pool
+import numpy as np
 
 def runModel():
     numModels = 5
     lexs = [sampleLexicon() for x in range(numModels)]
     scores = [posteriorScore(lex, corpus) for lex in lexs]
     names = ['temp 1', 'temp 2', 'temp 3', 'temp 4', 'temp 5']
-    temps = [0.01, 10, 100, 1000, 10000]
+    temps = [0.0001, 1, 10, 100, 1000]
     numAccepted = [0] * numModels
 
     print "alpha:", params.alpha
@@ -45,7 +46,7 @@ def runModel():
             if a != b:
                 breed(a, b, lexs, scores)
                 sys.stdout.write('\b')
-                print("Bred %s, %s"%(names[a], names[b]))
+                print "Bred %s, %s"%(names[a], names[b])
 
         if i%10==0:
             sys.stdout.write('\b')
@@ -66,9 +67,8 @@ def runModel():
             newLex = mutate(lex)
             newScore = posteriorScore(newLex, corpus)
 
-            prob = min(score/newScore, 1) # We use the reciprocal of the formula b/c we are maximizing negative numbers
+            prob = np.exp((newScore - score)/temp) if newScore<score else 1 # Scores are in log space
             sys.stdout.write('\b')
-            prob = prob**temp
             if bool(Bernoulli(probs=prob).sample()):
                 numAccepted[j] += 1
                 lexs[j] = newLex

@@ -1,0 +1,51 @@
+basic model
+temp=10000
+num_iterations ~= 10000
+alpha = 7
+gamma = .1
+kappa = .05
+
+{'and': 'book',
+ 'another': 'boy',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'blue': 'ring',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bottles': 'face',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'cute': 'sheep',
+ 'dada': 'woman',
+ 'david': 'book',
+ 'davids': 'hand',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'bunny',
+ 'how': 'duck',
+ 'kittycat': 'baby',
+ 'kittycats': 'kitty',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'rings': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird',
+ 'yellow': 'ring'}
+Reached iteration

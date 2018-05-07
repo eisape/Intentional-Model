@@ -1,0 +1,48 @@
+Params:
+alpha = 7
+gamma = .1
+kappa = .05
+
+num_iterations = 50000
+low temp: 1
+high temp: 10
+
+{'another': 'woman',
+ 'at': 'eyes',
+ 'bear': 'bear',
+ 'birdie': 'duck',
+ 'bit': 'cow',
+ 'bottle': 'bear',
+ 'bracelet': 'cow',
+ 'bunnies': 'mirror',
+ 'bunnyrabbit': 'book',
+ 'cows': 'cow',
+ 'dada': 'man',
+ 'grab': 'ring',
+ 'grandmas': 'pig',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'kittycat': 'book',
+ 'lambie': 'pig',
+ 'lots': 'pig',
+ 'maybe': 'pig',
+ 'meow': 'kitty',
+ 'mirror': 'mirror',
+ 'never': 'cow',
+ 'night': 'rattle',
+ 'open': 'bear',
+ 'pool': 'duck',
+ 'quackquack': 'duck',
+ 'reach': 'ring',
+ 'roll': 'hand',
+ 'set': 'bear',
+ 'sheep': 'sheep',
+ 'sister': 'woman',
+ 'squeaked': 'pig',
+ 'tips': 'rattle',
+ 'toy': 'hat',
+ 'two': 'pig',
+ 'up': 'pig',
+ 'wanna': 'hat',
+ 'whats': 'pig',
+ 'who': 'woman'}

@@ -1,0 +1,2404 @@
+alpha: 12
+gamma: 0.1
+kappa: 0.05
+num_iterations: 20000
+Initial score: -15898.93247831185
+Initial lexicon:
+{'any': 'ring',
+ 'b': 'eyes',
+ 'books': 'boy',
+ 'bunny': 'kitty',
+ 'daddy': 'book',
+ 'day': 'man',
+ 'do': 'bird',
+ 'drop': 'woman',
+ 'floor': 'rattle',
+ 'get': 'man',
+ 'goodness': 'lamb',
+ 'here': 'kitty',
+ 'hes': 'baby',
+ 'hey': 'face',
+ 'him': 'sheep',
+ 'lamb': 'baby',
+ 'last': 'pig',
+ 'little': 'kitty',
+ 'n': 'ring',
+ 'noise': 'bear',
+ 'orange': 'ring',
+ 'rollie': 'hand',
+ 'round': 'woman',
+ 'sit': 'pig',
+ 'squeak': 'lamb',
+ 't': 'pig',
+ 'the': 'pig',
+ 'uhuh': 'girl',
+ 'wanna': 'duck',
+ 'wont': 'pig',
+ 'y': 'woman'}
+\|Reached iteration	0
+	low temp 	score: -15898.93247831185 	len: 31 	num accepted: 0
+	high temp 	score: -15965.57838462958 	len: 32 	num accepted: 0
+New high score!	-15866.087241557296 	discovered by:	sticky 	len: 30 	score diff	32.84523675455421 	iteration: 0
+/New high score!	-15815.056842276574 	discovered by:	sticky 	len: 29 	score diff	51.03039928072212 	iteration: 1
+-New high score!	-15813.114489792508 	discovered by:	sticky 	len: 28 	score diff	1.9423524840658501 	iteration: 2
+\New high score!	-15804.071123325242 	discovered by:	sticky 	len: 28 	score diff	9.043366467265514 	iteration: 3
+|New high score!	-15788.621273224178 	discovered by:	sticky 	len: 27 	score diff	15.44985010106393 	iteration: 4
+/New high score!	-15779.710137895761 	discovered by:	sticky 	len: 27 	score diff	8.911135328417004 	iteration: 5
+-New high score!	-15777.104119953929 	discovered by:	sticky 	len: 26 	score diff	2.6060179418327607 	iteration: 6
+\New high score!	-15769.9422272662 	discovered by:	sticky 	len: 26 	score diff	7.1618926877290505 	iteration: 7
+|New high score!	-15755.959125308871 	discovered by:	sticky 	len: 26 	score diff	13.983101957328472 	iteration: 8
+/New high score!	-15746.879561380067 	discovered by:	sticky 	len: 25 	score diff	9.079563928804419 	iteration: 9
+-New high score!	-15712.589142702494 	discovered by:	sticky 	len: 25 	score diff	34.290418677572234 	iteration: 10
+\|New high score!	-15702.991108381473 	discovered by:	sticky 	len: 24 	score diff	9.59803432102126 	iteration: 12
+/-\|/-\|/-\New high score!	-15696.238438361568 	discovered by:	sticky 	len: 24 	score diff	6.752670019905054 	iteration: 23
+|/-\|/New high score!	-15694.289751006045 	discovered by:	sticky 	len: 23 	score diff	1.9486873555233615 	iteration: 29
+New high score!	-15674.498822147887 	discovered by:	MH 	len: 26 	score diff	19.790928858157713 	iteration: 29
+-\New high score!	-15656.382035135128 	discovered by:	MH 	len: 26 	score diff	18.116787012759232 	iteration: 31
+|New high score!	-15643.552103681963 	discovered by:	MH 	len: 25 	score diff	12.829931453165045 	iteration: 32
+/New high score!	-15628.483857215679 	discovered by:	sticky 	len: 24 	score diff	15.068246466284108 	iteration: 33
+New high score!	-15594.172770874035 	discovered by:	MH 	len: 24 	score diff	34.31108634164411 	iteration: 33
+-\New high score!	-15591.446228825294 	discovered by:	sticky 	len: 23 	score diff	2.726542048740157 	iteration: 35
+|New high score!	-15572.94185896904 	discovered by:	sticky 	len: 23 	score diff	18.504369856254925 	iteration: 36
+/New high score!	-15545.821634179976 	discovered by:	sticky 	len: 22 	score diff	27.120224789063286 	iteration: 37
+New high score!	-15473.391556227267 	discovered by:	MH 	len: 24 	score diff	72.43007795270933 	iteration: 37
+-\New high score!	-15447.559790217732 	discovered by:	sticky 	len: 24 	score diff	25.831766009534476 	iteration: 39
+|New high score!	-15441.121929377528 	discovered by:	sticky 	len: 24 	score diff	6.437860840203939 	iteration: 40
+/-New high score!	-15438.298480685547 	discovered by:	sticky 	len: 25 	score diff	2.823448691980957 	iteration: 42
+\|/New high score!	-15435.98561591472 	discovered by:	sticky 	len: 24 	score diff	2.3128647708272183 	iteration: 45
+-New high score!	-15433.247958274236 	discovered by:	MH 	len: 26 	score diff	2.7376576404840307 	iteration: 46
+\New high score!	-15425.238146273581 	discovered by:	sticky 	len: 26 	score diff	8.009812000655074 	iteration: 47
+|New high score!	-15413.912830608711 	discovered by:	MH 	len: 25 	score diff	11.325315664869777 	iteration: 48
+/New high score!	-15410.638615661645 	discovered by:	sticky 	len: 24 	score diff	3.2742149470668664 	iteration: 49
+New high score!	-15408.530989573614 	discovered by:	MH 	len: 26 	score diff	2.1076260880308837 	iteration: 49
+-Reached iteration	50
+	low temp 	score: -15408.530989573614 	len: 26 	num accepted: 25
+	high temp 	score: -15408.530989573614 	len: 26 	num accepted: 37
+\|New high score!	-15404.88744590992 	discovered by:	sticky 	len: 25 	score diff	3.6435436636929808 	iteration: 52
+/-New high score!	-15396.104328799935 	discovered by:	MH 	len: 26 	score diff	8.783117109986051 	iteration: 54
+\New high score!	-15371.404708069587 	discovered by:	sticky 	len: 26 	score diff	24.699620730347306 	iteration: 55
+New high score!	-15368.265077451233 	discovered by:	MH 	len: 25 	score diff	3.1396306183542038 	iteration: 55
+|New high score!	-15367.764866402817 	discovered by:	MH 	len: 26 	score diff	0.5002110484165314 	iteration: 56
+/-New high score!	-15364.782728681506 	discovered by:	sticky 	len: 26 	score diff	2.9821377213102096 	iteration: 58
+\New high score!	-15362.914342067075 	discovered by:	sticky 	len: 25 	score diff	1.8683866144310741 	iteration: 59
+New high score!	-15340.450639682253 	discovered by:	MH 	len: 24 	score diff	22.463702384822682 	iteration: 59
+|New high score!	-15325.462074308443 	discovered by:	sticky 	len: 23 	score diff	14.988565373809251 	iteration: 60
+/-New high score!	-15322.117968981247 	discovered by:	sticky 	len: 22 	score diff	3.344105327196303 	iteration: 62
+\New high score!	-15311.58752427147 	discovered by:	sticky 	len: 21 	score diff	10.53044470977693 	iteration: 63
+|/New high score!	-15307.945565868798 	discovered by:	sticky 	len: 20 	score diff	3.641958402671662 	iteration: 65
+-\New high score!	-15304.218062272688 	discovered by:	sticky 	len: 19 	score diff	3.727503596110182 	iteration: 67
+|/-New high score!	-15303.556917546952 	discovered by:	sticky 	len: 19 	score diff	0.6611447257364489 	iteration: 70
+\New high score!	-15294.361137988119 	discovered by:	sticky 	len: 18 	score diff	9.195779558833237 	iteration: 71
+|/-\|New high score!	-15292.624452248248 	discovered by:	sticky 	len: 17 	score diff	1.736685739870154 	iteration: 76
+/-\|/New high score!	-15288.622389933418 	discovered by:	sticky 	len: 16 	score diff	4.002062314830255 	iteration: 81
+-\|/-New high score!	-15275.535159469204 	discovered by:	MH 	len: 22 	score diff	13.087230464214372 	iteration: 86
+\New high score!	-15271.876991359855 	discovered by:	sticky 	len: 21 	score diff	3.6581681093484804 	iteration: 87
+New high score!	-15268.70406831398 	discovered by:	MH 	len: 22 	score diff	3.1729230458749953 	iteration: 87
+|/New high score!	-15259.164138277007 	discovered by:	MH 	len: 23 	score diff	9.539930036973601 	iteration: 89
+-New high score!	-15258.362395971348 	discovered by:	sticky 	len: 23 	score diff	0.8017423056589905 	iteration: 90
+\New high score!	-15256.194145281745 	discovered by:	MH 	len: 22 	score diff	2.1682506896031555 	iteration: 91
+|New high score!	-15252.771198167371 	discovered by:	sticky 	len: 21 	score diff	3.422947114373528 	iteration: 92
+/New high score!	-15250.581627794829 	discovered by:	sticky 	len: 22 	score diff	2.189570372542221 	iteration: 93
+-\|New high score!	-15246.289747862715 	discovered by:	MH 	len: 22 	score diff	4.2918799321141705 	iteration: 96
+/New high score!	-15244.608544586943 	discovered by:	MH 	len: 23 	score diff	1.6812032757716224 	iteration: 97
+-New high score!	-15234.862743165264 	discovered by:	MH 	len: 23 	score diff	9.745801421679062 	iteration: 98
+\|Reached iteration	100
+	low temp 	score: -15234.862743165264 	len: 23 	num accepted: 22
+	high temp 	score: -15234.862743165264 	len: 23 	num accepted: 22
+/-New high score!	-15231.192211001835 	discovered by:	sticky 	len: 22 	score diff	3.670532163429016 	iteration: 102
+\|/-\|/-\|/New high score!	-15230.319076663509 	discovered by:	sticky 	len: 21 	score diff	0.8731343383260537 	iteration: 113
+-New high score!	-15230.147412993436 	discovered by:	sticky 	len: 21 	score diff	0.17166367007303052 	iteration: 114
+\New high score!	-15228.223869062158 	discovered by:	sticky 	len: 20 	score diff	1.9235439312778908 	iteration: 115
+New high score!	-15221.465119003085 	discovered by:	MH 	len: 23 	score diff	6.758750059072554 	iteration: 115
+|New high score!	-15220.455667585647 	discovered by:	sticky 	len: 22 	score diff	1.0094514174379583 	iteration: 116
+/New high score!	-15216.783496665092 	discovered by:	sticky 	len: 21 	score diff	3.6721709205558 	iteration: 117
+New high score!	-15214.652610960053 	discovered by:	MH 	len: 22 	score diff	2.1308857050389634 	iteration: 117
+-New high score!	-15196.069802785129 	discovered by:	MH 	len: 23 	score diff	18.58280817492414 	iteration: 118
+\|/-New high score!	-15194.15104055994 	discovered by:	sticky 	len: 22 	score diff	1.9187622251884022 	iteration: 122
+\|/New high score!	-15190.423080076087 	discovered by:	sticky 	len: 23 	score diff	3.727960483853167 	iteration: 125
+-New high score!	-15186.743986378917 	discovered by:	sticky 	len: 22 	score diff	3.679093697170174 	iteration: 126
+\|/-\|/New high score!	-15178.666708303015 	discovered by:	MH 	len: 24 	score diff	8.077278075901631 	iteration: 133
+-New high score!	-15178.65441156133 	discovered by:	sticky 	len: 24 	score diff	0.012296741684622248 	iteration: 134
+New high score!	-15176.115477355848 	discovered by:	MH 	len: 23 	score diff	2.538934205482292 	iteration: 134
+\New high score!	-15174.054112404363 	discovered by:	MH 	len: 22 	score diff	2.0613649514853023 	iteration: 135
+|New high score!	-15172.770659195054 	discovered by:	MH 	len: 22 	score diff	1.2834532093093003 	iteration: 136
+/New high score!	-15157.24156666193 	discovered by:	sticky 	len: 21 	score diff	15.529092533122821 	iteration: 137
+-\|New high score!	-15155.251186774076 	discovered by:	sticky 	len: 20 	score diff	1.9903798878549424 	iteration: 140
+/-\New high score!	-15140.331671277083 	discovered by:	MH 	len: 22 	score diff	14.919515496992972 	iteration: 143
+|/New high score!	-15136.60785967378 	discovered by:	MH 	len: 21 	score diff	3.723811603302238 	iteration: 145
+-New high score!	-15134.810357637936 	discovered by:	MH 	len: 20 	score diff	1.7975020358444453 	iteration: 146
+\|/-Reached iteration	150
+	low temp 	score: -15134.810357637936 	len: 20 	num accepted: 16
+	high temp 	score: -15134.810357637936 	len: 20 	num accepted: 17
+New high score!	-15131.141850644575 	discovered by:	MH 	len: 19 	score diff	3.6685069933610066 	iteration: 150
+\New high score!	-15118.060782627097 	discovered by:	sticky 	len: 20 	score diff	13.081068017478174 	iteration: 151
+|New high score!	-15098.99421359222 	discovered by:	MH 	len: 19 	score diff	19.06656903487783 	iteration: 152
+/-\|/-\New high score!	-15096.840236172673 	discovered by:	sticky 	len: 20 	score diff	2.1539774195462087 	iteration: 159
+|/-\|/New high score!	-15077.703769832671 	discovered by:	sticky 	len: 21 	score diff	19.13646634000179 	iteration: 165
+-\|/-\|/-\|/-\|/-\|/-\|/-\|/-New high score!	-15073.838718203939 	discovered by:	sticky 	len: 22 	score diff	3.8650516287325445 	iteration: 194
+\New high score!	-15073.69398121309 	discovered by:	sticky 	len: 22 	score diff	0.14473699084919645 	iteration: 195
+|/-New high score!	-15061.132584477291 	discovered by:	sticky 	len: 21 	score diff	12.561396735798553 	iteration: 198
+\|Reached iteration	200
+	low temp 	score: -15061.132584477291 	len: 21 	num accepted: 14
+	high temp 	score: -15079.610464152569 	len: 20 	num accepted: 5
+/-\|/-\|/-\|/-\|/-New high score!	-15029.885877875844 	discovered by:	sticky 	len: 22 	score diff	31.24670660144693 	iteration: 218
+\New high score!	-15026.448536337837 	discovered by:	sticky 	len: 21 	score diff	3.4373415380068764 	iteration: 219
+|/-\|/-\|/-New high score!	-15024.081406140607 	discovered by:	sticky 	len: 19 	score diff	2.367130197229926 	iteration: 230
+\|/-\|/-\|/-\|/-\|/-Reached iteration	250
+	low temp 	score: -15025.714505142549 	len: 20 	num accepted: 8
+	high temp 	score: -15059.122250394772 	len: 17 	num accepted: 5
+Current best lexicon (score = -15024, len = 19):
+{'ah': 'bird',
+ 'another': 'girl',
+ 'bear': 'bear',
+ 'birdie': 'duck',
+ 'bottle': 'bear',
+ 'bunnies': 'bird',
+ 'bunnyrabbit': 'mirror',
+ 'hat': 'hat',
+ 'have': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'meow': 'kitty',
+ 'mirror': 'mirror',
+ 'moocow': 'cow',
+ 'piggie': 'pig',
+ 'read': 'book',
+ 'rings': 'ring',
+ 'sheep': 'sheep',
+ 'them': 'ring'}
+\|/-\|/-\|/-\|/-\|/-\|/-\|/New high score!	-15019.13587696357 	discovered by:	sticky 	len: 20 	score diff	4.945529177037315 	iteration: 277
+-\|/-\|/-\|/-New high score!	-15019.086247386418 	discovered by:	sticky 	len: 20 	score diff	0.04962957715179073 	iteration: 290
+\|/-\|New high score!	-15015.573730767168 	discovered by:	sticky 	len: 19 	score diff	3.512516619250164 	iteration: 296
+/-\|Reached iteration	300
+	low temp 	score: -15015.573730767168 	len: 19 	num accepted: 8
+	high temp 	score: -15050.632523239963 	len: 17 	num accepted: 4
+/-\|/-\|/-\|/-New high score!	-15013.412690113993 	discovered by:	sticky 	len: 19 	score diff	2.1610406531744957 	iteration: 314
+\|/-\|/-\|/-\|/-\|/-\|/-New high score!	-14989.01004699349 	discovered by:	MH 	len: 18 	score diff	24.402643120503853 	iteration: 338
+\|/-\|/-\|/-Reached iteration	350
+	low temp 	score: -14989.01004699349 	len: 18 	num accepted: 5
+	high temp 	score: -14989.01004699349 	len: 18 	num accepted: 4
+\|/-\|/-\|/-\|/-\|New high score!	-14986.874373571305 	discovered by:	sticky 	len: 19 	score diff	2.1356734221844818 	iteration: 368
+/-\|/-\|/-\|/New high score!	-14984.383285025182 	discovered by:	sticky 	len: 19 	score diff	2.4910885461231373 	iteration: 381
+-\|/-\|/-\|/-\|/-\|Reached iteration	400
+	low temp 	score: -14984.383285025182 	len: 19 	num accepted: 3
+	high temp 	score: -14989.281912182323 	len: 17 	num accepted: 2
+/-\|/-\|/-\|/-New high score!	-14980.912460219122 	discovered by:	sticky 	len: 20 	score diff	3.4708248060596816 	iteration: 414
+\|/-\|/-\|/New high score!	-14978.694314728156 	discovered by:	MH 	len: 19 	score diff	2.2181454909659806 	iteration: 425
+-\New high score!	-14971.982614450331 	discovered by:	sticky 	len: 19 	score diff	6.711700277825003 	iteration: 427
+|/-\|New high score!	-14970.869231603569 	discovered by:	sticky 	len: 20 	score diff	1.113382846762761 	iteration: 432
+/-\|/-\|/-\|/-New high score!	-14966.676175621364 	discovered by:	sticky 	len: 22 	score diff	4.193055982204896 	iteration: 446
+\|/-Reached iteration	450
+	low temp 	score: -14966.676175621364 	len: 22 	num accepted: 6
+	high temp 	score: -14978.694314728156 	len: 19 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\New high score!	-14964.99856247206 	discovered by:	sticky 	len: 24 	score diff	1.6776131493043067 	iteration: 483
+|/-\|/-\|/-New high score!	-14964.723213600902 	discovered by:	sticky 	len: 25 	score diff	0.27534887115689344 	iteration: 494
+\|/-\|Reached iteration	500
+	low temp 	score: -14964.723213600902 	len: 25 	num accepted: 5
+	high temp 	score: -14974.350127427308 	len: 23 	num accepted: 4
+Current best lexicon (score = -14964, len = 25):
+{'ah': 'bird',
+ 'any': 'hat',
+ 'bear': 'bear',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bowtie': 'duck',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'cute': 'sheep',
+ 'eyes': 'bird',
+ 'grandma': 'pig',
+ 'have': 'ring',
+ 'how': 'duck',
+ 'kittycat': 'baby',
+ 'kittycats': 'rattle',
+ 'lamb': 'lamb',
+ 'meow': 'kitty',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'piggie': 'pig',
+ 'read': 'book',
+ 'ring': 'ring',
+ 'rings': 'ring',
+ 'theres': 'bird'}
+/-\|/-\|/-\|/-\|/New high score!	-14962.342393986317 	discovered by:	sticky 	len: 27 	score diff	2.380819614585562 	iteration: 517
+-\|/-\|/-\|/-\|/-\|/-\|New high score!	-14956.566908554098 	discovered by:	sticky 	len: 26 	score diff	5.775485432219284 	iteration: 540
+/-New high score!	-14955.476481057241 	discovered by:	sticky 	len: 25 	score diff	1.0904274968561367 	iteration: 542
+\|/-\|/-Reached iteration	550
+	low temp 	score: -14955.476481057241 	len: 25 	num accepted: 5
+	high temp 	score: -14976.248295885533 	len: 22 	num accepted: 6
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/New high score!	-14946.231388125187 	discovered by:	sticky 	len: 25 	score diff	9.245092932054831 	iteration: 581
+-\|/-\|/-\|/-New high score!	-14944.443506953821 	discovered by:	sticky 	len: 26 	score diff	1.7878811713653704 	iteration: 594
+\|/-\|Reached iteration	600
+	low temp 	score: -14944.443506953821 	len: 26 	num accepted: 2
+	high temp 	score: -14977.748172863687 	len: 21 	num accepted: 8
+/-\|/-\|/-\|/-\|/-\New high score!	-14936.49442371264 	discovered by:	sticky 	len: 25 	score diff	7.9490832411811425 	iteration: 619
+|/-\|/-\|/-\|/-\New high score!	-14921.638468638237 	discovered by:	sticky 	len: 26 	score diff	14.855955074403028 	iteration: 635
+|/-\|/-\|/-\|New high score!	-14915.998640445718 	discovered by:	sticky 	len: 26 	score diff	5.639828192519417 	iteration: 648
+/-Reached iteration	650
+	low temp 	score: -14915.998640445718 	len: 26 	num accepted: 6
+	high temp 	score: -14947.191102600764 	len: 21 	num accepted: 5
+\|/-\|/-\|/-\|/-\|New high score!	-14915.972786238506 	discovered by:	sticky 	len: 26 	score diff	0.025854207211523317 	iteration: 668
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	700
+	low temp 	score: -14917.188681879818 	len: 28 	num accepted: 5
+	high temp 	score: -14945.122245297627 	len: 20 	num accepted: 3
+/-\|/-\|/-\|/-\New high score!	-14915.822786868079 	discovered by:	sticky 	len: 26 	score diff	0.14999937042739475 	iteration: 715
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	750
+	low temp 	score: -14915.822786868079 	len: 26 	num accepted: 3
+	high temp 	score: -14945.122245297627 	len: 20 	num accepted: 3
+Current best lexicon (score = -14915, len = 26):
+{'ah': 'bird',
+ 'any': 'hat',
+ 'bear': 'bear',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bowtie': 'duck',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'davids': 'hand',
+ 'eyes': 'bird',
+ 'go': 'rattle',
+ 'grandma': 'pig',
+ 'have': 'ring',
+ 'hiphop': 'bunny',
+ 'how': 'duck',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'moocow': 'cow',
+ 'piggie': 'pig',
+ 'ring': 'ring',
+ 'rings': 'ring',
+ 'sheep': 'sheep',
+ 'theres': 'bird'}
+New high score!	-14890.830237182023 	discovered by:	sticky 	len: 27 	score diff	24.99254968605601 	iteration: 750
+\|/-\|/-\|/-\|New high score!	-14874.599843142469 	discovered by:	sticky 	len: 28 	score diff	16.230394039554085 	iteration: 764
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\New high score!	-14871.16988404746 	discovered by:	sticky 	len: 29 	score diff	3.4299590950085985 	iteration: 799
+|Reached iteration	800
+	low temp 	score: -14871.16988404746 	len: 29 	num accepted: 7
+	high temp 	score: -14935.613541226443 	len: 22 	num accepted: 5
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	850
+	low temp 	score: -14872.45788436049 	len: 30 	num accepted: 5
+	high temp 	score: -14938.814424706015 	len: 22 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	900
+	low temp 	score: -14871.16988404746 	len: 29 	num accepted: 0
+	high temp 	score: -14926.010945499595 	len: 26 	num accepted: 9
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	950
+	low temp 	score: -14871.16988404746 	len: 29 	num accepted: 1
+	high temp 	score: -14926.078103397642 	len: 24 	num accepted: 6
+\|/-\New high score!	-14831.725247867485 	discovered by:	MH 	len: 24 	score diff	39.44463617997462 	iteration: 955
+|/New high score!	-14829.226425605979 	discovered by:	MH 	len: 23 	score diff	2.498822261506575 	iteration: 957
+-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	1000
+	low temp 	score: -14829.95543130441 	len: 24 	num accepted: 2
+	high temp 	score: -14835.324471777176 	len: 23 	num accepted: 4
+Current best lexicon (score = -14829, len = 23):
+{'ah': 'bird',
+ 'any': 'hat',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'davids': 'hand',
+ 'green': 'ring',
+ 'have': 'ring',
+ 'hes': 'rattle',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'meow': 'kitty',
+ 'moocow': 'cow',
+ 'pig': 'pig',
+ 'ring': 'ring',
+ 'rings': 'ring',
+ 'squeaked': 'hand',
+ 'theres': 'bird',
+ 'today': 'rattle'}
+/-\|/-\|/-\|/-\|/-\New high score!	-14828.76367923774 	discovered by:	sticky 	len: 25 	score diff	0.4627463682390953 	iteration: 1019
+|/-\|/New high score!	-14825.472975805997 	discovered by:	sticky 	len: 26 	score diff	3.290703431743168 	iteration: 1025
+-\|/-\|/-\|/-\|/-\New high score!	-14817.326621880746 	discovered by:	sticky 	len: 27 	score diff	8.146353925250878 	iteration: 1043
+|/-\|New high score!	-14817.25493304643 	discovered by:	sticky 	len: 27 	score diff	0.07168883431586437 	iteration: 1048
+/-Reached iteration	1050
+	low temp 	score: -14817.25493304643 	len: 27 	num accepted: 6
+	high temp 	score: -14836.571942305765 	len: 23 	num accepted: 2
+\|New high score!	-14814.98488350685 	discovered by:	sticky 	len: 26 	score diff	2.2700495395802136 	iteration: 1052
+/-\|/-New high score!	-14812.357116594889 	discovered by:	sticky 	len: 28 	score diff	2.6277669119608618 	iteration: 1058
+\|/-\New high score!	-14811.860054591963 	discovered by:	sticky 	len: 28 	score diff	0.4970620029253041 	iteration: 1063
+|/-\New high score!	-14792.957615446458 	discovered by:	sticky 	len: 29 	score diff	18.902439145505923 	iteration: 1067
+|/New high score!	-14792.261658746884 	discovered by:	sticky 	len: 28 	score diff	0.6959566995737987 	iteration: 1069
+-\|/-\|New high score!	-14791.3859388421 	discovered by:	sticky 	len: 27 	score diff	0.8757199047831818 	iteration: 1076
+/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	1100
+	low temp 	score: -14794.04020715283 	len: 26 	num accepted: 9
+	high temp 	score: -14813.847014266985 	len: 24 	num accepted: 6
+/-\|/-\|/-\|/-\New high score!	-14786.33238928573 	discovered by:	sticky 	len: 25 	score diff	5.053549556370854 	iteration: 1115
+|New high score!	-14759.150139751111 	discovered by:	sticky 	len: 25 	score diff	27.182249534618677 	iteration: 1116
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|New high score!	-14756.15732373226 	discovered by:	sticky 	len: 25 	score diff	2.992816018851954 	iteration: 1144
+/-\|/-Reached iteration	1150
+	low temp 	score: -14756.15732373226 	len: 25 	num accepted: 4
+	high temp 	score: -14814.647538243751 	len: 22 	num accepted: 5
+\|/-\|/-\|/New high score!	-14755.512304541991 	discovered by:	sticky 	len: 24 	score diff	0.6450191902677034 	iteration: 1161
+-\|/-\|/-\|New high score!	-14748.134961435804 	discovered by:	sticky 	len: 24 	score diff	7.377343106187254 	iteration: 1172
+/-New high score!	-14734.96790067564 	discovered by:	sticky 	len: 24 	score diff	13.167060760164532 	iteration: 1174
+\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	1200
+	low temp 	score: -14734.96790067564 	len: 24 	num accepted: 4
+	high temp 	score: -14805.588410557775 	len: 22 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|New high score!	-14718.989041398705 	discovered by:	sticky 	len: 25 	score diff	15.9788592769346 	iteration: 1220
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	1250
+	low temp 	score: -14721.485737024856 	len: 26 	num accepted: 2
+	high temp 	score: -14800.85286840341 	len: 24 	num accepted: 4
+Current best lexicon (score = -14718, len = 25):
+{'ah': 'bird',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'minniemouse': 'hat',
+ 'moocow': 'cow',
+ 'oh': 'rattle',
+ 'on': 'ring',
+ 'over': 'rattle',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'ring': 'ring',
+ 'rings': 'ring',
+ 'sheep': 'sheep',
+ 'theres': 'bird',
+ 'uh': 'hand'}
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	1300
+	low temp 	score: -14723.346746468802 	len: 26 	num accepted: 9
+	high temp 	score: -14796.85571846261 	len: 23 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	1350
+	low temp 	score: -14725.111843895515 	len: 26 	num accepted: 4
+	high temp 	score: -14787.633842825968 	len: 25 	num accepted: 8
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	1400
+	low temp 	score: -14731.978965654913 	len: 25 	num accepted: 4
+	high temp 	score: -14789.766081406526 	len: 26 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	1450
+	low temp 	score: -14731.908744981905 	len: 27 	num accepted: 5
+	high temp 	score: -14766.574620448659 	len: 20 	num accepted: 8
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	1500
+	low temp 	score: -14718.989041398705 	len: 25 	num accepted: 4
+	high temp 	score: -14767.355826520876 	len: 21 	num accepted: 3
+New high score!	-14691.524063344594 	discovered by:	sticky 	len: 25 	score diff	27.46497805411127 	iteration: 1500
+/-\|/-\|/-\|/-\|/-\|New high score!	-14684.94915673746 	discovered by:	sticky 	len: 26 	score diff	6.574906607133016 	iteration: 1520
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	1550
+	low temp 	score: -14686.277296415763 	len: 25 	num accepted: 5
+	high temp 	score: -14767.355826520876 	len: 21 	num accepted: 2
+\|/-\|/-\|/-\New high score!	-14679.53355925751 	discovered by:	sticky 	len: 25 	score diff	5.41559747995052 	iteration: 1563
+|/-\|/-\|/-\|/-\|/-\|/-New high score!	-14670.422645653014 	discovered by:	sticky 	len: 26 	score diff	9.11091360449609 	iteration: 1586
+\|/-\|/-\|/-\|Reached iteration	1600
+	low temp 	score: -14670.422645653014 	len: 26 	num accepted: 3
+	high temp 	score: -14766.574620448659 	len: 20 	num accepted: 5
+/-\|/-\|/-\|/-\New high score!	-14653.48092715905 	discovered by:	sticky 	len: 27 	score diff	16.9417184939648 	iteration: 1615
+|/-\|/-\New high score!	-14651.901262465684 	discovered by:	sticky 	len: 26 	score diff	1.5796646933649754 	iteration: 1623
+|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	1650
+	low temp 	score: -14654.46201962003 	len: 27 	num accepted: 4
+	high temp 	score: -14743.174281332029 	len: 23 	num accepted: 7
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\New high score!	-14651.861611057258 	discovered by:	sticky 	len: 27 	score diff	0.03965140842592518 	iteration: 1691
+|/-\|/-\|Reached iteration	1700
+	low temp 	score: -14651.861611057258 	len: 27 	num accepted: 3
+	high temp 	score: -14740.601071680547 	len: 22 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	1750
+	low temp 	score: -14651.861611057258 	len: 27 	num accepted: 0
+	high temp 	score: -14740.601071680547 	len: 22 	num accepted: 0
+Current best lexicon (score = -14651, len = 27):
+{'ah': 'bird',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'moocow': 'cow',
+ 'oh': 'rattle',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'read': 'book',
+ 'ring': 'ring',
+ 'sheep': 'sheep',
+ 'theres': 'bird'}
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	1800
+	low temp 	score: -14651.861611057258 	len: 27 	num accepted: 3
+	high temp 	score: -14739.87707118443 	len: 24 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	1850
+	low temp 	score: -14654.473740374746 	len: 27 	num accepted: 3
+	high temp 	score: -14715.486362502983 	len: 26 	num accepted: 9
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	1900
+	low temp 	score: -14654.549241311526 	len: 27 	num accepted: 2
+	high temp 	score: -14706.195419140207 	len: 27 	num accepted: 6
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	1950
+	low temp 	score: -14653.608499059708 	len: 28 	num accepted: 5
+	high temp 	score: -14704.870012719977 	len: 25 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-New high score!	-14644.646480363863 	discovered by:	sticky 	len: 28 	score diff	7.215130693395622 	iteration: 1974
+\|/-\|/-\|/-New high score!	-14644.393841546658 	discovered by:	sticky 	len: 28 	score diff	0.25263881720456993 	iteration: 1986
+\|/-\|/-\|/-\|Reached iteration	2000
+	low temp 	score: -14644.646470727752 	len: 28 	num accepted: 4
+	high temp 	score: -14663.947378391782 	len: 26 	num accepted: 2
+Current best lexicon (score = -14644, len = 28):
+{'ah': 'bird',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'daddy': 'man',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'bunny',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'moocow': 'cow',
+ 'oh': 'rattle',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'ring': 'ring',
+ 'sheep': 'sheep',
+ 'theres': 'bird'}
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	2050
+	low temp 	score: -14650.514569957095 	len: 30 	num accepted: 4
+	high temp 	score: -14662.439531166692 	len: 28 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	2100
+	low temp 	score: -14644.393841546658 	len: 28 	num accepted: 1
+	high temp 	score: -14659.80287848979 	len: 27 	num accepted: 7
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	2150
+	low temp 	score: -14649.742979614455 	len: 27 	num accepted: 4
+	high temp 	score: -14658.504581707693 	len: 25 	num accepted: 10
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	2200
+	low temp 	score: -14649.614393743463 	len: 27 	num accepted: 2
+	high temp 	score: -14658.504581707693 	len: 25 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/New high score!	-14611.784797042352 	discovered by:	sticky 	len: 28 	score diff	32.60904450430644 	iteration: 2221
+-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	2250
+	low temp 	score: -14611.784797042352 	len: 28 	num accepted: 4
+	high temp 	score: -14649.398144623883 	len: 26 	num accepted: 2
+Current best lexicon (score = -14611, len = 28):
+{'ah': 'bird',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'how': 'duck',
+ 'it': 'ring',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'makes': 'duck',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'moocow': 'cow',
+ 'oh': 'rattle',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'ring': 'ring',
+ 'sheep': 'sheep',
+ 'theres': 'bird'}
+\|/-\|/New high score!	-14610.054689019427 	discovered by:	sticky 	len: 29 	score diff	1.730108022924469 	iteration: 2257
+-\|/-\|/-\|/-\|/-\|/-\|/New high score!	-14609.825827317036 	discovered by:	sticky 	len: 28 	score diff	0.2288617023914412 	iteration: 2281
+-\|/-\|/-\|/-\|/-\|Reached iteration	2300
+	low temp 	score: -14612.497468562853 	len: 29 	num accepted: 5
+	high temp 	score: -14649.398144623883 	len: 26 	num accepted: 2
+/-\|/-\|New high score!	-14606.410239908546 	discovered by:	sticky 	len: 30 	score diff	3.415587408489955 	iteration: 2308
+/-New high score!	-14603.490509543994 	discovered by:	sticky 	len: 31 	score diff	2.919730364552379 	iteration: 2310
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	2350
+	low temp 	score: -14603.490509543994 	len: 31 	num accepted: 3
+	high temp 	score: -14650.995104467644 	len: 27 	num accepted: 1
+\|/-\|/-\New high score!	-14600.821403086331 	discovered by:	sticky 	len: 30 	score diff	2.669106457662565 	iteration: 2359
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	2400
+	low temp 	score: -14600.821403086331 	len: 30 	num accepted: 2
+	high temp 	score: -14651.955811442605 	len: 27 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	2450
+	low temp 	score: -14603.097005660276 	len: 31 	num accepted: 4
+	high temp 	score: -14648.460896620454 	len: 27 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	2500
+	low temp 	score: -14603.468138124306 	len: 29 	num accepted: 2
+	high temp 	score: -14651.1002253193 	len: 28 	num accepted: 3
+Current best lexicon (score = -14600, len = 30):
+{'ah': 'bird',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'how': 'duck',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oh': 'rattle',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'ring': 'ring',
+ 'sheep': 'sheep',
+ 'theres': 'bird',
+ 'when': 'cow'}
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	2550
+	low temp 	score: -14606.643938616471 	len: 31 	num accepted: 4
+	high temp 	score: -14648.460896620454 	len: 27 	num accepted: 6
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	2600
+	low temp 	score: -14604.033805799476 	len: 31 	num accepted: 5
+	high temp 	score: -14647.33676027487 	len: 28 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	2650
+	low temp 	score: -14603.015468558715 	len: 30 	num accepted: 5
+	high temp 	score: -14648.273171481014 	len: 27 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	2700
+	low temp 	score: -14600.821403086331 	len: 30 	num accepted: 5
+	high temp 	score: -14652.126352089674 	len: 28 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	2750
+	low temp 	score: -14603.180573208658 	len: 30 	num accepted: 2
+	high temp 	score: -14653.66835819481 	len: 28 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	2800
+	low temp 	score: -14604.909654030624 	len: 29 	num accepted: 1
+	high temp 	score: -14653.66835819481 	len: 28 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	2850
+	low temp 	score: -14606.487852991193 	len: 29 	num accepted: 2
+	high temp 	score: -14649.214776752411 	len: 27 	num accepted: 6
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	2900
+	low temp 	score: -14606.487852991193 	len: 29 	num accepted: 0
+	high temp 	score: -14650.809048015242 	len: 28 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	2950
+	low temp 	score: -14611.000244110095 	len: 30 	num accepted: 4
+	high temp 	score: -14651.193822313173 	len: 27 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	3000
+	low temp 	score: -14600.821403086331 	len: 30 	num accepted: 1
+	high temp 	score: -14652.791772257719 	len: 28 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	3050
+	low temp 	score: -14603.490519250356 	len: 31 	num accepted: 2
+	high temp 	score: -14650.429531220612 	len: 30 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	3100
+	low temp 	score: -14605.159479508322 	len: 30 	num accepted: 1
+	high temp 	score: -14627.929682228276 	len: 32 	num accepted: 6
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	3150
+	low temp 	score: -14606.794012848783 	len: 31 	num accepted: 3
+	high temp 	score: -14626.270730349406 	len: 29 	num accepted: 6
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	3200
+	low temp 	score: -14605.86280342878 	len: 32 	num accepted: 2
+	high temp 	score: -14622.402552290963 	len: 27 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	3250
+	low temp 	score: -14606.873663712578 	len: 33 	num accepted: 1
+	high temp 	score: -14623.489132749517 	len: 27 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	3300
+	low temp 	score: -14600.821403086331 	len: 30 	num accepted: 7
+	high temp 	score: -14628.4613366847 	len: 29 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|New high score!	-14576.16174221152 	discovered by:	sticky 	len: 31 	score diff	24.65966087481138 	iteration: 3340
+/-\|/-\|/-Reached iteration	3350
+	low temp 	score: -14576.16174221152 	len: 31 	num accepted: 1
+	high temp 	score: -14621.38374015822 	len: 29 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	3400
+	low temp 	score: -14578.778075435945 	len: 30 	num accepted: 4
+	high temp 	score: -14624.711554141839 	len: 29 	num accepted: 7
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	3450
+	low temp 	score: -14580.895780112622 	len: 32 	num accepted: 7
+	high temp 	score: -14623.700541737002 	len: 29 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	3500
+	low temp 	score: -14583.04567794274 	len: 33 	num accepted: 2
+	high temp 	score: -14624.887622899063 	len: 28 	num accepted: 2
+Current best lexicon (score = -14576, len = 31):
+{'ah': 'bird',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'how': 'duck',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oh': 'rattle',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'ring': 'ring',
+ 'sheep': 'sheep',
+ 'theres': 'bird',
+ 'when': 'cow'}
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	3550
+	low temp 	score: -14578.052511615304 	len: 31 	num accepted: 3
+	high temp 	score: -14621.055085963644 	len: 28 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	3600
+	low temp 	score: -14576.16174221152 	len: 31 	num accepted: 3
+	high temp 	score: -14621.027209366228 	len: 28 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	3650
+	low temp 	score: -14576.16174221152 	len: 31 	num accepted: 0
+	high temp 	score: -14621.027209366228 	len: 28 	num accepted: 1
+\|/-\|/-\|/-\|/-New high score!	-14575.280732481531 	discovered by:	sticky 	len: 32 	score diff	0.8810097299883637 	iteration: 3666
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\New high score!	-14575.163961393202 	discovered by:	sticky 	len: 33 	score diff	0.11677108832918748 	iteration: 3699
+|Reached iteration	3700
+	low temp 	score: -14575.163961393202 	len: 33 	num accepted: 4
+	high temp 	score: -14616.159439066596 	len: 29 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	3750
+	low temp 	score: -14578.260182900234 	len: 31 	num accepted: 3
+	high temp 	score: -14615.923870351664 	len: 31 	num accepted: 3
+Current best lexicon (score = -14575, len = 33):
+{'ah': 'bird',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'bunny',
+ 'how': 'duck',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'little': 'sheep',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oh': 'rattle',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'ring': 'ring',
+ 'sheep': 'sheep',
+ 'theres': 'bird',
+ 'when': 'cow'}
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	3800
+	low temp 	score: -14578.144553191583 	len: 32 	num accepted: 2
+	high temp 	score: -14616.999726764816 	len: 31 	num accepted: 6
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	3850
+	low temp 	score: -14581.152337385207 	len: 30 	num accepted: 2
+	high temp 	score: -14611.339215564405 	len: 28 	num accepted: 5
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	3900
+	low temp 	score: -14575.163961393202 	len: 33 	num accepted: 1
+	high temp 	score: -14612.209004640292 	len: 27 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	3950
+	low temp 	score: -14575.280732481531 	len: 32 	num accepted: 2
+	high temp 	score: -14612.209004640292 	len: 27 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	4000
+	low temp 	score: -14575.280732481531 	len: 32 	num accepted: 2
+	high temp 	score: -14612.209004640292 	len: 27 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	4050
+	low temp 	score: -14575.280732481531 	len: 32 	num accepted: 2
+	high temp 	score: -14611.907219591289 	len: 28 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	4100
+	low temp 	score: -14575.280732481531 	len: 32 	num accepted: 1
+	high temp 	score: -14611.318540311948 	len: 29 	num accepted: 5
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|New high score!	-14571.513690896496 	discovered by:	sticky 	len: 33 	score diff	3.650270496706071 	iteration: 4128
+/-\|/-New high score!	-14566.444246307658 	discovered by:	sticky 	len: 33 	score diff	5.069444588838451 	iteration: 4134
+\|/-\|/-\|/-\|/-Reached iteration	4150
+	low temp 	score: -14566.444246307658 	len: 33 	num accepted: 2
+	high temp 	score: -14610.812152527995 	len: 28 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	4200
+	low temp 	score: -14566.444246307658 	len: 33 	num accepted: 0
+	high temp 	score: -14610.812152527995 	len: 28 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	4250
+	low temp 	score: -14566.444246307658 	len: 33 	num accepted: 1
+	high temp 	score: -14610.812152527995 	len: 28 	num accepted: 2
+Current best lexicon (score = -14566, len = 33):
+{'ah': 'bird',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'bunny',
+ 'how': 'duck',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oh': 'rattle',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'ring': 'ring',
+ 'sheep': 'sheep',
+ 'theres': 'bird',
+ 'when': 'cow'}
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	4300
+	low temp 	score: -14568.695423185485 	len: 34 	num accepted: 4
+	high temp 	score: -14610.812152527995 	len: 28 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	4350
+	low temp 	score: -14568.695423185485 	len: 34 	num accepted: 3
+	high temp 	score: -14610.770276781315 	len: 27 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	4400
+	low temp 	score: -14566.444246307658 	len: 33 	num accepted: 2
+	high temp 	score: -14613.424203905357 	len: 28 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	4450
+	low temp 	score: -14566.444246307658 	len: 33 	num accepted: 2
+	high temp 	score: -14613.424203905357 	len: 28 	num accepted: 0
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	4500
+	low temp 	score: -14566.444246307658 	len: 33 	num accepted: 2
+	high temp 	score: -14613.424194269248 	len: 28 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	4550
+	low temp 	score: -14568.206769198116 	len: 34 	num accepted: 5
+	high temp 	score: -14613.274906075188 	len: 27 	num accepted: 8
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	4600
+	low temp 	score: -14570.585391783878 	len: 35 	num accepted: 2
+	high temp 	score: -14618.298829088459 	len: 29 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	4650
+	low temp 	score: -14568.941119076833 	len: 31 	num accepted: 4
+	high temp 	score: -14613.274906075188 	len: 27 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	4700
+	low temp 	score: -14571.199520235681 	len: 32 	num accepted: 3
+	high temp 	score: -14613.455382451055 	len: 26 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	4750
+	low temp 	score: -14569.696149720645 	len: 32 	num accepted: 4
+	high temp 	score: -14613.455382451055 	len: 26 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	4800
+	low temp 	score: -14566.444246307658 	len: 33 	num accepted: 4
+	high temp 	score: -14612.294614213472 	len: 27 	num accepted: 8
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	4850
+	low temp 	score: -14568.883613019236 	len: 34 	num accepted: 4
+	high temp 	score: -14615.854108442934 	len: 26 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|New high score!	-14557.387861353447 	discovered by:	sticky 	len: 35 	score diff	9.056384954210444 	iteration: 4872
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	4900
+	low temp 	score: -14563.808008843189 	len: 34 	num accepted: 3
+	high temp 	score: -14616.743601385728 	len: 27 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	4950
+	low temp 	score: -14565.479296014655 	len: 35 	num accepted: 1
+	high temp 	score: -14616.743601385728 	len: 27 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	5000
+	low temp 	score: -14563.808008843189 	len: 34 	num accepted: 1
+	high temp 	score: -14616.743601385728 	len: 27 	num accepted: 3
+Current best lexicon (score = -14557, len = 35):
+{'ah': 'bird',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'daddy': 'woman',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'bunny',
+ 'how': 'duck',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oh': 'rattle',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'ring': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird',
+ 'when': 'cow'}
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	5050
+	low temp 	score: -14563.016823027749 	len: 32 	num accepted: 6
+	high temp 	score: -14610.03069594905 	len: 26 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	5100
+	low temp 	score: -14557.387861353447 	len: 35 	num accepted: 1
+	high temp 	score: -14611.639745538325 	len: 27 	num accepted: 4
+/-\|/-\|New high score!	-14554.908241790215 	discovered by:	sticky 	len: 34 	score diff	2.4796195632316085 	iteration: 5108
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	5150
+	low temp 	score: -14554.908241790215 	len: 34 	num accepted: 3
+	high temp 	score: -14611.639745538325 	len: 27 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	5200
+	low temp 	score: -14555.059479464926 	len: 35 	num accepted: 1
+	high temp 	score: -14609.93646829854 	len: 27 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|New high score!	-14550.376233126619 	discovered by:	sticky 	len: 37 	score diff	4.532008663596571 	iteration: 5232
+/-\|/-\|/-\|/-\|/-Reached iteration	5250
+	low temp 	score: -14550.376233126619 	len: 37 	num accepted: 4
+	high temp 	score: -14567.343604587295 	len: 29 	num accepted: 5
+Current best lexicon (score = -14550, len = 37):
+{'ah': 'bird',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'bunny',
+ 'how': 'duck',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'minniemouse': 'hat',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oh': 'rattle',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'rings': 'bird',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird',
+ 'when': 'cow'}
+\|/-\|/-\|/-\|/-\|/-New high score!	-14550.20847080696 	discovered by:	sticky 	len: 36 	score diff	0.16776231965923216 	iteration: 5270
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	5300
+	low temp 	score: -14550.624584504912 	len: 35 	num accepted: 4
+	high temp 	score: -14566.436389519327 	len: 31 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	5350
+	low temp 	score: -14550.797866611169 	len: 34 	num accepted: 3
+	high temp 	score: -14565.158442052672 	len: 31 	num accepted: 6
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	5400
+	low temp 	score: -14550.20847080696 	len: 36 	num accepted: 1
+	high temp 	score: -14567.655686697552 	len: 32 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	5450
+	low temp 	score: -14553.592596519991 	len: 36 	num accepted: 4
+	high temp 	score: -14566.753258429551 	len: 30 	num accepted: 5
+\|/-\|/-\|/-\|/-New high score!	-14549.994293430018 	discovered by:	sticky 	len: 34 	score diff	0.2141773769417341 	iteration: 5466
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	5500
+	low temp 	score: -14549.994293430018 	len: 34 	num accepted: 2
+	high temp 	score: -14567.971659897408 	len: 31 	num accepted: 5
+Current best lexicon (score = -14549, len = 34):
+{'ah': 'bird',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'how': 'duck',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oh': 'rattle',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird',
+ 'when': 'cow'}
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	5550
+	low temp 	score: -14549.994293430018 	len: 34 	num accepted: 0
+	high temp 	score: -14567.512522483805 	len: 29 	num accepted: 6
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	5600
+	low temp 	score: -14554.531219908677 	len: 31 	num accepted: 5
+	high temp 	score: -14567.78764808916 	len: 31 	num accepted: 6
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	5650
+	low temp 	score: -14554.531219908677 	len: 31 	num accepted: 0
+	high temp 	score: -14572.707169449284 	len: 31 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	5700
+	low temp 	score: -14549.994293430018 	len: 34 	num accepted: 1
+	high temp 	score: -14570.03338102118 	len: 30 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-New high score!	-14549.172557848358 	discovered by:	sticky 	len: 35 	score diff	0.8217355816595955 	iteration: 5726
+\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	5750
+	low temp 	score: -14549.994293430018 	len: 34 	num accepted: 3
+	high temp 	score: -14568.970321993598 	len: 29 	num accepted: 4
+Current best lexicon (score = -14549, len = 35):
+{'ah': 'bird',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'bunny',
+ 'how': 'duck',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oh': 'rattle',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird',
+ 'when': 'cow'}
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	5800
+	low temp 	score: -14552.732884013873 	len: 34 	num accepted: 2
+	high temp 	score: -14566.115891307267 	len: 29 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	5850
+	low temp 	score: -14558.820701855964 	len: 33 	num accepted: 4
+	high temp 	score: -14572.951239291035 	len: 30 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	5900
+	low temp 	score: -14558.988925878857 	len: 32 	num accepted: 3
+	high temp 	score: -14571.840218746871 	len: 29 	num accepted: 5
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	5950
+	low temp 	score: -14558.071093645642 	len: 32 	num accepted: 4
+	high temp 	score: -14574.460054580366 	len: 29 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	6000
+	low temp 	score: -14549.172557848358 	len: 35 	num accepted: 2
+	high temp 	score: -14576.798135793977 	len: 30 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	6050
+	low temp 	score: -14549.172557848358 	len: 35 	num accepted: 2
+	high temp 	score: -14576.798135793977 	len: 30 	num accepted: 0
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	6100
+	low temp 	score: -14549.172557848358 	len: 35 	num accepted: 3
+	high temp 	score: -14581.346040514034 	len: 29 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	6150
+	low temp 	score: -14549.172557848358 	len: 35 	num accepted: 2
+	high temp 	score: -14585.597625704984 	len: 29 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	6200
+	low temp 	score: -14551.042579717134 	len: 33 	num accepted: 4
+	high temp 	score: -14560.639543255991 	len: 31 	num accepted: 7
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	6250
+	low temp 	score: -14553.787376165306 	len: 33 	num accepted: 3
+	high temp 	score: -14554.819415322152 	len: 29 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	6300
+	low temp 	score: -14549.172557848358 	len: 35 	num accepted: 3
+	high temp 	score: -14554.819415322152 	len: 29 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	6350
+	low temp 	score: -14549.172557848358 	len: 35 	num accepted: 2
+	high temp 	score: -14558.325442375488 	len: 32 	num accepted: 5
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	6400
+	low temp 	score: -14551.927181315023 	len: 35 	num accepted: 5
+	high temp 	score: -14556.441838736202 	len: 32 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	6450
+	low temp 	score: -14556.316104936457 	len: 36 	num accepted: 3
+	high temp 	score: -14553.467476843662 	len: 32 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	6500
+	low temp 	score: -14552.869105373311 	len: 35 	num accepted: 4
+	high temp 	score: -14551.304222216735 	len: 30 	num accepted: 8
+/New high score!	-14548.493456674018 	discovered by:	MH 	len: 30 	score diff	0.679101174340758 	iteration: 6501
+-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	6550
+	low temp 	score: -14548.493456674018 	len: 30 	num accepted: 3
+	high temp 	score: -14548.493456674018 	len: 30 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	6600
+	low temp 	score: -14548.493456674018 	len: 30 	num accepted: 1
+	high temp 	score: -14548.493456674018 	len: 30 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	6650
+	low temp 	score: -14548.493456674018 	len: 30 	num accepted: 4
+	high temp 	score: -14551.480182412204 	len: 29 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	6700
+	low temp 	score: -14552.907035132224 	len: 32 	num accepted: 2
+	high temp 	score: -14551.970727727254 	len: 30 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	6750
+	low temp 	score: -14556.635556759464 	len: 31 	num accepted: 4
+	high temp 	score: -14553.251924332959 	len: 30 	num accepted: 4
+Current best lexicon (score = -14548, len = 30):
+{'ah': 'bird',
+ 'and': 'book',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird'}
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	6800
+	low temp 	score: -14554.644274923245 	len: 32 	num accepted: 4
+	high temp 	score: -14553.602688717887 	len: 31 	num accepted: 6
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	6850
+	low temp 	score: -14558.73399469225 	len: 31 	num accepted: 5
+	high temp 	score: -14552.62203451044 	len: 30 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	6900
+	low temp 	score: -14548.493456674018 	len: 30 	num accepted: 0
+	high temp 	score: -14552.62203451044 	len: 30 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	6950
+	low temp 	score: -14548.493456674018 	len: 30 	num accepted: 0
+	high temp 	score: -14553.751997343594 	len: 31 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	7000
+	low temp 	score: -14548.493456674018 	len: 30 	num accepted: 2
+	high temp 	score: -14552.62203451044 	len: 30 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	7050
+	low temp 	score: -14552.384716025843 	len: 32 	num accepted: 3
+	high temp 	score: -14552.181010490563 	len: 33 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	7100
+	low temp 	score: -14548.493456674018 	len: 30 	num accepted: 8
+	high temp 	score: -14549.507081843272 	len: 32 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	7150
+	low temp 	score: -14548.493456674018 	len: 30 	num accepted: 3
+	high temp 	score: -14549.634150565063 	len: 31 	num accepted: 2
+\|/-\New high score!	-14537.17393986305 	discovered by:	sticky 	len: 31 	score diff	11.319516810966888 	iteration: 7155
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	7200
+	low temp 	score: -14537.17393986305 	len: 31 	num accepted: 1
+	high temp 	score: -14547.9894517545 	len: 30 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	7250
+	low temp 	score: -14537.17393986305 	len: 31 	num accepted: 0
+	high temp 	score: -14545.925538041398 	len: 33 	num accepted: 3
+Current best lexicon (score = -14537, len = 31):
+{'ah': 'bird',
+ 'and': 'book',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird'}
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	7300
+	low temp 	score: -14537.17393986305 	len: 31 	num accepted: 2
+	high temp 	score: -14545.510941317494 	len: 32 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	7350
+	low temp 	score: -14537.17393986305 	len: 31 	num accepted: 0
+	high temp 	score: -14544.518692681344 	len: 30 	num accepted: 5
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	7400
+	low temp 	score: -14537.17393986305 	len: 31 	num accepted: 2
+	high temp 	score: -14546.246765376043 	len: 31 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	7450
+	low temp 	score: -14539.863524286762 	len: 32 	num accepted: 3
+	high temp 	score: -14546.126806996599 	len: 32 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	7500
+	low temp 	score: -14537.17393986305 	len: 31 	num accepted: 3
+	high temp 	score: -14544.394841318532 	len: 33 	num accepted: 6
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	7550
+	low temp 	score: -14539.068699314088 	len: 32 	num accepted: 1
+	high temp 	score: -14541.540406442127 	len: 31 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	7600
+	low temp 	score: -14539.068699314088 	len: 32 	num accepted: 1
+	high temp 	score: -14541.540406442127 	len: 31 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	7650
+	low temp 	score: -14541.752168695524 	len: 33 	num accepted: 3
+	high temp 	score: -14541.540406442127 	len: 31 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	7700
+	low temp 	score: -14539.068699314088 	len: 32 	num accepted: 1
+	high temp 	score: -14541.540406442127 	len: 31 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	7750
+	low temp 	score: -14539.068699314088 	len: 32 	num accepted: 0
+	high temp 	score: -14544.139727376249 	len: 32 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	7800
+	low temp 	score: -14537.17393986305 	len: 31 	num accepted: 2
+	high temp 	score: -14541.540406442127 	len: 31 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	7850
+	low temp 	score: -14539.685963575484 	len: 32 	num accepted: 2
+	high temp 	score: -14543.25313690881 	len: 31 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	7900
+	low temp 	score: -14542.367076985814 	len: 33 	num accepted: 3
+	high temp 	score: -14542.37211336974 	len: 32 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	7950
+	low temp 	score: -14545.323996949834 	len: 34 	num accepted: 3
+	high temp 	score: -14542.37211336974 	len: 32 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	8000
+	low temp 	score: -14546.326408741976 	len: 36 	num accepted: 3
+	high temp 	score: -14542.250826582727 	len: 33 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	8050
+	low temp 	score: -14547.04158454903 	len: 36 	num accepted: 4
+	high temp 	score: -14542.37211336974 	len: 32 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	8100
+	low temp 	score: -14537.17393986305 	len: 31 	num accepted: 2
+	high temp 	score: -14542.37211336974 	len: 32 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	8150
+	low temp 	score: -14537.17393986305 	len: 31 	num accepted: 5
+	high temp 	score: -14544.145037881259 	len: 30 	num accepted: 5
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	8200
+	low temp 	score: -14543.80658274267 	len: 34 	num accepted: 4
+	high temp 	score: -14542.148303748101 	len: 31 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	8250
+	low temp 	score: -14542.325743690295 	len: 32 	num accepted: 6
+	high temp 	score: -14545.129077036452 	len: 30 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	8300
+	low temp 	score: -14542.325743690295 	len: 32 	num accepted: 3
+	high temp 	score: -14545.129077036452 	len: 30 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	8350
+	low temp 	score: -14542.443173390659 	len: 31 	num accepted: 1
+	high temp 	score: -14545.010172098544 	len: 31 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	8400
+	low temp 	score: -14537.17393986305 	len: 31 	num accepted: 3
+	high temp 	score: -14545.010172098544 	len: 31 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\New high score!	-14537.058948579823 	discovered by:	sticky 	len: 32 	score diff	0.11499128322793695 	iteration: 8431
+|/-\|/-\|/-\|/-\|/-Reached iteration	8450
+	low temp 	score: -14537.058948579823 	len: 32 	num accepted: 2
+	high temp 	score: -14544.957800156184 	len: 32 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	8500
+	low temp 	score: -14537.058948579823 	len: 32 	num accepted: 0
+	high temp 	score: -14542.148303748101 	len: 31 	num accepted: 4
+Current best lexicon (score = -14537, len = 32):
+{'ah': 'bird',
+ 'and': 'book',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'little': 'sheep',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird'}
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	8550
+	low temp 	score: -14538.709377581006 	len: 33 	num accepted: 4
+	high temp 	score: -14544.651151447366 	len: 32 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	8600
+	low temp 	score: -14538.1756269575 	len: 34 	num accepted: 3
+	high temp 	score: -14544.651151447366 	len: 32 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	8650
+	low temp 	score: -14538.804474513521 	len: 34 	num accepted: 3
+	high temp 	score: -14544.745120380801 	len: 32 	num accepted: 3
+\|/-\New high score!	-14535.937004369358 	discovered by:	sticky 	len: 35 	score diff	1.1219442104647896 	iteration: 8655
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	8700
+	low temp 	score: -14535.937004369358 	len: 35 	num accepted: 2
+	high temp 	score: -14547.039949684915 	len: 33 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	8750
+	low temp 	score: -14537.274593381731 	len: 34 	num accepted: 6
+	high temp 	score: -14545.784253436035 	len: 34 	num accepted: 3
+Current best lexicon (score = -14535, len = 35):
+{'ah': 'bird',
+ 'and': 'book',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'kittycat': 'baby',
+ 'kittycats': 'kitty',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'little': 'sheep',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'minniemouse': 'hat',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird'}
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	8800
+	low temp 	score: -14538.213362183385 	len: 35 	num accepted: 4
+	high temp 	score: -14543.502996072164 	len: 33 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	8850
+	low temp 	score: -14538.213362183385 	len: 35 	num accepted: 0
+	high temp 	score: -14544.451630051788 	len: 32 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	8900
+	low temp 	score: -14538.11290522372 	len: 34 	num accepted: 1
+	high temp 	score: -14544.451630051788 	len: 32 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	8950
+	low temp 	score: -14540.412602895518 	len: 35 	num accepted: 1
+	high temp 	score: -14546.444945522711 	len: 31 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	9000
+	low temp 	score: -14535.937004369358 	len: 35 	num accepted: 4
+	high temp 	score: -14546.826387362842 	len: 31 	num accepted: 2
+/-\|/-\|/-\|/-\|New high score!	-14535.677353277153 	discovered by:	sticky 	len: 36 	score diff	0.2596510922048765 	iteration: 9016
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	9050
+	low temp 	score: -14535.677353277153 	len: 36 	num accepted: 2
+	high temp 	score: -14548.4625577603 	len: 32 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/New high score!	-14534.2843054408 	discovered by:	sticky 	len: 34 	score diff	1.3930478363527072 	iteration: 9077
+-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	9100
+	low temp 	score: -14534.2843054408 	len: 34 	num accepted: 5
+	high temp 	score: -14549.634390015972 	len: 31 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	9150
+	low temp 	score: -14534.2843054408 	len: 34 	num accepted: 2
+	high temp 	score: -14549.504803776972 	len: 32 	num accepted: 3
+\|New high score!	-14534.182264530662 	discovered by:	sticky 	len: 33 	score diff	0.10204091013838479 	iteration: 9152
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	9200
+	low temp 	score: -14536.58854292824 	len: 33 	num accepted: 6
+	high temp 	score: -14547.863849089443 	len: 31 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	9250
+	low temp 	score: -14534.291316395495 	len: 32 	num accepted: 1
+	high temp 	score: -14550.6090001618 	len: 29 	num accepted: 4
+Current best lexicon (score = -14534, len = 33):
+{'ah': 'bird',
+ 'and': 'book',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'little': 'sheep',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird'}
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/New high score!	-14525.83768665512 	discovered by:	sticky 	len: 33 	score diff	8.34457787554129 	iteration: 9293
+-\|/-\|Reached iteration	9300
+	low temp 	score: -14525.83768665512 	len: 33 	num accepted: 1
+	high temp 	score: -14550.6090001618 	len: 29 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/New high score!	-14525.014889408583 	discovered by:	sticky 	len: 34 	score diff	0.8227972465374478 	iteration: 9341
+-\|/-\|/-Reached iteration	9350
+	low temp 	score: -14525.014889408583 	len: 34 	num accepted: 1
+	high temp 	score: -14538.511147809102 	len: 31 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	9400
+	low temp 	score: -14529.798507833819 	len: 32 	num accepted: 3
+	high temp 	score: -14540.296362193414 	len: 32 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	9450
+	low temp 	score: -14525.83768665512 	len: 33 	num accepted: 1
+	high temp 	score: -14542.973522629156 	len: 32 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	9500
+	low temp 	score: -14529.610117210446 	len: 32 	num accepted: 1
+	high temp 	score: -14546.177293306118 	len: 31 	num accepted: 3
+Current best lexicon (score = -14525, len = 34):
+{'ah': 'bird',
+ 'and': 'book',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'bunny',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird'}
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	9550
+	low temp 	score: -14531.347425249074 	len: 34 	num accepted: 4
+	high temp 	score: -14539.01806233913 	len: 32 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	9600
+	low temp 	score: -14525.014889408583 	len: 34 	num accepted: 3
+	high temp 	score: -14539.01806233913 	len: 32 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	9650
+	low temp 	score: -14526.60349962273 	len: 34 	num accepted: 3
+	high temp 	score: -14544.634254127532 	len: 32 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	9700
+	low temp 	score: -14525.83768665512 	len: 33 	num accepted: 2
+	high temp 	score: -14540.278586764427 	len: 33 	num accepted: 5
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	9750
+	low temp 	score: -14525.784974637794 	len: 34 	num accepted: 4
+	high temp 	score: -14540.278586764427 	len: 33 	num accepted: 0
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	9800
+	low temp 	score: -14529.73476369916 	len: 33 	num accepted: 3
+	high temp 	score: -14543.256733285998 	len: 32 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	9850
+	low temp 	score: -14530.721203821358 	len: 34 	num accepted: 3
+	high temp 	score: -14541.369831392847 	len: 30 	num accepted: 5
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	9900
+	low temp 	score: -14525.014889408583 	len: 34 	num accepted: 5
+	high temp 	score: -14542.238906103821 	len: 29 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	9950
+	low temp 	score: -14527.752057977337 	len: 35 	num accepted: 3
+	high temp 	score: -14542.12841983778 	len: 30 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\New high score!	-14524.96114241057 	discovered by:	sticky 	len: 35 	score diff	0.05374699801359384 	iteration: 9991
+|/-\|/-\|Reached iteration	10000
+	low temp 	score: -14524.96114241057 	len: 35 	num accepted: 2
+	high temp 	score: -14541.369831392847 	len: 30 	num accepted: 3
+Current best lexicon (score = -14524, len = 35):
+{'ah': 'bird',
+ 'and': 'book',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'bunny',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'little': 'sheep',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird'}
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	10050
+	low temp 	score: -14530.087946238507 	len: 35 	num accepted: 6
+	high temp 	score: -14541.913632221993 	len: 32 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	10100
+	low temp 	score: -14536.304359190462 	len: 37 	num accepted: 8
+	high temp 	score: -14541.913632221993 	len: 32 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	10150
+	low temp 	score: -14534.114889462044 	len: 37 	num accepted: 2
+	high temp 	score: -14538.254494435305 	len: 31 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	10200
+	low temp 	score: -14524.96114241057 	len: 35 	num accepted: 5
+	high temp 	score: -14538.349205444496 	len: 32 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	10250
+	low temp 	score: -14526.721127631863 	len: 35 	num accepted: 3
+	high temp 	score: -14538.349205444496 	len: 32 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	10300
+	low temp 	score: -14530.346253308015 	len: 33 	num accepted: 3
+	high temp 	score: -14538.254494435305 	len: 31 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	10350
+	low temp 	score: -14529.513946409574 	len: 34 	num accepted: 5
+	high temp 	score: -14539.12976647756 	len: 30 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	10400
+	low temp 	score: -14530.370345659765 	len: 34 	num accepted: 4
+	high temp 	score: -14539.12976647756 	len: 30 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	10450
+	low temp 	score: -14532.531675311406 	len: 35 	num accepted: 4
+	high temp 	score: -14539.015673658429 	len: 31 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	10500
+	low temp 	score: -14524.96114241057 	len: 35 	num accepted: 5
+	high temp 	score: -14539.12976647756 	len: 30 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	10550
+	low temp 	score: -14524.96114241057 	len: 35 	num accepted: 0
+	high temp 	score: -14541.965163820298 	len: 30 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	10600
+	low temp 	score: -14524.96114241057 	len: 35 	num accepted: 1
+	high temp 	score: -14538.179580428487 	len: 31 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	10650
+	low temp 	score: -14525.014889408583 	len: 34 	num accepted: 3
+	high temp 	score: -14540.922325769041 	len: 32 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	10700
+	low temp 	score: -14525.014889408583 	len: 34 	num accepted: 2
+	high temp 	score: -14538.179580428487 	len: 31 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	10750
+	low temp 	score: -14525.014889408583 	len: 34 	num accepted: 0
+	high temp 	score: -14538.179580428487 	len: 31 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	10800
+	low temp 	score: -14524.96114241057 	len: 35 	num accepted: 3
+	high temp 	score: -14538.179580428487 	len: 31 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	10850
+	low temp 	score: -14524.96114241057 	len: 35 	num accepted: 4
+	high temp 	score: -14541.626802935636 	len: 30 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	10900
+	low temp 	score: -14525.014889408583 	len: 34 	num accepted: 1
+	high temp 	score: -14541.626802935636 	len: 30 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	10950
+	low temp 	score: -14525.014889408583 	len: 34 	num accepted: 2
+	high temp 	score: -14541.626802935636 	len: 30 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/New high score!	-14524.929907085645 	discovered by:	sticky 	len: 35 	score diff	0.031235324924637098 	iteration: 10973
+-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	11000
+	low temp 	score: -14530.918529261067 	len: 34 	num accepted: 3
+	high temp 	score: -14541.626802935636 	len: 30 	num accepted: 1
+Current best lexicon (score = -14524, len = 35):
+{'ah': 'bird',
+ 'and': 'book',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'dododo': 'duck',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'bunny',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird'}
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	11050
+	low temp 	score: -14533.655602019393 	len: 35 	num accepted: 2
+	high temp 	score: -14541.626802935636 	len: 30 	num accepted: 0
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	11100
+	low temp 	score: -14524.929907085645 	len: 35 	num accepted: 3
+	high temp 	score: -14541.773525162966 	len: 31 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	11150
+	low temp 	score: -14528.571754417308 	len: 33 	num accepted: 5
+	high temp 	score: -14544.696190933224 	len: 30 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	11200
+	low temp 	score: -14533.161032587443 	len: 33 	num accepted: 2
+	high temp 	score: -14545.054422409736 	len: 30 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	11250
+	low temp 	score: -14528.661125071678 	len: 32 	num accepted: 4
+	high temp 	score: -14545.054422409736 	len: 30 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	11300
+	low temp 	score: -14530.368356570058 	len: 33 	num accepted: 2
+	high temp 	score: -14547.533566249784 	len: 32 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	11350
+	low temp 	score: -14532.12292809753 	len: 35 	num accepted: 3
+	high temp 	score: -14555.837616334564 	len: 29 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	11400
+	low temp 	score: -14524.929907085645 	len: 35 	num accepted: 6
+	high temp 	score: -14544.592343170452 	len: 30 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	11450
+	low temp 	score: -14527.935680634764 	len: 33 	num accepted: 4
+	high temp 	score: -14544.592343170452 	len: 30 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	11500
+	low temp 	score: -14529.22047082356 	len: 34 	num accepted: 3
+	high temp 	score: -14541.008532870057 	len: 31 	num accepted: 5
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	11550
+	low temp 	score: -14526.296197051284 	len: 35 	num accepted: 2
+	high temp 	score: -14541.101669395877 	len: 30 	num accepted: 5
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	11600
+	low temp 	score: -14529.22047082356 	len: 34 	num accepted: 3
+	high temp 	score: -14541.101669395877 	len: 30 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	11650
+	low temp 	score: -14527.935680634764 	len: 33 	num accepted: 2
+	high temp 	score: -14541.101669395877 	len: 30 	num accepted: 0
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	11700
+	low temp 	score: -14524.929907085645 	len: 35 	num accepted: 3
+	high temp 	score: -14542.93040767729 	len: 32 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	11750
+	low temp 	score: -14525.014889408583 	len: 34 	num accepted: 2
+	high temp 	score: -14538.419662430579 	len: 34 	num accepted: 6
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\New high score!	-14524.14034314237 	discovered by:	sticky 	len: 35 	score diff	0.7895639432754251 	iteration: 11795
+|/-\|Reached iteration	11800
+	low temp 	score: -14524.14034314237 	len: 35 	num accepted: 1
+	high temp 	score: -14538.484383626055 	len: 33 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	11850
+	low temp 	score: -14524.14034314237 	len: 35 	num accepted: 1
+	high temp 	score: -14539.547391302673 	len: 32 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	11900
+	low temp 	score: -14524.961810475064 	len: 34 	num accepted: 2
+	high temp 	score: -14539.690063530092 	len: 33 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	11950
+	low temp 	score: -14525.12283813088 	len: 35 	num accepted: 3
+	high temp 	score: -14539.778274483579 	len: 33 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	12000
+	low temp 	score: -14524.14034314237 	len: 35 	num accepted: 2
+	high temp 	score: -14543.706127373573 	len: 32 	num accepted: 3
+Current best lexicon (score = -14524, len = 35):
+{'ah': 'bird',
+ 'and': 'book',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'bunny',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird',
+ 'when': 'cow'}
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/New high score!	-14524.09036441506 	discovered by:	sticky 	len: 36 	score diff	0.04997872730928066 	iteration: 12033
+-\|/-\|/-\|/-\|/-Reached iteration	12050
+	low temp 	score: -14524.14034314237 	len: 35 	num accepted: 4
+	high temp 	score: -14541.7427524352 	len: 33 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	12100
+	low temp 	score: -14524.14034314237 	len: 35 	num accepted: 0
+	high temp 	score: -14539.37967695965 	len: 32 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	12150
+	low temp 	score: -14524.14034314237 	len: 35 	num accepted: 2
+	high temp 	score: -14539.37967695965 	len: 32 	num accepted: 5
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	12200
+	low temp 	score: -14524.961810475064 	len: 34 	num accepted: 3
+	high temp 	score: -14541.233292090874 	len: 33 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	12250
+	low temp 	score: -14525.83768665512 	len: 33 	num accepted: 3
+	high temp 	score: -14543.193296496298 	len: 32 	num accepted: 2
+Current best lexicon (score = -14524, len = 36):
+{'ah': 'bird',
+ 'and': 'book',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'bunny',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'little': 'sheep',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird',
+ 'when': 'cow'}
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	12300
+	low temp 	score: -14524.09036441506 	len: 36 	num accepted: 1
+	high temp 	score: -14541.399055451224 	len: 33 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	12350
+	low temp 	score: -14527.651391288722 	len: 36 	num accepted: 5
+	high temp 	score: -14539.37967695965 	len: 32 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	12400
+	low temp 	score: -14528.728394554415 	len: 33 	num accepted: 3
+	high temp 	score: -14535.746220367148 	len: 31 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	12450
+	low temp 	score: -14529.610117210446 	len: 32 	num accepted: 5
+	high temp 	score: -14536.742267328293 	len: 32 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	12500
+	low temp 	score: -14529.610117210446 	len: 32 	num accepted: 2
+	high temp 	score: -14537.10638183471 	len: 32 	num accepted: 6
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	12550
+	low temp 	score: -14534.314142354733 	len: 32 	num accepted: 8
+	high temp 	score: -14535.268157455577 	len: 31 	num accepted: 5
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	12600
+	low temp 	score: -14524.09036441506 	len: 36 	num accepted: 5
+	high temp 	score: -14536.859464109446 	len: 32 	num accepted: 7
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	12650
+	low temp 	score: -14526.822878337085 	len: 37 	num accepted: 2
+	high temp 	score: -14534.157629467503 	len: 31 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	12700
+	low temp 	score: -14530.49780195123 	len: 36 	num accepted: 6
+	high temp 	score: -14534.157629467503 	len: 31 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	12750
+	low temp 	score: -14530.555081740007 	len: 35 	num accepted: 2
+	high temp 	score: -14534.157629467503 	len: 31 	num accepted: 5
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	12800
+	low temp 	score: -14530.555081740007 	len: 35 	num accepted: 1
+	high temp 	score: -14537.386506149409 	len: 33 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	12850
+	low temp 	score: -14527.905611881355 	len: 34 	num accepted: 2
+	high temp 	score: -14534.68121315027 	len: 32 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	12900
+	low temp 	score: -14524.09036441506 	len: 36 	num accepted: 1
+	high temp 	score: -14534.68121315027 	len: 32 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	12950
+	low temp 	score: -14524.961810475064 	len: 34 	num accepted: 3
+	high temp 	score: -14530.703193858633 	len: 34 	num accepted: 7
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	13000
+	low temp 	score: -14525.784974637794 	len: 34 	num accepted: 2
+	high temp 	score: -14530.537501415292 	len: 33 	num accepted: 5
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	13050
+	low temp 	score: -14525.784974637794 	len: 34 	num accepted: 2
+	high temp 	score: -14530.537501415292 	len: 33 	num accepted: 0
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	13100
+	low temp 	score: -14528.580813774137 	len: 34 	num accepted: 2
+	high temp 	score: -14536.611962545145 	len: 33 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	13150
+	low temp 	score: -14532.443486388009 	len: 37 	num accepted: 6
+	high temp 	score: -14536.578963551716 	len: 34 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	13200
+	low temp 	score: -14524.09036441506 	len: 36 	num accepted: 5
+	high temp 	score: -14534.040959601129 	len: 36 	num accepted: 6
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	13250
+	low temp 	score: -14524.09036441506 	len: 36 	num accepted: 5
+	high temp 	score: -14532.232018459048 	len: 35 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	13300
+	low temp 	score: -14524.09036441506 	len: 36 	num accepted: 1
+	high temp 	score: -14529.61977792381 	len: 34 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	13350
+	low temp 	score: -14524.14034314237 	len: 35 	num accepted: 4
+	high temp 	score: -14534.71174582333 	len: 33 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	13400
+	low temp 	score: -14527.081423037816 	len: 37 	num accepted: 2
+	high temp 	score: -14542.225636988602 	len: 34 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	13450
+	low temp 	score: -14527.10599062228 	len: 35 	num accepted: 3
+	high temp 	score: -14536.637426528825 	len: 33 	num accepted: 6
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	13500
+	low temp 	score: -14524.09036441506 	len: 36 	num accepted: 2
+	high temp 	score: -14538.301097900132 	len: 33 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	13550
+	low temp 	score: -14530.949693459172 	len: 34 	num accepted: 5
+	high temp 	score: -14538.301097900132 	len: 33 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	13600
+	low temp 	score: -14534.967931283765 	len: 32 	num accepted: 8
+	high temp 	score: -14538.301097900132 	len: 33 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	13650
+	low temp 	score: -14537.808556770273 	len: 31 	num accepted: 3
+	high temp 	score: -14538.301097900132 	len: 33 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	13700
+	low temp 	score: -14537.65535978685 	len: 31 	num accepted: 4
+	high temp 	score: -14535.79898389591 	len: 33 	num accepted: 5
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	13750
+	low temp 	score: -14537.65535978685 	len: 31 	num accepted: 0
+	high temp 	score: -14535.79898389591 	len: 33 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	13800
+	low temp 	score: -14524.09036441506 	len: 36 	num accepted: 4
+	high temp 	score: -14535.79898389591 	len: 33 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	13850
+	low temp 	score: -14524.09036441506 	len: 36 	num accepted: 0
+	high temp 	score: -14535.79898389591 	len: 33 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	13900
+	low temp 	score: -14526.429380120957 	len: 37 	num accepted: 2
+	high temp 	score: -14535.589187678204 	len: 33 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	13950
+	low temp 	score: -14524.09036441506 	len: 36 	num accepted: 5
+	high temp 	score: -14534.722424837428 	len: 34 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	14000
+	low temp 	score: -14525.83768665512 	len: 33 	num accepted: 4
+	high temp 	score: -14539.227683217876 	len: 35 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	14050
+	low temp 	score: -14525.83768665512 	len: 33 	num accepted: 2
+	high temp 	score: -14536.637426528825 	len: 33 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	14100
+	low temp 	score: -14524.09036441506 	len: 36 	num accepted: 1
+	high temp 	score: -14535.589187678204 	len: 33 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	14150
+	low temp 	score: -14525.849068584317 	len: 36 	num accepted: 4
+	high temp 	score: -14535.589187678204 	len: 33 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	14200
+	low temp 	score: -14525.849068584317 	len: 36 	num accepted: 2
+	high temp 	score: -14535.688720120563 	len: 32 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	14250
+	low temp 	score: -14524.14034314237 	len: 35 	num accepted: 5
+	high temp 	score: -14540.794149475998 	len: 34 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	14300
+	low temp 	score: -14524.14034314237 	len: 35 	num accepted: 0
+	high temp 	score: -14539.607476532878 	len: 32 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	14350
+	low temp 	score: -14526.482888608329 	len: 36 	num accepted: 4
+	high temp 	score: -14538.962927118277 	len: 32 	num accepted: 5
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	14400
+	low temp 	score: -14524.09036441506 	len: 36 	num accepted: 0
+	high temp 	score: -14545.293400873743 	len: 32 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	14450
+	low temp 	score: -14524.96114241057 	len: 35 	num accepted: 1
+	high temp 	score: -14544.420795017759 	len: 33 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	14500
+	low temp 	score: -14530.481449629624 	len: 35 	num accepted: 3
+	high temp 	score: -14544.420795017759 	len: 33 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	14550
+	low temp 	score: -14530.481439827981 	len: 35 	num accepted: 2
+	high temp 	score: -14544.420795017759 	len: 33 	num accepted: 0
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	14600
+	low temp 	score: -14530.494878424543 	len: 34 	num accepted: 3
+	high temp 	score: -14542.763175318727 	len: 32 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	14650
+	low temp 	score: -14530.494878424543 	len: 34 	num accepted: 1
+	high temp 	score: -14542.763175318727 	len: 32 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	14700
+	low temp 	score: -14524.09036441506 	len: 36 	num accepted: 5
+	high temp 	score: -14546.048270566154 	len: 31 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	14750
+	low temp 	score: -14524.09036441506 	len: 36 	num accepted: 0
+	high temp 	score: -14543.738982045117 	len: 30 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	14800
+	low temp 	score: -14524.14034314237 	len: 35 	num accepted: 5
+	high temp 	score: -14543.738982045117 	len: 30 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	14850
+	low temp 	score: -14524.14034314237 	len: 35 	num accepted: 2
+	high temp 	score: -14542.191610773612 	len: 31 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	14900
+	low temp 	score: -14524.14034314237 	len: 35 	num accepted: 2
+	high temp 	score: -14536.039632665143 	len: 32 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	14950
+	low temp 	score: -14533.16031857145 	len: 36 	num accepted: 7
+	high temp 	score: -14539.021606271514 	len: 31 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	15000
+	low temp 	score: -14524.09036441506 	len: 36 	num accepted: 3
+	high temp 	score: -14543.48866815331 	len: 29 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	15050
+	low temp 	score: -14524.14034314237 	len: 35 	num accepted: 3
+	high temp 	score: -14543.48866815331 	len: 29 	num accepted: 2
+\|/-\|/-\|/-\New high score!	-14521.174913899968 	discovered by:	sticky 	len: 36 	score diff	2.9154505150927434 	iteration: 15063
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	15100
+	low temp 	score: -14524.319234388824 	len: 36 	num accepted: 5
+	high temp 	score: -14543.48866815331 	len: 29 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	15150
+	low temp 	score: -14521.987865566685 	len: 35 	num accepted: 2
+	high temp 	score: -14543.48866815331 	len: 29 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	15200
+	low temp 	score: -14526.470238134527 	len: 34 	num accepted: 3
+	high temp 	score: -14543.48866815331 	len: 29 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	15250
+	low temp 	score: -14527.29550708452 	len: 33 	num accepted: 1
+	high temp 	score: -14545.811523479151 	len: 30 	num accepted: 1
+Current best lexicon (score = -14521, len = 36):
+{'ah': 'bird',
+ 'and': 'book',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'bunny',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'rings': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird',
+ 'when': 'cow'}
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	15300
+	low temp 	score: -14521.174913899968 	len: 36 	num accepted: 2
+	high temp 	score: -14545.811523479151 	len: 30 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	15350
+	low temp 	score: -14524.735964569407 	len: 36 	num accepted: 2
+	high temp 	score: -14545.799226863428 	len: 30 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	15400
+	low temp 	score: -14526.917112442725 	len: 37 	num accepted: 3
+	high temp 	score: -14543.44844154094 	len: 30 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	15450
+	low temp 	score: -14524.648250450698 	len: 36 	num accepted: 3
+	high temp 	score: -14544.390123285 	len: 31 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	15500
+	low temp 	score: -14521.987865566685 	len: 35 	num accepted: 1
+	high temp 	score: -14543.44844154094 	len: 30 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	15550
+	low temp 	score: -14524.354770071199 	len: 36 	num accepted: 1
+	high temp 	score: -14543.44844154094 	len: 30 	num accepted: 5
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	15600
+	low temp 	score: -14521.174913899968 	len: 36 	num accepted: 4
+	high temp 	score: -14543.44844154094 	len: 30 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	15650
+	low temp 	score: -14521.174913899968 	len: 36 	num accepted: 1
+	high temp 	score: -14542.321836439178 	len: 31 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	15700
+	low temp 	score: -14521.987865566685 	len: 35 	num accepted: 2
+	high temp 	score: -14542.209212876656 	len: 32 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	15750
+	low temp 	score: -14521.987865566685 	len: 35 	num accepted: 0
+	high temp 	score: -14540.407429849321 	len: 31 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	15800
+	low temp 	score: -14527.333502983607 	len: 37 	num accepted: 3
+	high temp 	score: -14541.347989668368 	len: 32 	num accepted: 7
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	15850
+	low temp 	score: -14530.661886085025 	len: 37 	num accepted: 3
+	high temp 	score: -14543.115635387705 	len: 32 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	15900
+	low temp 	score: -14521.174913899968 	len: 36 	num accepted: 3
+	high temp 	score: -14543.115635387705 	len: 32 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/New high score!	-14521.135974377716 	discovered by:	sticky 	len: 37 	score diff	0.03893952225189423 	iteration: 15933
+-\|/-\|/-\|/-\|/-Reached iteration	15950
+	low temp 	score: -14521.135974377716 	len: 37 	num accepted: 3
+	high temp 	score: -14542.177520490552 	len: 31 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	16000
+	low temp 	score: -14521.345504252497 	len: 37 	num accepted: 3
+	high temp 	score: -14540.518882562523 	len: 30 	num accepted: 2
+Current best lexicon (score = -14521, len = 37):
+{'ah': 'bird',
+ 'and': 'book',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'bunny',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'little': 'sheep',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'rings': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird',
+ 'when': 'cow'}
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	16050
+	low temp 	score: -14522.159530750072 	len: 36 	num accepted: 3
+	high temp 	score: -14540.518882562523 	len: 30 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	16100
+	low temp 	score: -14521.987865566685 	len: 35 	num accepted: 2
+	high temp 	score: -14539.819042899006 	len: 30 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	16150
+	low temp 	score: -14521.987865566685 	len: 35 	num accepted: 1
+	high temp 	score: -14539.819042899006 	len: 30 	num accepted: 0
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	16200
+	low temp 	score: -14521.135974377716 	len: 37 	num accepted: 2
+	high temp 	score: -14539.819042899006 	len: 30 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	16250
+	low temp 	score: -14521.987865566685 	len: 35 	num accepted: 5
+	high temp 	score: -14539.819042899006 	len: 30 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	16300
+	low temp 	score: -14521.987865566685 	len: 35 	num accepted: 1
+	high temp 	score: -14542.401915908522 	len: 32 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	16350
+	low temp 	score: -14526.636994668948 	len: 35 	num accepted: 5
+	high temp 	score: -14542.516928483356 	len: 31 	num accepted: 6
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	16400
+	low temp 	score: -14526.636994668948 	len: 35 	num accepted: 1
+	high temp 	score: -14539.819042899006 	len: 30 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	16450
+	low temp 	score: -14531.359598106628 	len: 35 	num accepted: 4
+	high temp 	score: -14536.94683500869 	len: 31 	num accepted: 5
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	16500
+	low temp 	score: -14521.135974377716 	len: 37 	num accepted: 2
+	high temp 	score: -14540.964872781275 	len: 32 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	16550
+	low temp 	score: -14521.987865566685 	len: 35 	num accepted: 2
+	high temp 	score: -14536.089727558227 	len: 32 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	16600
+	low temp 	score: -14524.399060043792 	len: 35 	num accepted: 3
+	high temp 	score: -14536.025214457948 	len: 32 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	16650
+	low temp 	score: -14528.273304505565 	len: 32 	num accepted: 6
+	high temp 	score: -14539.848627331112 	len: 33 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	16700
+	low temp 	score: -14528.396345938834 	len: 34 	num accepted: 2
+	high temp 	score: -14538.735542968676 	len: 33 	num accepted: 6
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	16750
+	low temp 	score: -14525.476892509098 	len: 35 	num accepted: 4
+	high temp 	score: -14536.025214457948 	len: 32 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	16800
+	low temp 	score: -14521.135974377716 	len: 37 	num accepted: 3
+	high temp 	score: -14538.647332015189 	len: 33 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	16850
+	low temp 	score: -14521.135974377716 	len: 37 	num accepted: 3
+	high temp 	score: -14541.788198158516 	len: 33 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	16900
+	low temp 	score: -14522.852138329348 	len: 38 	num accepted: 2
+	high temp 	score: -14541.14693487357 	len: 33 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	16950
+	low temp 	score: -14522.852138329348 	len: 38 	num accepted: 1
+	high temp 	score: -14542.881966499119 	len: 31 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	17000
+	low temp 	score: -14525.685495803094 	len: 36 	num accepted: 3
+	high temp 	score: -14542.881966499119 	len: 31 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	17050
+	low temp 	score: -14529.538364735627 	len: 34 	num accepted: 2
+	high temp 	score: -14544.652112152826 	len: 31 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	17100
+	low temp 	score: -14521.135974377716 	len: 37 	num accepted: 1
+	high temp 	score: -14545.356988969057 	len: 30 	num accepted: 5
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	17150
+	low temp 	score: -14521.174913899968 	len: 36 	num accepted: 1
+	high temp 	score: -14545.356988969057 	len: 30 	num accepted: 0
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	17200
+	low temp 	score: -14521.174913899968 	len: 36 	num accepted: 1
+	high temp 	score: -14546.456953210884 	len: 29 	num accepted: 6
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	17250
+	low temp 	score: -14521.987865566685 	len: 35 	num accepted: 3
+	high temp 	score: -14546.456953210884 	len: 29 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	17300
+	low temp 	score: -14522.851052338496 	len: 34 	num accepted: 4
+	high temp 	score: -14541.125295307642 	len: 30 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	17350
+	low temp 	score: -14528.427207864243 	len: 36 	num accepted: 3
+	high temp 	score: -14542.799547898754 	len: 31 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	17400
+	low temp 	score: -14521.135974377716 	len: 37 	num accepted: 4
+	high temp 	score: -14541.125295307642 	len: 30 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\New high score!	-14511.874349522433 	discovered by:	sticky 	len: 38 	score diff	9.261624855282207 	iteration: 17435
+|/-\|/-\|/-\|/-Reached iteration	17450
+	low temp 	score: -14511.874349522433 	len: 38 	num accepted: 2
+	high temp 	score: -14543.655960978465 	len: 31 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	17500
+	low temp 	score: -14512.710015221752 	len: 37 	num accepted: 2
+	high temp 	score: -14541.125295307642 	len: 30 	num accepted: 2
+Current best lexicon (score = -14511, len = 38):
+{'ah': 'bird',
+ 'and': 'book',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'david': 'book',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'bunny',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'little': 'sheep',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'rings': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird',
+ 'when': 'cow'}
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	17550
+	low temp 	score: -14515.166418228979 	len: 36 	num accepted: 4
+	high temp 	score: -14542.916026227882 	len: 31 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	17600
+	low temp 	score: -14520.482250119092 	len: 36 	num accepted: 4
+	high temp 	score: -14541.125295307642 	len: 30 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	17650
+	low temp 	score: -14520.844734312586 	len: 37 	num accepted: 4
+	high temp 	score: -14542.918327915757 	len: 31 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	17700
+	low temp 	score: -14511.874349522433 	len: 38 	num accepted: 4
+	high temp 	score: -14546.445329209291 	len: 31 	num accepted: 6
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	17750
+	low temp 	score: -14514.235581601635 	len: 39 	num accepted: 2
+	high temp 	score: -14541.125295307642 	len: 30 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	17800
+	low temp 	score: -14512.669783502195 	len: 37 	num accepted: 2
+	high temp 	score: -14542.800471398099 	len: 31 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	17850
+	low temp 	score: -14515.430492655185 	len: 38 	num accepted: 3
+	high temp 	score: -14547.447181993033 	len: 31 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	17900
+	low temp 	score: -14512.669783502195 	len: 37 	num accepted: 3
+	high temp 	score: -14545.790983025821 	len: 30 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	17950
+	low temp 	score: -14512.669783502195 	len: 37 	num accepted: 1
+	high temp 	score: -14544.015399860438 	len: 29 	num accepted: 7
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	18000
+	low temp 	score: -14511.874349522433 	len: 38 	num accepted: 1
+	high temp 	score: -14544.015399860438 	len: 29 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	18050
+	low temp 	score: -14514.247878021368 	len: 39 	num accepted: 2
+	high temp 	score: -14544.015399860438 	len: 29 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	18100
+	low temp 	score: -14516.993848166294 	len: 40 	num accepted: 2
+	high temp 	score: -14544.015399860438 	len: 29 	num accepted: 2
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	18150
+	low temp 	score: -14514.269380027496 	len: 38 	num accepted: 4
+	high temp 	score: -14542.900974892818 	len: 30 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	18200
+	low temp 	score: -14512.230317445748 	len: 37 	num accepted: 4
+	high temp 	score: -14545.601639370785 	len: 31 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	18250
+	low temp 	score: -14516.339729373409 	len: 39 	num accepted: 2
+	high temp 	score: -14546.96254845168 	len: 32 	num accepted: 6
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	18300
+	low temp 	score: -14511.874349522433 	len: 38 	num accepted: 5
+	high temp 	score: -14546.96254845168 	len: 32 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	18350
+	low temp 	score: -14512.669783502195 	len: 37 	num accepted: 1
+	high temp 	score: -14546.96254845168 	len: 32 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	18400
+	low temp 	score: -14512.669783502195 	len: 37 	num accepted: 1
+	high temp 	score: -14546.848635481061 	len: 33 	num accepted: 3
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	18450
+	low temp 	score: -14512.686779850215 	len: 36 	num accepted: 2
+	high temp 	score: -14551.191413498314 	len: 34 	num accepted: 6
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	18500
+	low temp 	score: -14515.1499179521 	len: 35 	num accepted: 1
+	high temp 	score: -14548.018801420667 	len: 32 	num accepted: 5
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	18550
+	low temp 	score: -14515.1499179521 	len: 35 	num accepted: 0
+	high temp 	score: -14546.3358496685 	len: 30 	num accepted: 6
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	18600
+	low temp 	score: -14511.874349522433 	len: 38 	num accepted: 1
+	high temp 	score: -14546.530516016866 	len: 30 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	18650
+	low temp 	score: -14511.874349522433 	len: 38 	num accepted: 1
+	high temp 	score: -14544.015399860438 	len: 29 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	18700
+	low temp 	score: -14511.892349783704 	len: 37 	num accepted: 3
+	high temp 	score: -14544.015399860438 	len: 29 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	18750
+	low temp 	score: -14519.910863992303 	len: 38 	num accepted: 4
+	high temp 	score: -14543.144093963994 	len: 30 	num accepted: 1
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	18800
+	low temp 	score: -14519.910863992303 	len: 38 	num accepted: 0
+	high temp 	score: -14543.144093963994 	len: 30 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	18850
+	low temp 	score: -14517.813221701741 	len: 38 	num accepted: 3
+	high temp 	score: -14541.41682277941 	len: 30 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	18900
+	low temp 	score: -14511.874349522433 	len: 38 	num accepted: 3
+	high temp 	score: -14544.124205693843 	len: 31 	num accepted: 4
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	18950
+	low temp 	score: -14511.874349522433 	len: 38 	num accepted: 1
+	high temp 	score: -14544.018714064205 	len: 32 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	19000
+	low temp 	score: -14512.686779850215 	len: 36 	num accepted: 2
+	high temp 	score: -14544.124205693843 	len: 31 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	19050
+	low temp 	score: -14517.685178969527 	len: 35 	num accepted: 3
+	high temp 	score: -14549.290918585924 	len: 32 	num accepted: 5
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	19100
+	low temp 	score: -14520.557290065826 	len: 36 	num accepted: 1
+	high temp 	score: -14548.690701236246 	len: 31 	num accepted: 5
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	19150
+	low temp 	score: -14517.685178969527 	len: 35 	num accepted: 3
+	high temp 	score: -14542.191610773612 	len: 31 	num accepted: 6
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	19200
+	low temp 	score: -14511.874349522433 	len: 38 	num accepted: 4
+	high temp 	score: -14542.191610773612 	len: 31 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	19250
+	low temp 	score: -14514.317656323135 	len: 37 	num accepted: 4
+	high temp 	score: -14542.191610773612 	len: 31 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	19300
+	low temp 	score: -14514.317656323135 	len: 37 	num accepted: 8
+	high temp 	score: -14541.433003233211 	len: 32 	num accepted: 5
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	19350
+	low temp 	score: -14516.67267026351 	len: 38 	num accepted: 1
+	high temp 	score: -14541.545637793912 	len: 31 	num accepted: 3
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	19400
+	low temp 	score: -14516.978184500957 	len: 38 	num accepted: 2
+	high temp 	score: -14541.433003233211 	len: 32 	num accepted: 5
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	19450
+	low temp 	score: -14516.161315131172 	len: 38 	num accepted: 5
+	high temp 	score: -14539.775547152683 	len: 31 	num accepted: 4
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	19500
+	low temp 	score: -14511.874349522433 	len: 38 	num accepted: 6
+	high temp 	score: -14539.775547152683 	len: 31 	num accepted: 0
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	19550
+	low temp 	score: -14516.684885892044 	len: 38 	num accepted: 3
+	high temp 	score: -14539.775547152683 	len: 31 	num accepted: 0
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	19600
+	low temp 	score: -14525.766955086707 	len: 37 	num accepted: 8
+	high temp 	score: -14540.583767251286 	len: 32 	num accepted: 5
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	19650
+	low temp 	score: -14520.97590706705 	len: 36 	num accepted: 1
+	high temp 	score: -14540.694043833064 	len: 31 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	19700
+	low temp 	score: -14520.133505509328 	len: 37 	num accepted: 1
+	high temp 	score: -14538.626161101589 	len: 32 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	19750
+	low temp 	score: -14517.137808151985 	len: 36 	num accepted: 2
+	high temp 	score: -14540.770800381302 	len: 30 	num accepted: 2
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	19800
+	low temp 	score: -14511.874349522433 	len: 38 	num accepted: 1
+	high temp 	score: -14540.770800381302 	len: 30 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	19850
+	low temp 	score: -14518.476382151308 	len: 37 	num accepted: 6
+	high temp 	score: -14540.770800381302 	len: 30 	num accepted: 0
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|Reached iteration	19900
+	low temp 	score: -14525.064225667002 	len: 35 	num accepted: 6
+	high temp 	score: -14540.770800381302 	len: 30 	num accepted: 1
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-Reached iteration	19950
+	low temp 	score: -14526.898027667667 	len: 36 	num accepted: 2
+	high temp 	score: -14540.770800381302 	len: 30 	num accepted: 0
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\
+All finished!
+Score: -14511.874349522433
+{'ah': 'bird',
+ 'and': 'book',
+ 'baby': 'book',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'bunny',
+ 'bunnyrabbit': 'mirror',
+ 'david': 'book',
+ 'green': 'ring',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'bunny',
+ 'it': 'ring',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'little': 'sheep',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'mom': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'reach': 'ring',
+ 'ring': 'ring',
+ 'rings': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird',
+ 'when': 'cow'}

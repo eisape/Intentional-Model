@@ -1,0 +1,77 @@
+Params:
+model.py
+alpha = 12
+gamma = .1
+kappa = .05
+temp: 7000
+reset low_temp every 300
+
+Current best lexicon (score = -14521, len = 32):
+{'ah': 'bird',
+ 'and': 'book',
+ 'baby': 'rattle',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'blue': 'ring',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'mirror',
+ 'bunnyrabbit': 'bunny',
+ 'david': 'book',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'mirror',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'ring': 'ring',
+ 'rings': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep'}
+
+
+ Current best lexicon (score = -14516, len = 33):
+{'ah': 'bird',
+ 'and': 'book',
+ 'baby': 'rattle',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'bird': 'duck',
+ 'birdie': 'duck',
+ 'blue': 'ring',
+ 'book': 'book',
+ 'bottle': 'bear',
+ 'bunnies': 'mirror',
+ 'bunnyrabbit': 'bunny',
+ 'david': 'book',
+ 'hand': 'hand',
+ 'hat': 'hat',
+ 'hiphop': 'mirror',
+ 'kittycat': 'baby',
+ 'lamb': 'lamb',
+ 'laugh': 'cow',
+ 'meow': 'kitty',
+ 'mhmm': 'hand',
+ 'moocow': 'cow',
+ 'oink': 'pig',
+ 'on': 'ring',
+ 'pig': 'pig',
+ 'piggie': 'pig',
+ 'pool': 'duck',
+ 'put': 'ring',
+ 'ring': 'ring',
+ 'rings': 'ring',
+ 'see': 'rattle',
+ 'sheep': 'sheep',
+ 'theres': 'bird'}

@@ -1,0 +1,42 @@
+Params:
+alpha=7
+gamma=0.1
+kappa=0.05
+
+iterations: 10000
+algorithm: low temp-high temp (bijwadimax)
+low temp: 1
+high temp: 3
+
+{'another': 'man',
+ 'baa': 'lamb',
+ 'bear': 'bear',
+ 'bigbird': 'bird',
+ 'boy': 'bird',
+ 'bumpba': 'hand',
+ 'come': 'hand',
+ 'could': 'girl',
+ 'cows': 'cow',
+ 'hat': 'hat',
+ 'kittycat': 'kitty',
+ 'kittycats': 'kitty',
+ 'lamb': 'lamb',
+ 'littler': 'lamb',
+ 'lots': 'ring',
+ 'meow': 'kitty',
+ 'mommy': 'woman',
+ 'nice': 'baby',
+ 'oink': 'pig',
+ 'over': 'rattle',
+ 'pig': 'pig',
+ 'quackquack': 'duck',
+ 'roll': 'pig',
+ 'sheep': 'sheep',
+ 'should': 'bird',
+ 'showed': 'cow',
+ 'smilie': 'bear',
+ 'talks': 'bird',
+ 'theres': 'book',
+ 'through': 'rattle',
+ 'two': 'hand',
+ 'your': 'man'}

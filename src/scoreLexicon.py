@@ -6,12 +6,12 @@ from world import world
 
 np.set_printoptions(suppress=True, precision=5)
 
-def posteriorScore(lex, corpus):
+def posteriorScore(lex, corpus, useMI=False):
     # Input: Lexicon as dictionary, corpus as array of situations
     # returns its posterior score
     scores_cache = wordScoresCache(lex)
 
-    log_prior = logPrior(lex, alpha)
+    log_prior = logPrior(lex, alpha, useMI)
 
     log_likelihoods = [] # value of Eq. 2 in technical appendix for each situation
     x = 0
@@ -24,7 +24,7 @@ def posteriorScore(lex, corpus):
             nonref_entry.append(scores_cache[word][-1])
         word_cost.append(nonref_entry)
         for o in s.objects:
-            # obj = o if o in lex.values() else -1
+            # obj = o if o in lex.values() else -1 # Satan's math
             obj = o
             entry = []
             #testing - diverges from paper's math
@@ -61,9 +61,22 @@ def posteriorScore(lex, corpus):
         log_likelihoods.append(y)
     return np.sum(log_likelihoods) + log_prior
 
-def logPrior(lex, alpha):
+def logPrior(lex, alpha, useMI):
     # Input: lexicon as dictionary, parameter alpha
-    return -alpha * len(lex)
+    pair_count_sum = 0
+    word_count_sum = 0
+    obj_count_sum = 0
+    for word in lex:
+        obj = lex[word]
+        word_count_sum += world.word_counts[word]
+        obj_count_sum += world.object_counts[obj]
+        pair_count_sum += world.word_object_counts[(word, obj)]
+    f = float(pair_count_sum)/(word_count_sum*obj_count_sum)
+    if useMI:
+        val = -alpha * len(lex) + np.log(f)
+    else:
+        val = -alpha * len(lex)
+    return val
 
 def wordScoresCache(lex):
     # Input: Lexicon as dictionary

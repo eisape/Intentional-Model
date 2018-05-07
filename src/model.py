@@ -11,11 +11,12 @@ from goldstandard import gold
 from sampleLexicon import sampleLexicon
 import sys
 from multiprocessing import Pool
+import numpy as np
 
 def runModel():
     lexs = [sampleLexicon(), sampleLexicon()]
-    scores = [posteriorScore(lexs[0], corpus), posteriorScore(lexs[1], corpus)]
-    names = ['low temp', 'high temp']
+    scores = [posteriorScore(lexs[0], corpus, True), posteriorScore(lexs[1], corpus, True)]
+    names = ['sticky', 'MH']
     numAccepted = [0, 0]
 
     print "alpha:", params.alpha
@@ -58,13 +59,13 @@ def runModel():
         for j in range(len(lexs)):
             lex = lexs[j]
             score = scores[j]
+            temp = 6000
 
             newLex = mutate(lex)
-            newScore = posteriorScore(newLex, corpus)
+            newScore = posteriorScore(newLex, corpus, True)
 
-            prob = min(score/newScore, 1) # We use the reciprocal of the formula b/c we are maximizing negative numbers
+            prob = np.exp(newScore - score) if newScore<score else 1 # Scores are in log space
             sys.stdout.write('\b')
-            prob = prob**7000 # Hard-coded temperature
             if bool(Bernoulli(probs=prob).sample()):
                 numAccepted[j] += 1
                 lexs[j] = newLex
@@ -83,20 +84,16 @@ def runModel():
 
     return (bestLex, bestScore)
 
-# def runOvernight(i):
-#     try:
-#         sys.stdout = open('model%d.log'%i, 'w+')
-#         lex, score = runModel()
-#         print "All finished!"
-#         print "Score:", score
-#         utils.printLex(lex)
-#     except Exception as e :
-#         print e
-#         return
-#
-# if __name__=='__main__':
-#     f = runOvernight
-#     Pool(10).map(f, range(10))
+def runOvernight(i):
+    try:
+        sys.stdout = open('model%d.log'%i, 'w+')
+        lex, score = runModel()
+        print "All finished!"
+        print "Score:", score
+        utils.printLex(lex)
+    except Exception as e :
+        print e
+        return
 
 lex, score = runModel()
 print

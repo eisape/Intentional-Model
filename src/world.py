@@ -34,6 +34,9 @@ class World:
 
         self.mis = []
         self.word_object_pairs = [] # NB: word-object pairs are stored as a tuple (word, object)
+        self.word_object_counts = {}
+        self.word_counts = {}
+        self.object_counts = {}
 
     def makeMIs(self, corpus):
         # Input: corpus as list of situations
@@ -60,6 +63,10 @@ class World:
             self.word_object_pairs.append(pair)
             mi = float(word_obj_counts[pair])/(word_counts[word] * obj_counts[obj])
             self.mis.append(mi)
+
+        self.word_counts = word_counts
+        self.object_counts = obj_counts
+        self.word_object_counts = word_obj_counts
 
 def processLine(s):
     # Helper function
