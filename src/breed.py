@@ -1,6 +1,7 @@
 from random import choice
 from scoreLexicon import posteriorScore
 from world import corpus
+from lexicon import Lexicon
 
 def swapLexs(a, b, lexs, scores):
     tempLex = lexs[a]
@@ -16,53 +17,58 @@ def swapPair(a, b, lexs, scores):
     lexA = lexs[a]
     lexB = lexs[b]
 
-    wordA = choice(lexA.keys())
-    objA = lexA[wordA]
-    wordB = choice(lexB.keys())
-    objB = lexB[wordB]
+    swapA = choice(lexA.getEntries())
+    swapB = choice(lexB.getEntries())
+    pairA = lexA.getPairByIdx(swapA)
+    pairB = lexB.getPairByIdx(swapB)
 
-    lexA.pop(wordA)
-    lexB.pop(wordB)
-    lexA[wordB] = objB
-    lexB[wordA] = objA
+    lexA.deleteByIdx(swapA)
+    lexA.addPair(pairB[0], pairB[1])
+    lexB.deleteByIdx(swapB)
+    lexB.addPair(pairA[0], pairA[1])
 
     scores[a] = posteriorScore(lexA, corpus)
     scores[b] = posteriorScore(lexB, corpus)
+
+    lexA.clearDuplicates()
+    lexB.clearDuplicates()
     return None
 
 def swapWords(a, b, lexs, scores):
-    #NB: this might decrease the size of the lexicons by 1
     lexA = lexs[a]
     lexB = lexs[b]
 
-    wordA = choice(lexA.keys())
-    objA = lexA[wordA]
-    wordB = choice(lexB.keys())
-    objB = lexB[wordB]
+    swapA = choice(lexA.getEntries())
+    swapB = choice(lexB.getEntries())
+    wordA = lexA.words[swapA]
+    wordB = lexB.words[swapB]
 
-    lexA.pop(wordA)
-    lexB.pop(wordB)
-    lexA[wordB] = objA
-    lexB[wordA] = objB
+    lexA.words[swapA] = wordB
+    lexB.words[swapB] = wordA
 
     scores[a] = posteriorScore(lexA, corpus)
     scores[b] = posteriorScore(lexB, corpus)
+
+    lexA.clearDuplicates()
+    lexB.clearDuplicates()
     return None
 
 def swapObjects(a, b, lexs, scores):
     lexA = lexs[a]
     lexB = lexs[b]
 
-    wordA = choice(lexA.keys())
-    objA = lexA[wordA]
-    wordB = choice(lexB.keys())
-    objB = lexB[wordB]
+    swapA = choice(lexA.getEntries())
+    swapB = choice(lexB.getEntries())
+    objA = lexA.objects[swapA]
+    objB = lexB.objects[swapB]
 
-    lexA[wordA] = objB
-    lexB[wordB] = objA
+    lexA.objects[swapA] = objB
+    lexB.objects[swapB] = objA
 
     scores[a] = posteriorScore(lexA, corpus)
     scores[b] = posteriorScore(lexB, corpus)
+    lexA.clearDuplicates()
+    lexB.clearDuplicates()
     return None
 
 def breed(a, b, lexs, scores):
@@ -70,5 +76,5 @@ def breed(a, b, lexs, scores):
     # Mutates the objects passed in!
     operations = [swapLexs, swapPair, swapWords, swapObjects]
     operation = choice(operations)
-    if len(lexs[a])==0 or len(lexs[b])==0: return None
+    if lexs[a].getLen()==0 or lexs[b].getLen()==0: return None
     return operation(a, b, lexs, scores)

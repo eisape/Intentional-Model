@@ -33,6 +33,8 @@ def runModel():
     iconIdx = 0
     lastPrinted = bestLex
 
+    interval = 10
+
     sys.stdout.write(icons[iconIdx])
     for i in range(num_iterations):
         iconIdx = (iconIdx+1)%4
@@ -48,14 +50,15 @@ def runModel():
                 sys.stdout.write('\b')
                 print "Bred %s, %s"%(names[a], names[b])
 
-        if i%10==0:
+        if i%interval==0:
             sys.stdout.write('\b')
             print "Reached iteration\t", i
             for j in range(numModels):
-                print "\t", names[j], "\tscore:", scores[j], "\tlen: ", len(lexs[j]), "\tnum accepted:", numAccepted[j]
+                print "\t", names[j], "\tscore:", scores[j], "\tlen: ", lexs[j].getLen(), "\tnum accepted:", numAccepted[j], "/", interval
             numAccepted = [0] * numModels
             if i%50==0 and cmp(lastPrinted, bestLex)!=0:
-                print "Current best lexicon (score = %d, len = %d):"%(bestScore, len(bestLex))
+                print "Current best lexicon (score = %d, len = %d):"%(bestScore, bestLex.getLen())
+                print "F-score: %f, precision: %f, recall: %f"%utils.fScore(bestLex)
                 utils.printLex(bestLex)
                 lastPrinted = bestLex
 
@@ -78,7 +81,8 @@ def runModel():
                     bestLex = newLex
                     bestScore = newScore
                     sys.stdout.write('\b')
-                    print "New high score!\t", bestScore, "\tdiscovered by:\t", names[j], "\tlen:", len(bestLex), "\tscore diff\t", diff, "\titeration:",i
+                    print "New high score!\t", bestScore, "\tdiscovered by:\t", names[j], "\tlen:", bestLex.getLen(), "\tscore diff\t", diff, "\titeration:",i
+                    print "\tF-score: %f, precision: %f, recall: %f"%utils.fScore(bestLex)
                     # if i>100:
                     #     utils.printLex(bestLex)
                     if j != 0:
@@ -106,4 +110,5 @@ lex, score = runModel()
 print
 print "All finished!"
 print "Score:", score
+print "F-score: %f, precision: %f, recall: %f"%utils.fScore(lex)
 utils.printLex(lex)

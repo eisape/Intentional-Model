@@ -1,5 +1,5 @@
-alpha = 12
+alpha = 7
 gamma = .1
 kappa = .05
 
-num_iterations = 20000
+num_iterations = 1000

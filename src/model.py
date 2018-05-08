@@ -15,9 +15,11 @@ import numpy as np
 
 def runModel():
     lexs = [sampleLexicon(), sampleLexicon()]
-    scores = [posteriorScore(lexs[0], corpus, True), posteriorScore(lexs[1], corpus, True)]
+    scores = [posteriorScore(lexs[0], corpus), posteriorScore(lexs[1], corpus)]
     names = ['sticky', 'MH']
     numAccepted = [0, 0]
+
+    interval = 50
 
     print "alpha:", params.alpha
     print "gamma:", params.gamma
@@ -45,14 +47,15 @@ def runModel():
             lexs[0] = bestLex
             scores[0] = bestScore
 
-        if i%50==0:
+        if i%interval==0:
             sys.stdout.write('\b')
             print "Reached iteration\t", i
-            print "\tlow temp \tscore:", scores[0], "\tlen:", len(lexs[0]), "\tnum accepted:", numAccepted[0]
-            print "\thigh temp \tscore:", scores[1], "\tlen:", len(lexs[1]), "\tnum accepted:", numAccepted[1]
+            print "\tsticky \tscore:", scores[0], "\tlen:", lexs[0].getLen(), "\tnum accepted:", numAccepted[0], "/", interval
+            print "\tMH \tscore:", scores[1], "\tlen:", lexs[1].getLen(), "\tnum accepted:", numAccepted[1], "/", interval
             numAccepted = [0, 0]
             if i%250==0 and cmp(lastPrinted, bestLex)!=0:
-                print "Current best lexicon (score = %d, len = %d):"%(bestScore, len(bestLex))
+                print "Current best lexicon (score = %d, len = %d):"%(bestScore, bestLex.getLen())
+                print "F-score: %f, precision: %f, recall: %f"%utils.fScore(bestLex)
                 utils.printLex(bestLex)
                 lastPrinted = bestLex
 
@@ -62,7 +65,7 @@ def runModel():
             temp = 6000
 
             newLex = mutate(lex)
-            newScore = posteriorScore(newLex, corpus, True)
+            newScore = posteriorScore(newLex, corpus)
 
             prob = np.exp(newScore - score) if newScore<score else 1 # Scores are in log space
             sys.stdout.write('\b')
@@ -75,7 +78,8 @@ def runModel():
                     bestLex = newLex
                     bestScore = newScore
                     sys.stdout.write('\b')
-                    print "New high score!\t", bestScore, "\tdiscovered by:\t", names[j], "\tlen:", len(bestLex), "\tscore diff\t", diff, "\titeration:",i
+                    print "New high score!\t", bestScore, "\tdiscovered by:\t", names[j], "\tlen:", bestLex.getLen(), "\tscore diff\t", diff, "\titeration:",i
+                    print "\tF-score: %f, precision: %f, recall: %f"%utils.fScore(bestLex)
                     # if i>100:
                     #     utils.printLex(bestLex)
                     if j != 0:

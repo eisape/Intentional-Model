@@ -6,12 +6,12 @@ from world import world
 
 np.set_printoptions(suppress=True, precision=5)
 
-def posteriorScore(lex, corpus, useMI=False):
-    # Input: Lexicon as dictionary, corpus as array of situations
+def posteriorScore(lex, corpus):
+    # Input: Lexicon, corpus as array of situations
     # returns its posterior score
     scores_cache = wordScoresCache(lex)
 
-    log_prior = logPrior(lex, alpha, useMI)
+    log_prior = logPrior(lex, alpha)
 
     log_likelihoods = [] # value of Eq. 2 in technical appendix for each situation
     x = 0
@@ -24,16 +24,9 @@ def posteriorScore(lex, corpus, useMI=False):
             nonref_entry.append(scores_cache[word][-1])
         word_cost.append(nonref_entry)
         for o in s.objects:
-            # obj = o if o in lex.values() else -1 # Satan's math
+            obj = o if o in lex.objects else -1 # Satan's math
             obj = o
             entry = []
-            #testing - diverges from paper's math
-            if o not in lex.values():
-                for word in s.words:
-                    entry.append(0)
-                word_cost.append(entry)
-                continue
-            #testing
             for word in s.words:
                 entry.append(scores_cache[word][obj])
             word_cost.append(entry)
@@ -43,17 +36,6 @@ def posteriorScore(lex, corpus, useMI=False):
 
         word_scores = np.matmul(gamma_intents, word_cost)
 
-        # Code to compare with example in technical appendix
-        # if x==0:
-        #     w = world
-        #     print scores_cache[w.words_key.index('books')][w.objects_key.index('book')]
-        #     print [world.words_key[m] for m in s.words]
-        #     print [world.objects_key[m] for m in s.objects]
-        #     print word_cost
-        #     print gamma_intents
-        #     print word_scores
-        #     x += 1
-
         scores = []
         for i in word_scores:
             scores.append(np.prod(i))
@@ -61,25 +43,22 @@ def posteriorScore(lex, corpus, useMI=False):
         log_likelihoods.append(y)
     return np.sum(log_likelihoods) + log_prior
 
-def logPrior(lex, alpha, useMI):
-    # Input: lexicon as dictionary, parameter alpha
+def logPrior(lex, alpha):
+    # Input: lexicon as Lexicon object, parameter alpha
     pair_count_sum = 0
     word_count_sum = 0
     obj_count_sum = 0
-    for word in lex:
-        obj = lex[word]
+    for i in lex.getEntries():
+        word = lex.words[i]
+        obj = lex.objects[i]
         word_count_sum += world.word_counts[word]
         obj_count_sum += world.object_counts[obj]
         pair_count_sum += world.word_object_counts[(word, obj)]
     f = float(pair_count_sum)/(word_count_sum*obj_count_sum)
-    if useMI:
-        val = -alpha * len(lex) + np.log(f)
-    else:
-        val = -alpha * len(lex)
-    return val
+    return -alpha * lex.getLen()
 
 def wordScoresCache(lex):
-    # Input: Lexicon as dictionary
+    # Input: Lexicon
     # Output: Word scores cache as 2D dictionary
 
     nonref_unknown = 1.0 / world.num_words # Probability a word not in the lexicon is used nonreferentially
@@ -87,14 +66,15 @@ def wordScoresCache(lex):
 
     total = 0
     for word in world.words:
-        if word in lex: total += nonref_known
+        if word in lex.words: total += nonref_known
         else: total += nonref_unknown
     nonref_unknown /= total
     nonref_known /= total
 
     num_repetitions = {}
-    for word in lex:
-        meaning = lex[word]
+    for i in lex.getEntries():
+        word = lex.words[i]
+        meaning = lex.objects[i]
         if meaning in num_repetitions:
             num_repetitions[meaning] += 1
         else:
@@ -106,9 +86,9 @@ def wordScoresCache(lex):
         word_scores[word] = {}
         for obj in world.objects:
             word_scores[word][obj] = 0
-            if word in lex:
+            if word in lex.words:
                 word_scores[word][-1] = nonref_known
-                if lex[word] == obj:
+                if lex.wordMapsToObj(word, obj):
                     word_scores[word][obj] = 1.0 / num_repetitions[obj]
             else:
                 word_scores[word][-1] = nonref_unknown

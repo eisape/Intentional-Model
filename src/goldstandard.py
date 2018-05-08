@@ -1,8 +1,8 @@
 # Hand-coded gold standard lexicon
 from world import world
+from lexicon import Lexicon
 
 def makeGold(world):
-    gold = {}
     english = {
         "baby": "baby",
         "bigbird": "bird",
@@ -38,8 +38,10 @@ def makeGold(world):
         "bunnies": "bunny",
         "bird": "duck"
     }
+    gold = Lexicon()
     for key in english:
-        gold[world.words_key.index(key)] = world.objects_key.index(english[key])
+        gold.words.append(world.words_key.index(key))
+        gold.objects.append(world.objects_key.index(english[key]))
     return gold
 
 gold = makeGold(world)
